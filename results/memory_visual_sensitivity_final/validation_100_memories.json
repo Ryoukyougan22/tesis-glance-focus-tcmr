@@ -1,0 +1,129 @@
+{
+  "cases_processed": 10,
+  "memories_per_case": 10,
+  "total_memories": 100,
+  "representation_stage": "tcmr_refined",
+  "previous_results_unchanged": true,
+  "rows": [
+    {
+      "case_id": "RKGG5",
+      "category": "Sequence",
+      "question": "What happened after the person sat on the sofa/couch?",
+      "num_memories": 10,
+      "sensitivity_ok": true,
+      "selectivity_ok": true,
+      "output_folder": "results/memory_visual_sensitivity_final/RKGG5",
+      "representation_stage": "tcmr_refined",
+      "metrics_recomputed_from_saved_refined_vectors_ok": true,
+      "final_pipeline_alignment_max_abs_error": 1.0251998901367188e-05
+    },
+    {
+      "case_id": "DQEC3",
+      "category": "Sequence",
+      "question": "What happened before the person opened the bag?",
+      "num_memories": 10,
+      "sensitivity_ok": true,
+      "selectivity_ok": true,
+      "output_folder": "results/memory_visual_sensitivity_final/DQEC3",
+      "representation_stage": "tcmr_refined",
+      "metrics_recomputed_from_saved_refined_vectors_ok": true,
+      "final_pipeline_alignment_max_abs_error": 9.506940841674805e-06
+    },
+    {
+      "case_id": "UEP20",
+      "category": "Sequence",
+      "question": "What happened after the person lied on the bed?",
+      "num_memories": 10,
+      "sensitivity_ok": true,
+      "selectivity_ok": true,
+      "output_folder": "results/memory_visual_sensitivity_final/UEP20",
+      "representation_stage": "tcmr_refined",
+      "metrics_recomputed_from_saved_refined_vectors_ok": true,
+      "final_pipeline_alignment_max_abs_error": 0.0
+    },
+    {
+      "case_id": "6CAZU",
+      "category": "Interaction",
+      "question": "Which object was taken by the person?",
+      "num_memories": 10,
+      "sensitivity_ok": true,
+      "selectivity_ok": true,
+      "output_folder": "results/memory_visual_sensitivity_final/6CAZU",
+      "representation_stage": "tcmr_refined",
+      "metrics_recomputed_from_saved_refined_vectors_ok": true,
+      "final_pipeline_alignment_max_abs_error": 0.0
+    },
+    {
+      "case_id": "8SDK5",
+      "category": "Interaction",
+      "question": "What did the person do while they were leaning on the chair and carrying the box?",
+      "num_memories": 10,
+      "sensitivity_ok": true,
+      "selectivity_ok": true,
+      "output_folder": "results/memory_visual_sensitivity_final/8SDK5",
+      "representation_stage": "tcmr_refined",
+      "metrics_recomputed_from_saved_refined_vectors_ok": true,
+      "final_pipeline_alignment_max_abs_error": 9.88692045211792e-06
+    },
+    {
+      "case_id": "QPX3S",
+      "category": "Interaction",
+      "question": "Which object was put down by the person?",
+      "num_memories": 10,
+      "sensitivity_ok": true,
+      "selectivity_ok": true,
+      "output_folder": "results/memory_visual_sensitivity_final/QPX3S",
+      "representation_stage": "tcmr_refined",
+      "metrics_recomputed_from_saved_refined_vectors_ok": true,
+      "final_pipeline_alignment_max_abs_error": 0.0
+    },
+    {
+      "case_id": "IO712",
+      "category": "Prediction",
+      "question": "Which object would the person open next after they close the window?",
+      "num_memories": 10,
+      "sensitivity_ok": true,
+      "selectivity_ok": true,
+      "output_folder": "results/memory_visual_sensitivity_final/IO712",
+      "representation_stage": "tcmr_refined",
+      "metrics_recomputed_from_saved_refined_vectors_ok": true,
+      "final_pipeline_alignment_max_abs_error": 0.0
+    },
+    {
+      "case_id": "I1OLQ",
+      "category": "Prediction",
+      "question": "What will the person do next?",
+      "num_memories": 10,
+      "sensitivity_ok": true,
+      "selectivity_ok": true,
+      "output_folder": "results/memory_visual_sensitivity_final/I1OLQ",
+      "representation_stage": "tcmr_refined",
+      "metrics_recomputed_from_saved_refined_vectors_ok": true,
+      "final_pipeline_alignment_max_abs_error": 0.0
+    },
+    {
+      "case_id": "ZNQVC",
+      "category": "Feasibility",
+      "question": "Which object is the person able to take after grasping onto the doorknob?",
+      "num_memories": 10,
+      "sensitivity_ok": true,
+      "selectivity_ok": true,
+      "output_folder": "results/memory_visual_sensitivity_final/ZNQVC",
+      "representation_stage": "tcmr_refined",
+      "metrics_recomputed_from_saved_refined_vectors_ok": true,
+      "final_pipeline_alignment_max_abs_error": 1.0848045349121094e-05
+    },
+    {
+      "case_id": "KFI7N",
+      "category": "Feasibility",
+      "question": "Which object is the person able to throw after walking through the doorway?",
+      "num_memories": 10,
+      "sensitivity_ok": true,
+      "selectivity_ok": true,
+      "output_folder": "results/memory_visual_sensitivity_final/KFI7N",
+      "representation_stage": "tcmr_refined",
+      "metrics_recomputed_from_saved_refined_vectors_ok": true,
+      "final_pipeline_alignment_max_abs_error": 9.775161743164062e-06
+    }
+  ]
+}

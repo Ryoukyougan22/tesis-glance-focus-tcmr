@@ -1,0 +1,14 @@
+{
+  "representation_stage": "tcmr_refined",
+  "gf_checkpoint": "checkpoints/star/model_3000.tar",
+  "gf_sha256": "74e3c2064d61ee4762c2d1cac8853017124a3c47df3e351ae7a3dd066c765326",
+  "tcmr_checkpoint": "checkpoints/tcmr/temporal_relation_encoder_historical.pt",
+  "tcmr_sha256": "8a30ff3e331fe40a121a0b6e3f6c13182fd3216caee5664fcf124336ad569eb9",
+  "visual_root": "results/memory_visual_sensitivity_final",
+  "cases": "results/demo_library/demo_cases_10_prepared.json",
+  "reference": "results/demo_library/validation_10/validation_10_detailed.json",
+  "batch_size": 1,
+  "seed": 42,
+  "atol": 1e-05,
+  "rtol": 0
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+node_modules/
+dist/
+playwright-report/
+test-results/
+checkpoints/
+data/
+*.pt
+*.pth
+*.tar
+*.mp4
+*.jpg
+*.png

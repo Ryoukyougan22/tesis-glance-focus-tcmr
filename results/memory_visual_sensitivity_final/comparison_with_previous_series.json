@@ -1,0 +1,38 @@
+{
+  "old_stage": "tcmr_refined, checkpoint fc7aa...; Tabla 17/Anexo K",
+  "final_stage": "tcmr_refined, checkpoint 8a30...; new series, not original thesis figures",
+  "old_global": {
+    "profile_correlation_mean": 0.9778576282575872,
+    "profile_correlation_min": 0.87235045884756,
+    "profile_correlation_max": 0.9985677699963144,
+    "top5_concentration_mean": 0.1419342339738407,
+    "top5_concentration_min": 0.07672500930236063,
+    "top5_concentration_max": 0.25585236600649114,
+    "max_specificity_z": 2.8980921174101444,
+    "case_with_highest_specificity": "DQEC3",
+    "memory_with_highest_specificity": "E08",
+    "num_memories_positive_max_z": 82,
+    "num_memories_negative_max_z": 18,
+    "num_memories_unknown_max_z": 0,
+    "num_memories_with_concentration": 100,
+    "num_cases_with_correlation_mean": 10
+  },
+  "final_global": {
+    "profile_correlation_mean": 0.956142627735933,
+    "profile_correlation_min": 0.2280456465572136,
+    "profile_correlation_max": 0.9985316062397019,
+    "top5_concentration_mean": 0.14230743090818995,
+    "top5_concentration_min": 0.07616947557736951,
+    "top5_concentration_max": 0.2552588251287706,
+    "max_specificity_z": 2.9013258710446275,
+    "case_with_highest_specificity": "DQEC3",
+    "memory_with_highest_specificity": "E08",
+    "num_memories_positive_max_z": 85,
+    "num_memories_negative_max_z": 15,
+    "num_memories_unknown_max_z": 0,
+    "num_memories_with_concentration": 100,
+    "num_cases_with_correlation_mean": 10
+  },
+  "changed_max_selective_token": 14,
+  "memories": 100
+}

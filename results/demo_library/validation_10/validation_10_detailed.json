@@ -1,0 +1,4162 @@
+[
+  {
+    "case": {
+      "question_id": "Sequence_T3_4937",
+      "category": "Sequence",
+      "video_id": "RKGG5",
+      "question": "What happened after the person sat on the sofa/couch?",
+      "option_a": "Took the phone/camera.",
+      "option_b": "Tidied up the clothes.",
+      "option_c": "Threw the broom.",
+      "option_d": "Washed the clothes.",
+      "answer": 2,
+      "baseline_prediction": 2,
+      "baseline_correct": 1,
+      "top_event": 3,
+      "bottom_event": 4,
+      "random_event": 5,
+      "top_abs_effect": 0.04078325629234314,
+      "bottom_abs_effect": 0.02687820792198181,
+      "random_abs_effect": 0.03085428476333618,
+      "top_signed_effect": 0.04078325629234314,
+      "bottom_signed_effect": 0.02687820792198181,
+      "random_signed_effect": 0.03085428476333618,
+      "top_prediction": 0,
+      "bottom_prediction": 2,
+      "random_prediction": 2,
+      "top_flip": 1,
+      "bottom_flip": 0,
+      "random_flip": 0,
+      "demo_order": 1,
+      "answer_letter": "C",
+      "prediction_letter": "C",
+      "top_prediction_letter": "A",
+      "top_memory": "E04",
+      "bottom_memory": "E05",
+      "random_memory": "E06",
+      "video_filename": "RKGG5.mp4",
+      "feature_filename": "RKGG5_s3d_official.npy",
+      "video_path": "../demo_videos/RKGG5.mp4",
+      "feature_path": "../demo_features/RKGG5_s3d_official.npy",
+      "video_valid": true,
+      "feature_valid": true,
+      "video_duration_seconds": 20.387033333333335,
+      "feature_shape": [
+        72,
+        1024
+      ]
+    },
+    "runtime_result": {
+      "prediction": 2,
+      "prediction_letter": "C",
+      "prediction_probability": 0.39282697439193726,
+      "probabilities": [
+        0.32992127537727356,
+        0.241067573428154,
+        0.39282697439193726,
+        0.03618424013257027
+      ],
+      "effects": [
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": 0.03174290060997009,
+          "absolute_effect": 0.03174290060997009,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.34930557012557983,
+            0.25744426250457764,
+            0.36108407378196716,
+            0.032166074961423874
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": 0.034997791051864624,
+          "absolute_effect": 0.034997791051864624,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.355965793132782,
+            0.2546820342540741,
+            0.35782918334007263,
+            0.0315229594707489
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": 0.03360816836357117,
+          "absolute_effect": 0.03360816836357117,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.3579785227775574,
+            0.2504613995552063,
+            0.3592188060283661,
+            0.03234121575951576
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": 0.04078325629234314,
+          "absolute_effect": 0.04078325629234314,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.3630622923374176,
+            0.2531195282936096,
+            0.3520437180995941,
+            0.03177451714873314
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": 0.02687820792198181,
+          "absolute_effect": 0.02687820792198181,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.35500094294548035,
+            0.24722528457641602,
+            0.36594876646995544,
+            0.03182497248053551
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": 0.03085428476333618,
+          "absolute_effect": 0.03085428476333618,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.35142824053764343,
+            0.2538679242134094,
+            0.3619726896286011,
+            0.03273113816976547
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": 0.028280287981033325,
+          "absolute_effect": 0.028280287981033325,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.34989050030708313,
+            0.2531587779521942,
+            0.36454668641090393,
+            0.03240397945046425
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": 0.02785855531692505,
+          "absolute_effect": 0.02785855531692505,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.3481350541114807,
+            0.2543559968471527,
+            0.3649684190750122,
+            0.03254053741693497
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": 0.0333307683467865,
+          "absolute_effect": 0.0333307683467865,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.35332056879997253,
+            0.2543526291847229,
+            0.35949620604515076,
+            0.03283054754137993
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": 0.03209403157234192,
+          "absolute_effect": 0.03209403157234192,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.3528902530670166,
+            0.254581093788147,
+            0.36073294281959534,
+            0.03179573267698288
+          ]
+        }
+      ],
+      "ranked_effects": [
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": 0.04078325629234314,
+          "absolute_effect": 0.04078325629234314,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.3630622923374176,
+            0.2531195282936096,
+            0.3520437180995941,
+            0.03177451714873314
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": 0.034997791051864624,
+          "absolute_effect": 0.034997791051864624,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.355965793132782,
+            0.2546820342540741,
+            0.35782918334007263,
+            0.0315229594707489
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": 0.03360816836357117,
+          "absolute_effect": 0.03360816836357117,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.3579785227775574,
+            0.2504613995552063,
+            0.3592188060283661,
+            0.03234121575951576
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": 0.0333307683467865,
+          "absolute_effect": 0.0333307683467865,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.35332056879997253,
+            0.2543526291847229,
+            0.35949620604515076,
+            0.03283054754137993
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": 0.03209403157234192,
+          "absolute_effect": 0.03209403157234192,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.3528902530670166,
+            0.254581093788147,
+            0.36073294281959534,
+            0.03179573267698288
+          ]
+        },
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": 0.03174290060997009,
+          "absolute_effect": 0.03174290060997009,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.34930557012557983,
+            0.25744426250457764,
+            0.36108407378196716,
+            0.032166074961423874
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": 0.03085428476333618,
+          "absolute_effect": 0.03085428476333618,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.35142824053764343,
+            0.2538679242134094,
+            0.3619726896286011,
+            0.03273113816976547
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": 0.028280287981033325,
+          "absolute_effect": 0.028280287981033325,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.34989050030708313,
+            0.2531587779521942,
+            0.36454668641090393,
+            0.03240397945046425
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": 0.02785855531692505,
+          "absolute_effect": 0.02785855531692505,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.3481350541114807,
+            0.2543559968471527,
+            0.3649684190750122,
+            0.03254053741693497
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": 0.02687820792198181,
+          "absolute_effect": 0.02687820792198181,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.35500094294548035,
+            0.24722528457641602,
+            0.36594876646995544,
+            0.03182497248053551
+          ]
+        }
+      ],
+      "top": {
+        "memory_index": 3,
+        "memory_name": "E04",
+        "signed_effect": 0.04078325629234314,
+        "absolute_effect": 0.04078325629234314,
+        "prediction_after": 0,
+        "prediction_after_letter": "A",
+        "flip": true,
+        "probabilities_after": [
+          0.3630622923374176,
+          0.2531195282936096,
+          0.3520437180995941,
+          0.03177451714873314
+        ]
+      },
+      "bottom": {
+        "memory_index": 4,
+        "memory_name": "E05",
+        "signed_effect": 0.02687820792198181,
+        "absolute_effect": 0.02687820792198181,
+        "prediction_after": 2,
+        "prediction_after_letter": "C",
+        "flip": false,
+        "probabilities_after": [
+          0.35500094294548035,
+          0.24722528457641602,
+          0.36594876646995544,
+          0.03182497248053551
+        ]
+      }
+    },
+    "validation": {
+      "order": 1,
+      "question_id": "Sequence_T3_4937",
+      "video_id": "RKGG5",
+      "category": "Sequence",
+      "ground_truth": 2,
+      "prediction": 2,
+      "prediction_correct": 1,
+      "expected_prediction": 2,
+      "prediction_match": 1,
+      "top_event": 3,
+      "top_memory": "E04",
+      "expected_top_event": 3,
+      "top_memory_match": 1,
+      "top_prediction": 0,
+      "expected_top_prediction": 0,
+      "top_prediction_match": 1,
+      "top_abs_effect": 0.04078325629234314,
+      "expected_top_abs_effect": 0.04078325629234314,
+      "top_effect_match": 1,
+      "top_flip": 1,
+      "case_validation_ok": 1
+    }
+  },
+  {
+    "case": {
+      "question_id": "Sequence_T4_3292",
+      "category": "Sequence",
+      "video_id": "DQEC3",
+      "question": "What happened before the person opened the bag?",
+      "option_a": "Tidied up the closet/cabinet.",
+      "option_b": "Put down the towel.",
+      "option_c": "Sat on the sofa/couch.",
+      "option_d": "Threw the pillow.",
+      "answer": 0,
+      "baseline_prediction": 0,
+      "baseline_correct": 1,
+      "top_event": 7,
+      "bottom_event": 3,
+      "random_event": 6,
+      "top_abs_effect": 0.03752508759498596,
+      "bottom_abs_effect": 0.005041658878326416,
+      "random_abs_effect": 0.021050870418548584,
+      "top_signed_effect": 0.03752508759498596,
+      "bottom_signed_effect": 0.005041658878326416,
+      "random_signed_effect": 0.021050870418548584,
+      "top_prediction": 1,
+      "bottom_prediction": 0,
+      "random_prediction": 0,
+      "top_flip": 1,
+      "bottom_flip": 0,
+      "random_flip": 0,
+      "demo_order": 2,
+      "answer_letter": "A",
+      "prediction_letter": "A",
+      "top_prediction_letter": "B",
+      "top_memory": "E08",
+      "bottom_memory": "E04",
+      "random_memory": "E07",
+      "video_filename": "DQEC3.mp4",
+      "feature_filename": "DQEC3_s3d_official.npy",
+      "video_path": "../demo_videos/DQEC3.mp4",
+      "feature_path": "../demo_features/DQEC3_s3d_official.npy",
+      "video_valid": true,
+      "feature_valid": true,
+      "video_duration_seconds": 29.766666666666666,
+      "feature_shape": [
+        113,
+        1024
+      ]
+    },
+    "runtime_result": {
+      "prediction": 0,
+      "prediction_letter": "A",
+      "prediction_probability": 0.5162521004676819,
+      "probabilities": [
+        0.5162521004676819,
+        0.4566696584224701,
+        0.017662907019257545,
+        0.009415281936526299
+      ],
+      "effects": [
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": 0.02332592010498047,
+          "absolute_effect": 0.02332592010498047,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.4929261803627014,
+            0.48572319746017456,
+            0.013930517248809338,
+            0.0074200681410729885
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": 0.024209320545196533,
+          "absolute_effect": 0.024209320545196533,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.49204277992248535,
+            0.4857673943042755,
+            0.014632700011134148,
+            0.007557123899459839
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": 0.035860151052474976,
+          "absolute_effect": 0.035860151052474976,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": true,
+          "probabilities_after": [
+            0.4803919494152069,
+            0.4977051317691803,
+            0.0144039336591959,
+            0.007499007973819971
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": 0.005041658878326416,
+          "absolute_effect": 0.005041658878326416,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5112104415893555,
+            0.46655958890914917,
+            0.014641448855400085,
+            0.007588486187160015
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": 0.02641955018043518,
+          "absolute_effect": 0.02641955018043518,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.4898325502872467,
+            0.4878043532371521,
+            0.014668981544673443,
+            0.0076940422877669334
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": 0.031662583351135254,
+          "absolute_effect": 0.031662583351135254,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": true,
+          "probabilities_after": [
+            0.48458951711654663,
+            0.49366822838783264,
+            0.0142802270129323,
+            0.007462019100785255
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": 0.021050870418548584,
+          "absolute_effect": 0.021050870418548584,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.4952012300491333,
+            0.48305875062942505,
+            0.014309621416032314,
+            0.00743041280657053
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": 0.03752508759498596,
+          "absolute_effect": 0.03752508759498596,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": true,
+          "probabilities_after": [
+            0.4787270128726959,
+            0.4992208778858185,
+            0.014413783326745033,
+            0.007638351991772652
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": 0.019353240728378296,
+          "absolute_effect": 0.019353240728378296,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.4968988597393036,
+            0.48058488965034485,
+            0.014826936647295952,
+            0.00768935214728117
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": 0.023595720529556274,
+          "absolute_effect": 0.023595720529556274,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.4926563799381256,
+            0.48534831404685974,
+            0.014454272575676441,
+            0.007541114930063486
+          ]
+        }
+      ],
+      "ranked_effects": [
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": 0.03752508759498596,
+          "absolute_effect": 0.03752508759498596,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": true,
+          "probabilities_after": [
+            0.4787270128726959,
+            0.4992208778858185,
+            0.014413783326745033,
+            0.007638351991772652
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": 0.035860151052474976,
+          "absolute_effect": 0.035860151052474976,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": true,
+          "probabilities_after": [
+            0.4803919494152069,
+            0.4977051317691803,
+            0.0144039336591959,
+            0.007499007973819971
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": 0.031662583351135254,
+          "absolute_effect": 0.031662583351135254,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": true,
+          "probabilities_after": [
+            0.48458951711654663,
+            0.49366822838783264,
+            0.0142802270129323,
+            0.007462019100785255
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": 0.02641955018043518,
+          "absolute_effect": 0.02641955018043518,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.4898325502872467,
+            0.4878043532371521,
+            0.014668981544673443,
+            0.0076940422877669334
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": 0.024209320545196533,
+          "absolute_effect": 0.024209320545196533,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.49204277992248535,
+            0.4857673943042755,
+            0.014632700011134148,
+            0.007557123899459839
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": 0.023595720529556274,
+          "absolute_effect": 0.023595720529556274,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.4926563799381256,
+            0.48534831404685974,
+            0.014454272575676441,
+            0.007541114930063486
+          ]
+        },
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": 0.02332592010498047,
+          "absolute_effect": 0.02332592010498047,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.4929261803627014,
+            0.48572319746017456,
+            0.013930517248809338,
+            0.0074200681410729885
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": 0.021050870418548584,
+          "absolute_effect": 0.021050870418548584,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.4952012300491333,
+            0.48305875062942505,
+            0.014309621416032314,
+            0.00743041280657053
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": 0.019353240728378296,
+          "absolute_effect": 0.019353240728378296,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.4968988597393036,
+            0.48058488965034485,
+            0.014826936647295952,
+            0.00768935214728117
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": 0.005041658878326416,
+          "absolute_effect": 0.005041658878326416,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5112104415893555,
+            0.46655958890914917,
+            0.014641448855400085,
+            0.007588486187160015
+          ]
+        }
+      ],
+      "top": {
+        "memory_index": 7,
+        "memory_name": "E08",
+        "signed_effect": 0.03752508759498596,
+        "absolute_effect": 0.03752508759498596,
+        "prediction_after": 1,
+        "prediction_after_letter": "B",
+        "flip": true,
+        "probabilities_after": [
+          0.4787270128726959,
+          0.4992208778858185,
+          0.014413783326745033,
+          0.007638351991772652
+        ]
+      },
+      "bottom": {
+        "memory_index": 3,
+        "memory_name": "E04",
+        "signed_effect": 0.005041658878326416,
+        "absolute_effect": 0.005041658878326416,
+        "prediction_after": 0,
+        "prediction_after_letter": "A",
+        "flip": false,
+        "probabilities_after": [
+          0.5112104415893555,
+          0.46655958890914917,
+          0.014641448855400085,
+          0.007588486187160015
+        ]
+      }
+    },
+    "validation": {
+      "order": 2,
+      "question_id": "Sequence_T4_3292",
+      "video_id": "DQEC3",
+      "category": "Sequence",
+      "ground_truth": 0,
+      "prediction": 0,
+      "prediction_correct": 1,
+      "expected_prediction": 0,
+      "prediction_match": 1,
+      "top_event": 7,
+      "top_memory": "E08",
+      "expected_top_event": 7,
+      "top_memory_match": 1,
+      "top_prediction": 1,
+      "expected_top_prediction": 1,
+      "top_prediction_match": 1,
+      "top_abs_effect": 0.03752508759498596,
+      "expected_top_abs_effect": 0.03752508759498596,
+      "top_effect_match": 1,
+      "top_flip": 1,
+      "case_validation_ok": 1
+    }
+  },
+  {
+    "case": {
+      "question_id": "Sequence_T3_6255",
+      "category": "Sequence",
+      "video_id": "UEP20",
+      "question": "What happened after the person lied on the bed?",
+      "option_a": "Tidied up the closet/cabinet.",
+      "option_b": "Opened the closet/cabinet.",
+      "option_c": "Took the sandwich.",
+      "option_d": "Opened the bag.",
+      "answer": 2,
+      "baseline_prediction": 2,
+      "baseline_correct": 1,
+      "top_event": 2,
+      "bottom_event": 1,
+      "random_event": 2,
+      "top_abs_effect": 0.10123848915100098,
+      "bottom_abs_effect": 0.08308553695678711,
+      "random_abs_effect": 0.10123848915100098,
+      "top_signed_effect": 0.10123848915100098,
+      "bottom_signed_effect": 0.08308553695678711,
+      "random_signed_effect": 0.10123848915100098,
+      "top_prediction": 2,
+      "bottom_prediction": 2,
+      "random_prediction": 2,
+      "top_flip": 0,
+      "bottom_flip": 0,
+      "random_flip": 0,
+      "demo_order": 3,
+      "answer_letter": "C",
+      "prediction_letter": "C",
+      "top_prediction_letter": "C",
+      "top_memory": "E03",
+      "bottom_memory": "E02",
+      "random_memory": "E03",
+      "video_filename": "UEP20.mp4",
+      "feature_filename": "UEP20_s3d_official.npy",
+      "video_path": "../demo_videos/UEP20.mp4",
+      "feature_path": "../demo_features/UEP20_s3d_official.npy",
+      "video_valid": true,
+      "feature_valid": true,
+      "video_duration_seconds": 30.633333333333333,
+      "feature_shape": [
+        103,
+        1024
+      ]
+    },
+    "runtime_result": {
+      "prediction": 2,
+      "prediction_letter": "C",
+      "prediction_probability": 0.6191376447677612,
+      "probabilities": [
+        0.0011817242484539747,
+        0.3716602027416229,
+        0.6191376447677612,
+        0.008020424284040928
+      ],
+      "effects": [
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": 0.09326702356338501,
+          "absolute_effect": 0.09326702356338501,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.001137972460128367,
+            0.464646577835083,
+            0.5258706212043762,
+            0.008344833739101887
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": 0.08308553695678711,
+          "absolute_effect": 0.08308553695678711,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0011747352546080947,
+            0.45506995916366577,
+            0.5360521078109741,
+            0.007703184615820646
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": 0.10123848915100098,
+          "absolute_effect": 0.10123848915100098,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0012231968576088548,
+            0.4715425372123718,
+            0.5178991556167603,
+            0.009335142560303211
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": 0.09367328882217407,
+          "absolute_effect": 0.09367328882217407,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.00117694481741637,
+            0.4657110273838043,
+            0.5254643559455872,
+            0.00764769222587347
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": 0.09429699182510376,
+          "absolute_effect": 0.09429699182510376,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.001162747386842966,
+            0.46580323576927185,
+            0.5248406529426575,
+            0.008193357847630978
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": 0.08653008937835693,
+          "absolute_effect": 0.08653008937835693,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0011399721261113882,
+            0.4585433304309845,
+            0.5326075553894043,
+            0.007709125056862831
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": 0.08701056241989136,
+          "absolute_effect": 0.08701056241989136,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0011417136993259192,
+            0.4591321349143982,
+            0.5321270823478699,
+            0.007599113509058952
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": 0.08864545822143555,
+          "absolute_effect": 0.08864545822143555,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.001150342752225697,
+            0.4602679908275604,
+            0.5304921865463257,
+            0.00808954518288374
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": 0.08977222442626953,
+          "absolute_effect": 0.08977222442626953,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0011287489905953407,
+            0.4616367220878601,
+            0.5293654203414917,
+            0.00786910206079483
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": 0.08855253458023071,
+          "absolute_effect": 0.08855253458023071,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0011362587101757526,
+            0.4602140486240387,
+            0.5305851101875305,
+            0.008064611814916134
+          ]
+        }
+      ],
+      "ranked_effects": [
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": 0.10123848915100098,
+          "absolute_effect": 0.10123848915100098,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0012231968576088548,
+            0.4715425372123718,
+            0.5178991556167603,
+            0.009335142560303211
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": 0.09429699182510376,
+          "absolute_effect": 0.09429699182510376,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.001162747386842966,
+            0.46580323576927185,
+            0.5248406529426575,
+            0.008193357847630978
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": 0.09367328882217407,
+          "absolute_effect": 0.09367328882217407,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.00117694481741637,
+            0.4657110273838043,
+            0.5254643559455872,
+            0.00764769222587347
+          ]
+        },
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": 0.09326702356338501,
+          "absolute_effect": 0.09326702356338501,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.001137972460128367,
+            0.464646577835083,
+            0.5258706212043762,
+            0.008344833739101887
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": 0.08977222442626953,
+          "absolute_effect": 0.08977222442626953,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0011287489905953407,
+            0.4616367220878601,
+            0.5293654203414917,
+            0.00786910206079483
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": 0.08864545822143555,
+          "absolute_effect": 0.08864545822143555,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.001150342752225697,
+            0.4602679908275604,
+            0.5304921865463257,
+            0.00808954518288374
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": 0.08855253458023071,
+          "absolute_effect": 0.08855253458023071,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0011362587101757526,
+            0.4602140486240387,
+            0.5305851101875305,
+            0.008064611814916134
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": 0.08701056241989136,
+          "absolute_effect": 0.08701056241989136,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0011417136993259192,
+            0.4591321349143982,
+            0.5321270823478699,
+            0.007599113509058952
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": 0.08653008937835693,
+          "absolute_effect": 0.08653008937835693,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0011399721261113882,
+            0.4585433304309845,
+            0.5326075553894043,
+            0.007709125056862831
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": 0.08308553695678711,
+          "absolute_effect": 0.08308553695678711,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0011747352546080947,
+            0.45506995916366577,
+            0.5360521078109741,
+            0.007703184615820646
+          ]
+        }
+      ],
+      "top": {
+        "memory_index": 2,
+        "memory_name": "E03",
+        "signed_effect": 0.10123848915100098,
+        "absolute_effect": 0.10123848915100098,
+        "prediction_after": 2,
+        "prediction_after_letter": "C",
+        "flip": false,
+        "probabilities_after": [
+          0.0012231968576088548,
+          0.4715425372123718,
+          0.5178991556167603,
+          0.009335142560303211
+        ]
+      },
+      "bottom": {
+        "memory_index": 1,
+        "memory_name": "E02",
+        "signed_effect": 0.08308553695678711,
+        "absolute_effect": 0.08308553695678711,
+        "prediction_after": 2,
+        "prediction_after_letter": "C",
+        "flip": false,
+        "probabilities_after": [
+          0.0011747352546080947,
+          0.45506995916366577,
+          0.5360521078109741,
+          0.007703184615820646
+        ]
+      }
+    },
+    "validation": {
+      "order": 3,
+      "question_id": "Sequence_T3_6255",
+      "video_id": "UEP20",
+      "category": "Sequence",
+      "ground_truth": 2,
+      "prediction": 2,
+      "prediction_correct": 1,
+      "expected_prediction": 2,
+      "prediction_match": 1,
+      "top_event": 2,
+      "top_memory": "E03",
+      "expected_top_event": 2,
+      "top_memory_match": 1,
+      "top_prediction": 2,
+      "expected_top_prediction": 2,
+      "top_prediction_match": 1,
+      "top_abs_effect": 0.10123848915100098,
+      "expected_top_abs_effect": 0.10123848915100098,
+      "top_effect_match": 1,
+      "top_flip": 0,
+      "case_validation_ok": 1
+    }
+  },
+  {
+    "case": {
+      "question_id": "Interaction_T1_262",
+      "category": "Interaction",
+      "video_id": "6CAZU",
+      "question": "Which object was taken by the person?",
+      "option_a": "The towel.",
+      "option_b": "The sandwich.",
+      "option_c": "The paper/notebook.",
+      "option_d": "The picture.",
+      "answer": 1,
+      "baseline_prediction": 1,
+      "baseline_correct": 1,
+      "top_event": 2,
+      "bottom_event": 5,
+      "random_event": 1,
+      "top_abs_effect": 0.05332985520362854,
+      "bottom_abs_effect": 0.0323946475982666,
+      "random_abs_effect": 0.03410264849662781,
+      "top_signed_effect": 0.05332985520362854,
+      "bottom_signed_effect": 0.0323946475982666,
+      "random_signed_effect": 0.03410264849662781,
+      "top_prediction": 3,
+      "bottom_prediction": 1,
+      "random_prediction": 3,
+      "top_flip": 1,
+      "bottom_flip": 0,
+      "random_flip": 1,
+      "demo_order": 4,
+      "answer_letter": "B",
+      "prediction_letter": "B",
+      "top_prediction_letter": "D",
+      "top_memory": "E03",
+      "bottom_memory": "E06",
+      "random_memory": "E02",
+      "video_filename": "6CAZU.mp4",
+      "feature_filename": "6CAZU_s3d_official.npy",
+      "video_path": "../demo_videos/6CAZU.mp4",
+      "feature_path": "../demo_features/6CAZU_s3d_official.npy",
+      "video_valid": true,
+      "feature_valid": true,
+      "video_duration_seconds": 31.786516853932582,
+      "feature_shape": [
+        118,
+        1024
+      ]
+    },
+    "runtime_result": {
+      "prediction": 1,
+      "prediction_letter": "B",
+      "prediction_probability": 0.408219575881958,
+      "probabilities": [
+        0.11205892264842987,
+        0.408219575881958,
+        0.15031957626342773,
+        0.3294018805027008
+      ],
+      "effects": [
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": 0.0501590371131897,
+          "absolute_effect": 0.0501590371131897,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.10601083934307098,
+            0.3580605387687683,
+            0.14690947532653809,
+            0.3890191316604614
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": 0.03410264849662781,
+          "absolute_effect": 0.03410264849662781,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.10203509032726288,
+            0.3741169273853302,
+            0.1437835395336151,
+            0.3800643980503082
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": 0.05332985520362854,
+          "absolute_effect": 0.05332985520362854,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.11028125137090683,
+            0.35488972067832947,
+            0.14764665067195892,
+            0.3871823251247406
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": 0.03577938675880432,
+          "absolute_effect": 0.03577938675880432,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.10449738800525665,
+            0.3724401891231537,
+            0.1472386121749878,
+            0.37582382559776306
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": 0.047992169857025146,
+          "absolute_effect": 0.047992169857025146,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.10536443442106247,
+            0.36022740602493286,
+            0.14802920818328857,
+            0.3863789141178131
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": 0.0323946475982666,
+          "absolute_effect": 0.0323946475982666,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": false,
+          "probabilities_after": [
+            0.10408426076173782,
+            0.3758249282836914,
+            0.14826472103595734,
+            0.37182608246803284
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": 0.043563276529312134,
+          "absolute_effect": 0.043563276529312134,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.10180416703224182,
+            0.3646562993526459,
+            0.14664003252983093,
+            0.38689950108528137
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": 0.04271209239959717,
+          "absolute_effect": 0.04271209239959717,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.10319340974092484,
+            0.36550748348236084,
+            0.14594846963882446,
+            0.38535067439079285
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": 0.03374981880187988,
+          "absolute_effect": 0.03374981880187988,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": false,
+          "probabilities_after": [
+            0.10461783409118652,
+            0.3744697570800781,
+            0.14816343784332275,
+            0.3727489411830902
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": 0.04451128840446472,
+          "absolute_effect": 0.04451128840446472,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.10541318356990814,
+            0.3637082874774933,
+            0.14718428254127502,
+            0.38369420170783997
+          ]
+        }
+      ],
+      "ranked_effects": [
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": 0.05332985520362854,
+          "absolute_effect": 0.05332985520362854,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.11028125137090683,
+            0.35488972067832947,
+            0.14764665067195892,
+            0.3871823251247406
+          ]
+        },
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": 0.0501590371131897,
+          "absolute_effect": 0.0501590371131897,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.10601083934307098,
+            0.3580605387687683,
+            0.14690947532653809,
+            0.3890191316604614
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": 0.047992169857025146,
+          "absolute_effect": 0.047992169857025146,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.10536443442106247,
+            0.36022740602493286,
+            0.14802920818328857,
+            0.3863789141178131
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": 0.04451128840446472,
+          "absolute_effect": 0.04451128840446472,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.10541318356990814,
+            0.3637082874774933,
+            0.14718428254127502,
+            0.38369420170783997
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": 0.043563276529312134,
+          "absolute_effect": 0.043563276529312134,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.10180416703224182,
+            0.3646562993526459,
+            0.14664003252983093,
+            0.38689950108528137
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": 0.04271209239959717,
+          "absolute_effect": 0.04271209239959717,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.10319340974092484,
+            0.36550748348236084,
+            0.14594846963882446,
+            0.38535067439079285
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": 0.03577938675880432,
+          "absolute_effect": 0.03577938675880432,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.10449738800525665,
+            0.3724401891231537,
+            0.1472386121749878,
+            0.37582382559776306
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": 0.03410264849662781,
+          "absolute_effect": 0.03410264849662781,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": true,
+          "probabilities_after": [
+            0.10203509032726288,
+            0.3741169273853302,
+            0.1437835395336151,
+            0.3800643980503082
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": 0.03374981880187988,
+          "absolute_effect": 0.03374981880187988,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": false,
+          "probabilities_after": [
+            0.10461783409118652,
+            0.3744697570800781,
+            0.14816343784332275,
+            0.3727489411830902
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": 0.0323946475982666,
+          "absolute_effect": 0.0323946475982666,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": false,
+          "probabilities_after": [
+            0.10408426076173782,
+            0.3758249282836914,
+            0.14826472103595734,
+            0.37182608246803284
+          ]
+        }
+      ],
+      "top": {
+        "memory_index": 2,
+        "memory_name": "E03",
+        "signed_effect": 0.05332985520362854,
+        "absolute_effect": 0.05332985520362854,
+        "prediction_after": 3,
+        "prediction_after_letter": "D",
+        "flip": true,
+        "probabilities_after": [
+          0.11028125137090683,
+          0.35488972067832947,
+          0.14764665067195892,
+          0.3871823251247406
+        ]
+      },
+      "bottom": {
+        "memory_index": 5,
+        "memory_name": "E06",
+        "signed_effect": 0.0323946475982666,
+        "absolute_effect": 0.0323946475982666,
+        "prediction_after": 1,
+        "prediction_after_letter": "B",
+        "flip": false,
+        "probabilities_after": [
+          0.10408426076173782,
+          0.3758249282836914,
+          0.14826472103595734,
+          0.37182608246803284
+        ]
+      }
+    },
+    "validation": {
+      "order": 4,
+      "question_id": "Interaction_T1_262",
+      "video_id": "6CAZU",
+      "category": "Interaction",
+      "ground_truth": 1,
+      "prediction": 1,
+      "prediction_correct": 1,
+      "expected_prediction": 1,
+      "prediction_match": 1,
+      "top_event": 2,
+      "top_memory": "E03",
+      "expected_top_event": 2,
+      "top_memory_match": 1,
+      "top_prediction": 3,
+      "expected_top_prediction": 3,
+      "top_prediction_match": 1,
+      "top_abs_effect": 0.05332985520362854,
+      "expected_top_abs_effect": 0.05332985520362854,
+      "top_effect_match": 1,
+      "top_flip": 1,
+      "case_validation_ok": 1
+    }
+  },
+  {
+    "case": {
+      "question_id": "Interaction_T4_572",
+      "category": "Interaction",
+      "video_id": "8SDK5",
+      "question": "What did the person do while they were leaning on the chair and carrying the box?",
+      "option_a": "Took the paper/notebook.",
+      "option_b": "Sat on the sofa/couch.",
+      "option_c": "Washed the clothes.",
+      "option_d": "Lied on the sofa/couch.",
+      "answer": 1,
+      "baseline_prediction": 1,
+      "baseline_correct": 1,
+      "top_event": 1,
+      "bottom_event": 6,
+      "random_event": 3,
+      "top_abs_effect": 0.04706349968910217,
+      "bottom_abs_effect": 0.039925992488861084,
+      "random_abs_effect": 0.04015707969665527,
+      "top_signed_effect": 0.04706349968910217,
+      "bottom_signed_effect": 0.039925992488861084,
+      "random_signed_effect": 0.04015707969665527,
+      "top_prediction": 0,
+      "bottom_prediction": 0,
+      "random_prediction": 0,
+      "top_flip": 1,
+      "bottom_flip": 1,
+      "random_flip": 1,
+      "demo_order": 5,
+      "answer_letter": "B",
+      "prediction_letter": "B",
+      "top_prediction_letter": "A",
+      "top_memory": "E02",
+      "bottom_memory": "E07",
+      "random_memory": "E04",
+      "video_filename": "8SDK5.mp4",
+      "feature_filename": "8SDK5_s3d_official.npy",
+      "video_path": "../demo_videos/8SDK5.mp4",
+      "feature_path": "../demo_features/8SDK5_s3d_official.npy",
+      "video_valid": true,
+      "feature_valid": true,
+      "video_duration_seconds": 21.7,
+      "feature_shape": [
+        76,
+        1024
+      ]
+    },
+    "runtime_result": {
+      "prediction": 1,
+      "prediction_letter": "B",
+      "prediction_probability": 0.48333269357681274,
+      "probabilities": [
+        0.4586333930492401,
+        0.48333269357681274,
+        0.012341596186161041,
+        0.04569234326481819
+      ],
+      "effects": [
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": 0.04369691014289856,
+          "absolute_effect": 0.04369691014289856,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5140736699104309,
+            0.4396357834339142,
+            0.009411170147359371,
+            0.03687937930226326
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": 0.04706349968910217,
+          "absolute_effect": 0.04706349968910217,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5179146528244019,
+            0.43626919388771057,
+            0.009655551053583622,
+            0.03616061061620712
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": 0.04190957546234131,
+          "absolute_effect": 0.04190957546234131,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5123746395111084,
+            0.44142311811447144,
+            0.009479532018303871,
+            0.03672274947166443
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": 0.04015707969665527,
+          "absolute_effect": 0.04015707969665527,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5102685689926147,
+            0.44317561388015747,
+            0.009530328214168549,
+            0.03702547401189804
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": 0.04434722661972046,
+          "absolute_effect": 0.04434722661972046,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5145308971405029,
+            0.4389854669570923,
+            0.009439189918339252,
+            0.0370444729924202
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": 0.040574342012405396,
+          "absolute_effect": 0.040574342012405396,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5104622840881348,
+            0.44275835156440735,
+            0.009512358345091343,
+            0.03726701810956001
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": 0.039925992488861084,
+          "absolute_effect": 0.039925992488861084,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5097017884254456,
+            0.44340670108795166,
+            0.009683446027338505,
+            0.03720802068710327
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": 0.04696664214134216,
+          "absolute_effect": 0.04696664214134216,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5171868801116943,
+            0.4363660514354706,
+            0.009845850057899952,
+            0.03660118952393532
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": 0.043792128562927246,
+          "absolute_effect": 0.043792128562927246,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.514098048210144,
+            0.4395405650138855,
+            0.009564769454300404,
+            0.036796607077121735
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": 0.046440452337265015,
+          "absolute_effect": 0.046440452337265015,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5178475379943848,
+            0.43689224123954773,
+            0.009164446033537388,
+            0.03609572350978851
+          ]
+        }
+      ],
+      "ranked_effects": [
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": 0.04706349968910217,
+          "absolute_effect": 0.04706349968910217,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5179146528244019,
+            0.43626919388771057,
+            0.009655551053583622,
+            0.03616061061620712
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": 0.04696664214134216,
+          "absolute_effect": 0.04696664214134216,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5171868801116943,
+            0.4363660514354706,
+            0.009845850057899952,
+            0.03660118952393532
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": 0.046440452337265015,
+          "absolute_effect": 0.046440452337265015,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5178475379943848,
+            0.43689224123954773,
+            0.009164446033537388,
+            0.03609572350978851
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": 0.04434722661972046,
+          "absolute_effect": 0.04434722661972046,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5145308971405029,
+            0.4389854669570923,
+            0.009439189918339252,
+            0.0370444729924202
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": 0.043792128562927246,
+          "absolute_effect": 0.043792128562927246,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.514098048210144,
+            0.4395405650138855,
+            0.009564769454300404,
+            0.036796607077121735
+          ]
+        },
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": 0.04369691014289856,
+          "absolute_effect": 0.04369691014289856,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5140736699104309,
+            0.4396357834339142,
+            0.009411170147359371,
+            0.03687937930226326
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": 0.04190957546234131,
+          "absolute_effect": 0.04190957546234131,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5123746395111084,
+            0.44142311811447144,
+            0.009479532018303871,
+            0.03672274947166443
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": 0.040574342012405396,
+          "absolute_effect": 0.040574342012405396,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5104622840881348,
+            0.44275835156440735,
+            0.009512358345091343,
+            0.03726701810956001
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": 0.04015707969665527,
+          "absolute_effect": 0.04015707969665527,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5102685689926147,
+            0.44317561388015747,
+            0.009530328214168549,
+            0.03702547401189804
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": 0.039925992488861084,
+          "absolute_effect": 0.039925992488861084,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": true,
+          "probabilities_after": [
+            0.5097017884254456,
+            0.44340670108795166,
+            0.009683446027338505,
+            0.03720802068710327
+          ]
+        }
+      ],
+      "top": {
+        "memory_index": 1,
+        "memory_name": "E02",
+        "signed_effect": 0.04706349968910217,
+        "absolute_effect": 0.04706349968910217,
+        "prediction_after": 0,
+        "prediction_after_letter": "A",
+        "flip": true,
+        "probabilities_after": [
+          0.5179146528244019,
+          0.43626919388771057,
+          0.009655551053583622,
+          0.03616061061620712
+        ]
+      },
+      "bottom": {
+        "memory_index": 6,
+        "memory_name": "E07",
+        "signed_effect": 0.039925992488861084,
+        "absolute_effect": 0.039925992488861084,
+        "prediction_after": 0,
+        "prediction_after_letter": "A",
+        "flip": true,
+        "probabilities_after": [
+          0.5097017884254456,
+          0.44340670108795166,
+          0.009683446027338505,
+          0.03720802068710327
+        ]
+      }
+    },
+    "validation": {
+      "order": 5,
+      "question_id": "Interaction_T4_572",
+      "video_id": "8SDK5",
+      "category": "Interaction",
+      "ground_truth": 1,
+      "prediction": 1,
+      "prediction_correct": 1,
+      "expected_prediction": 1,
+      "prediction_match": 1,
+      "top_event": 1,
+      "top_memory": "E02",
+      "expected_top_event": 1,
+      "top_memory_match": 1,
+      "top_prediction": 0,
+      "expected_top_prediction": 0,
+      "top_prediction_match": 1,
+      "top_abs_effect": 0.04706349968910217,
+      "expected_top_abs_effect": 0.04706349968910217,
+      "top_effect_match": 1,
+      "top_flip": 1,
+      "case_validation_ok": 1
+    }
+  },
+  {
+    "case": {
+      "question_id": "Interaction_T1_7248",
+      "category": "Interaction",
+      "video_id": "QPX3S",
+      "question": "Which object was put down by the person?",
+      "option_a": "The clothes.",
+      "option_b": "The sandwich.",
+      "option_c": "The food.",
+      "option_d": "The bag.",
+      "answer": 2,
+      "baseline_prediction": 2,
+      "baseline_correct": 1,
+      "top_event": 3,
+      "bottom_event": 0,
+      "random_event": 1,
+      "top_abs_effect": 0.07449531555175781,
+      "bottom_abs_effect": 0.06133323907852173,
+      "random_abs_effect": 0.06798315048217773,
+      "top_signed_effect": -0.07449531555175781,
+      "bottom_signed_effect": -0.06133323907852173,
+      "random_signed_effect": -0.06798315048217773,
+      "top_prediction": 2,
+      "bottom_prediction": 2,
+      "random_prediction": 2,
+      "top_flip": 0,
+      "bottom_flip": 0,
+      "random_flip": 0,
+      "demo_order": 6,
+      "answer_letter": "C",
+      "prediction_letter": "C",
+      "top_prediction_letter": "C",
+      "top_memory": "E04",
+      "bottom_memory": "E01",
+      "random_memory": "E02",
+      "video_filename": "QPX3S.mp4",
+      "feature_filename": "QPX3S_s3d_official.npy",
+      "video_path": "../demo_videos/QPX3S.mp4",
+      "feature_path": "../demo_features/QPX3S_s3d_official.npy",
+      "video_valid": true,
+      "feature_valid": true,
+      "video_duration_seconds": 12.545866666666667,
+      "feature_shape": [
+        37,
+        1024
+      ]
+    },
+    "runtime_result": {
+      "prediction": 2,
+      "prediction_letter": "C",
+      "prediction_probability": 0.6974704265594482,
+      "probabilities": [
+        0.028650593012571335,
+        0.14903685450553894,
+        0.6974704265594482,
+        0.12484210729598999
+      ],
+      "effects": [
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": -0.06133323907852173,
+          "absolute_effect": 0.06133323907852173,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.021124456077814102,
+            0.1108560860157013,
+            0.75880366563797,
+            0.10921573638916016
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": -0.06798315048217773,
+          "absolute_effect": 0.06798315048217773,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.01940123550593853,
+            0.10961664468050003,
+            0.765453577041626,
+            0.1055285856127739
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": -0.06781154870986938,
+          "absolute_effect": 0.06781154870986938,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.019899358972907066,
+            0.10974719375371933,
+            0.7652819752693176,
+            0.10507147014141083
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": -0.07449531555175781,
+          "absolute_effect": 0.07449531555175781,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0184673722833395,
+            0.10616251826286316,
+            0.771965742111206,
+            0.10340433567762375
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": -0.0657808780670166,
+          "absolute_effect": 0.0657808780670166,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.019950805231928825,
+            0.10836128145456314,
+            0.7632513046264648,
+            0.10843658447265625
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": -0.06959134340286255,
+          "absolute_effect": 0.06959134340286255,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.019135594367980957,
+            0.10868440568447113,
+            0.7670617699623108,
+            0.1051182746887207
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": -0.06622850894927979,
+          "absolute_effect": 0.06622850894927979,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.019963309168815613,
+            0.10887414216995239,
+            0.763698935508728,
+            0.1074635460972786
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": -0.06751275062561035,
+          "absolute_effect": 0.06751275062561035,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.019976237788796425,
+            0.10859138518571854,
+            0.7649831771850586,
+            0.10644926130771637
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": -0.06413847208023071,
+          "absolute_effect": 0.06413847208023071,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.020418401807546616,
+            0.11053189635276794,
+            0.761608898639679,
+            0.1074407622218132
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": -0.06367886066436768,
+          "absolute_effect": 0.06367886066436768,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.020076319575309753,
+            0.11129409074783325,
+            0.7611492872238159,
+            0.10748030990362167
+          ]
+        }
+      ],
+      "ranked_effects": [
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": -0.07449531555175781,
+          "absolute_effect": 0.07449531555175781,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0184673722833395,
+            0.10616251826286316,
+            0.771965742111206,
+            0.10340433567762375
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": -0.06959134340286255,
+          "absolute_effect": 0.06959134340286255,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.019135594367980957,
+            0.10868440568447113,
+            0.7670617699623108,
+            0.1051182746887207
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": -0.06798315048217773,
+          "absolute_effect": 0.06798315048217773,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.01940123550593853,
+            0.10961664468050003,
+            0.765453577041626,
+            0.1055285856127739
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": -0.06781154870986938,
+          "absolute_effect": 0.06781154870986938,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.019899358972907066,
+            0.10974719375371933,
+            0.7652819752693176,
+            0.10507147014141083
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": -0.06751275062561035,
+          "absolute_effect": 0.06751275062561035,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.019976237788796425,
+            0.10859138518571854,
+            0.7649831771850586,
+            0.10644926130771637
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": -0.06622850894927979,
+          "absolute_effect": 0.06622850894927979,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.019963309168815613,
+            0.10887414216995239,
+            0.763698935508728,
+            0.1074635460972786
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": -0.0657808780670166,
+          "absolute_effect": 0.0657808780670166,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.019950805231928825,
+            0.10836128145456314,
+            0.7632513046264648,
+            0.10843658447265625
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": -0.06413847208023071,
+          "absolute_effect": 0.06413847208023071,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.020418401807546616,
+            0.11053189635276794,
+            0.761608898639679,
+            0.1074407622218132
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": -0.06367886066436768,
+          "absolute_effect": 0.06367886066436768,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.020076319575309753,
+            0.11129409074783325,
+            0.7611492872238159,
+            0.10748030990362167
+          ]
+        },
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": -0.06133323907852173,
+          "absolute_effect": 0.06133323907852173,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.021124456077814102,
+            0.1108560860157013,
+            0.75880366563797,
+            0.10921573638916016
+          ]
+        }
+      ],
+      "top": {
+        "memory_index": 3,
+        "memory_name": "E04",
+        "signed_effect": -0.07449531555175781,
+        "absolute_effect": 0.07449531555175781,
+        "prediction_after": 2,
+        "prediction_after_letter": "C",
+        "flip": false,
+        "probabilities_after": [
+          0.0184673722833395,
+          0.10616251826286316,
+          0.771965742111206,
+          0.10340433567762375
+        ]
+      },
+      "bottom": {
+        "memory_index": 0,
+        "memory_name": "E01",
+        "signed_effect": -0.06133323907852173,
+        "absolute_effect": 0.06133323907852173,
+        "prediction_after": 2,
+        "prediction_after_letter": "C",
+        "flip": false,
+        "probabilities_after": [
+          0.021124456077814102,
+          0.1108560860157013,
+          0.75880366563797,
+          0.10921573638916016
+        ]
+      }
+    },
+    "validation": {
+      "order": 6,
+      "question_id": "Interaction_T1_7248",
+      "video_id": "QPX3S",
+      "category": "Interaction",
+      "ground_truth": 2,
+      "prediction": 2,
+      "prediction_correct": 1,
+      "expected_prediction": 2,
+      "prediction_match": 1,
+      "top_event": 3,
+      "top_memory": "E04",
+      "expected_top_event": 3,
+      "top_memory_match": 1,
+      "top_prediction": 2,
+      "expected_top_prediction": 2,
+      "top_prediction_match": 1,
+      "top_abs_effect": 0.07449531555175781,
+      "expected_top_abs_effect": 0.07449531555175781,
+      "top_effect_match": 1,
+      "top_flip": 0,
+      "case_validation_ok": 1
+    }
+  },
+  {
+    "case": {
+      "question_id": "Prediction_T4_634",
+      "category": "Prediction",
+      "video_id": "IO712",
+      "question": "Which object would the person open next after they close the window?",
+      "option_a": "The bag.",
+      "option_b": "The door.",
+      "option_c": "The closet/cabinet.",
+      "option_d": "The book.",
+      "answer": 3,
+      "baseline_prediction": 3,
+      "baseline_correct": 1,
+      "top_event": 6,
+      "bottom_event": 5,
+      "random_event": 2,
+      "top_abs_effect": 0.030913561582565308,
+      "bottom_abs_effect": 0.006358116865158081,
+      "random_abs_effect": 0.01783338189125061,
+      "top_signed_effect": 0.030913561582565308,
+      "bottom_signed_effect": 0.006358116865158081,
+      "random_signed_effect": 0.01783338189125061,
+      "top_prediction": 1,
+      "bottom_prediction": 3,
+      "random_prediction": 3,
+      "top_flip": 1,
+      "bottom_flip": 0,
+      "random_flip": 0,
+      "demo_order": 7,
+      "answer_letter": "D",
+      "prediction_letter": "D",
+      "top_prediction_letter": "B",
+      "top_memory": "E07",
+      "bottom_memory": "E06",
+      "random_memory": "E03",
+      "video_filename": "IO712.mp4",
+      "feature_filename": "IO712_s3d_official.npy",
+      "video_path": "../demo_videos/IO712.mp4",
+      "feature_path": "../demo_features/IO712_s3d_official.npy",
+      "video_valid": true,
+      "feature_valid": true,
+      "video_duration_seconds": 60.2,
+      "feature_shape": [
+        240,
+        1024
+      ]
+    },
+    "runtime_result": {
+      "prediction": 3,
+      "prediction_letter": "D",
+      "prediction_probability": 0.4957907497882843,
+      "probabilities": [
+        0.005950878839939833,
+        0.4469289779663086,
+        0.051329366862773895,
+        0.4957907497882843
+      ],
+      "effects": [
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": 0.01317375898361206,
+          "absolute_effect": 0.01317375898361206,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.00582094443961978,
+            0.4544872045516968,
+            0.057074856013059616,
+            0.48261699080467224
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": 0.019393593072891235,
+          "absolute_effect": 0.019393593072891235,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.005700248293578625,
+            0.46102175116539,
+            0.05688084661960602,
+            0.47639715671539307
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": 0.01783338189125061,
+          "absolute_effect": 0.01783338189125061,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.00563015416264534,
+            0.45864298939704895,
+            0.05776950716972351,
+            0.4779573678970337
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": 0.010468810796737671,
+          "absolute_effect": 0.010468810796737671,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.005843596067279577,
+            0.4527667462825775,
+            0.05606776848435402,
+            0.48532193899154663
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": 0.01754322648048401,
+          "absolute_effect": 0.01754322648048401,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.0058130379766225815,
+            0.45998308062553406,
+            0.05595635250210762,
+            0.4782475233078003
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": 0.006358116865158081,
+          "absolute_effect": 0.006358116865158081,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.005828483495861292,
+            0.44853875041007996,
+            0.056200042366981506,
+            0.4894326329231262
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": 0.030913561582565308,
+          "absolute_effect": 0.030913561582565308,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": true,
+          "probabilities_after": [
+            0.005741491448134184,
+            0.4697219431400299,
+            0.059659410268068314,
+            0.464877188205719
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": 0.010788381099700928,
+          "absolute_effect": 0.010788381099700928,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.0058200727216899395,
+            0.45362451672554016,
+            0.055552978068590164,
+            0.4850023686885834
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": 0.014887392520904541,
+          "absolute_effect": 0.014887392520904541,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.005820306949317455,
+            0.4572836756706238,
+            0.055992621928453445,
+            0.48090335726737976
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": 0.009694159030914307,
+          "absolute_effect": 0.009694159030914307,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.005761196371167898,
+            0.45134857296943665,
+            0.05679363012313843,
+            0.48609659075737
+          ]
+        }
+      ],
+      "ranked_effects": [
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": 0.030913561582565308,
+          "absolute_effect": 0.030913561582565308,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": true,
+          "probabilities_after": [
+            0.005741491448134184,
+            0.4697219431400299,
+            0.059659410268068314,
+            0.464877188205719
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": 0.019393593072891235,
+          "absolute_effect": 0.019393593072891235,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.005700248293578625,
+            0.46102175116539,
+            0.05688084661960602,
+            0.47639715671539307
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": 0.01783338189125061,
+          "absolute_effect": 0.01783338189125061,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.00563015416264534,
+            0.45864298939704895,
+            0.05776950716972351,
+            0.4779573678970337
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": 0.01754322648048401,
+          "absolute_effect": 0.01754322648048401,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.0058130379766225815,
+            0.45998308062553406,
+            0.05595635250210762,
+            0.4782475233078003
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": 0.014887392520904541,
+          "absolute_effect": 0.014887392520904541,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.005820306949317455,
+            0.4572836756706238,
+            0.055992621928453445,
+            0.48090335726737976
+          ]
+        },
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": 0.01317375898361206,
+          "absolute_effect": 0.01317375898361206,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.00582094443961978,
+            0.4544872045516968,
+            0.057074856013059616,
+            0.48261699080467224
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": 0.010788381099700928,
+          "absolute_effect": 0.010788381099700928,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.0058200727216899395,
+            0.45362451672554016,
+            0.055552978068590164,
+            0.4850023686885834
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": 0.010468810796737671,
+          "absolute_effect": 0.010468810796737671,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.005843596067279577,
+            0.4527667462825775,
+            0.05606776848435402,
+            0.48532193899154663
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": 0.009694159030914307,
+          "absolute_effect": 0.009694159030914307,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.005761196371167898,
+            0.45134857296943665,
+            0.05679363012313843,
+            0.48609659075737
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": 0.006358116865158081,
+          "absolute_effect": 0.006358116865158081,
+          "prediction_after": 3,
+          "prediction_after_letter": "D",
+          "flip": false,
+          "probabilities_after": [
+            0.005828483495861292,
+            0.44853875041007996,
+            0.056200042366981506,
+            0.4894326329231262
+          ]
+        }
+      ],
+      "top": {
+        "memory_index": 6,
+        "memory_name": "E07",
+        "signed_effect": 0.030913561582565308,
+        "absolute_effect": 0.030913561582565308,
+        "prediction_after": 1,
+        "prediction_after_letter": "B",
+        "flip": true,
+        "probabilities_after": [
+          0.005741491448134184,
+          0.4697219431400299,
+          0.059659410268068314,
+          0.464877188205719
+        ]
+      },
+      "bottom": {
+        "memory_index": 5,
+        "memory_name": "E06",
+        "signed_effect": 0.006358116865158081,
+        "absolute_effect": 0.006358116865158081,
+        "prediction_after": 3,
+        "prediction_after_letter": "D",
+        "flip": false,
+        "probabilities_after": [
+          0.005828483495861292,
+          0.44853875041007996,
+          0.056200042366981506,
+          0.4894326329231262
+        ]
+      }
+    },
+    "validation": {
+      "order": 7,
+      "question_id": "Prediction_T4_634",
+      "video_id": "IO712",
+      "category": "Prediction",
+      "ground_truth": 3,
+      "prediction": 3,
+      "prediction_correct": 1,
+      "expected_prediction": 3,
+      "prediction_match": 1,
+      "top_event": 6,
+      "top_memory": "E07",
+      "expected_top_event": 6,
+      "top_memory_match": 1,
+      "top_prediction": 1,
+      "expected_top_prediction": 1,
+      "top_prediction_match": 1,
+      "top_abs_effect": 0.030913561582565308,
+      "expected_top_abs_effect": 0.030913561582565308,
+      "top_effect_match": 1,
+      "top_flip": 1,
+      "case_validation_ok": 1
+    }
+  },
+  {
+    "case": {
+      "question_id": "Prediction_T1_1408",
+      "category": "Prediction",
+      "video_id": "I1OLQ",
+      "question": "What will the person do next?",
+      "option_a": "Take the cup/glass/bottle.",
+      "option_b": "Put down the broom.",
+      "option_c": "Open the bag.",
+      "option_d": "Lie on the sofa/couch.",
+      "answer": 2,
+      "baseline_prediction": 2,
+      "baseline_correct": 1,
+      "top_event": 2,
+      "bottom_event": 9,
+      "random_event": 3,
+      "top_abs_effect": 0.09492242336273193,
+      "bottom_abs_effect": 0.033996760845184326,
+      "random_abs_effect": 0.03427356481552124,
+      "top_signed_effect": -0.09492242336273193,
+      "bottom_signed_effect": -0.033996760845184326,
+      "random_signed_effect": -0.03427356481552124,
+      "top_prediction": 2,
+      "bottom_prediction": 2,
+      "random_prediction": 2,
+      "top_flip": 0,
+      "bottom_flip": 0,
+      "random_flip": 0,
+      "demo_order": 8,
+      "answer_letter": "C",
+      "prediction_letter": "C",
+      "top_prediction_letter": "C",
+      "top_memory": "E03",
+      "bottom_memory": "E10",
+      "random_memory": "E04",
+      "video_filename": "I1OLQ.mp4",
+      "feature_filename": "I1OLQ_s3d_official.npy",
+      "video_path": "../demo_videos/I1OLQ.mp4",
+      "feature_path": "../demo_features/I1OLQ_s3d_official.npy",
+      "video_valid": true,
+      "feature_valid": true,
+      "video_duration_seconds": 30.697333333333333,
+      "feature_shape": [
+        115,
+        1024
+      ]
+    },
+    "runtime_result": {
+      "prediction": 2,
+      "prediction_letter": "C",
+      "prediction_probability": 0.46960800886154175,
+      "probabilities": [
+        0.4102380871772766,
+        0.07746458053588867,
+        0.46960800886154175,
+        0.042689334601163864
+      ],
+      "effects": [
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": -0.07634520530700684,
+          "absolute_effect": 0.07634520530700684,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.34614500403404236,
+            0.0731523409485817,
+            0.5459532141685486,
+            0.03474941849708557
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": -0.03896290063858032,
+          "absolute_effect": 0.03896290063858032,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.37603381276130676,
+            0.0779363289475441,
+            0.5085709095001221,
+            0.03745896369218826
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": -0.09492242336273193,
+          "absolute_effect": 0.09492242336273193,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.3276236653327942,
+            0.0768875777721405,
+            0.5645304322242737,
+            0.03095831535756588
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": -0.03427356481552124,
+          "absolute_effect": 0.03427356481552124,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.3784800171852112,
+            0.08079125732183456,
+            0.503881573677063,
+            0.036847155541181564
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": -0.05115175247192383,
+          "absolute_effect": 0.05115175247192383,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.36410680413246155,
+            0.07854317128658295,
+            0.5207597613334656,
+            0.036590300500392914
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": -0.040983498096466064,
+          "absolute_effect": 0.040983498096466064,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.37243831157684326,
+            0.08103837817907333,
+            0.5105915069580078,
+            0.03593182936310768
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": -0.05910438299179077,
+          "absolute_effect": 0.05910438299179077,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.35728180408477783,
+            0.07772742211818695,
+            0.5287123918533325,
+            0.03627841919660568
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": -0.05298823118209839,
+          "absolute_effect": 0.05298823118209839,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.36114636063575745,
+            0.07854767888784409,
+            0.5225962400436401,
+            0.037709642201662064
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": -0.05197542905807495,
+          "absolute_effect": 0.05197542905807495,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.364605575799942,
+            0.07645656168460846,
+            0.5215834379196167,
+            0.0373544879257679
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": -0.033996760845184326,
+          "absolute_effect": 0.033996760845184326,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.3769752085208893,
+            0.08108055591583252,
+            0.5036047697067261,
+            0.03833945840597153
+          ]
+        }
+      ],
+      "ranked_effects": [
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": -0.09492242336273193,
+          "absolute_effect": 0.09492242336273193,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.3276236653327942,
+            0.0768875777721405,
+            0.5645304322242737,
+            0.03095831535756588
+          ]
+        },
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": -0.07634520530700684,
+          "absolute_effect": 0.07634520530700684,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.34614500403404236,
+            0.0731523409485817,
+            0.5459532141685486,
+            0.03474941849708557
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": -0.05910438299179077,
+          "absolute_effect": 0.05910438299179077,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.35728180408477783,
+            0.07772742211818695,
+            0.5287123918533325,
+            0.03627841919660568
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": -0.05298823118209839,
+          "absolute_effect": 0.05298823118209839,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.36114636063575745,
+            0.07854767888784409,
+            0.5225962400436401,
+            0.037709642201662064
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": -0.05197542905807495,
+          "absolute_effect": 0.05197542905807495,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.364605575799942,
+            0.07645656168460846,
+            0.5215834379196167,
+            0.0373544879257679
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": -0.05115175247192383,
+          "absolute_effect": 0.05115175247192383,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.36410680413246155,
+            0.07854317128658295,
+            0.5207597613334656,
+            0.036590300500392914
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": -0.040983498096466064,
+          "absolute_effect": 0.040983498096466064,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.37243831157684326,
+            0.08103837817907333,
+            0.5105915069580078,
+            0.03593182936310768
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": -0.03896290063858032,
+          "absolute_effect": 0.03896290063858032,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.37603381276130676,
+            0.0779363289475441,
+            0.5085709095001221,
+            0.03745896369218826
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": -0.03427356481552124,
+          "absolute_effect": 0.03427356481552124,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.3784800171852112,
+            0.08079125732183456,
+            0.503881573677063,
+            0.036847155541181564
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": -0.033996760845184326,
+          "absolute_effect": 0.033996760845184326,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.3769752085208893,
+            0.08108055591583252,
+            0.5036047697067261,
+            0.03833945840597153
+          ]
+        }
+      ],
+      "top": {
+        "memory_index": 2,
+        "memory_name": "E03",
+        "signed_effect": -0.09492242336273193,
+        "absolute_effect": 0.09492242336273193,
+        "prediction_after": 2,
+        "prediction_after_letter": "C",
+        "flip": false,
+        "probabilities_after": [
+          0.3276236653327942,
+          0.0768875777721405,
+          0.5645304322242737,
+          0.03095831535756588
+        ]
+      },
+      "bottom": {
+        "memory_index": 9,
+        "memory_name": "E10",
+        "signed_effect": -0.033996760845184326,
+        "absolute_effect": 0.033996760845184326,
+        "prediction_after": 2,
+        "prediction_after_letter": "C",
+        "flip": false,
+        "probabilities_after": [
+          0.3769752085208893,
+          0.08108055591583252,
+          0.5036047697067261,
+          0.03833945840597153
+        ]
+      }
+    },
+    "validation": {
+      "order": 8,
+      "question_id": "Prediction_T1_1408",
+      "video_id": "I1OLQ",
+      "category": "Prediction",
+      "ground_truth": 2,
+      "prediction": 2,
+      "prediction_correct": 1,
+      "expected_prediction": 2,
+      "prediction_match": 1,
+      "top_event": 2,
+      "top_memory": "E03",
+      "expected_top_event": 2,
+      "top_memory_match": 1,
+      "top_prediction": 2,
+      "expected_top_prediction": 2,
+      "top_prediction_match": 1,
+      "top_abs_effect": 0.09492242336273193,
+      "expected_top_abs_effect": 0.09492242336273193,
+      "top_effect_match": 1,
+      "top_flip": 0,
+      "case_validation_ok": 1
+    }
+  },
+  {
+    "case": {
+      "question_id": "Feasibility_T5_305",
+      "category": "Feasibility",
+      "video_id": "ZNQVC",
+      "question": "Which object is the person able to take after grasping onto the doorknob?",
+      "option_a": "The book.",
+      "option_b": "The bag.",
+      "option_c": "The shoe.",
+      "option_d": "The phone/camera.",
+      "answer": 2,
+      "baseline_prediction": 2,
+      "baseline_correct": 1,
+      "top_event": 2,
+      "bottom_event": 6,
+      "random_event": 1,
+      "top_abs_effect": 0.0521775484085083,
+      "bottom_abs_effect": 0.0014016032218933105,
+      "random_abs_effect": 0.005905598402023315,
+      "top_signed_effect": 0.0521775484085083,
+      "bottom_signed_effect": -0.0014016032218933105,
+      "random_signed_effect": -0.005905598402023315,
+      "top_prediction": 1,
+      "bottom_prediction": 2,
+      "random_prediction": 2,
+      "top_flip": 1,
+      "bottom_flip": 0,
+      "random_flip": 0,
+      "demo_order": 9,
+      "answer_letter": "C",
+      "prediction_letter": "C",
+      "top_prediction_letter": "B",
+      "top_memory": "E03",
+      "bottom_memory": "E07",
+      "random_memory": "E02",
+      "video_filename": "ZNQVC.mp4",
+      "feature_filename": "ZNQVC_s3d_official.npy",
+      "video_path": "../demo_videos/ZNQVC.mp4",
+      "feature_path": "../demo_features/ZNQVC_s3d_official.npy",
+      "video_valid": true,
+      "feature_valid": true,
+      "video_duration_seconds": 31.23115880863379,
+      "feature_shape": [
+        117,
+        1024
+      ]
+    },
+    "runtime_result": {
+      "prediction": 2,
+      "prediction_letter": "C",
+      "prediction_probability": 0.4963570535182953,
+      "probabilities": [
+        0.007721277419477701,
+        0.47975191473960876,
+        0.4963570535182953,
+        0.01616978831589222
+      ],
+      "effects": [
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": 0.010524719953536987,
+          "absolute_effect": 0.010524719953536987,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": true,
+          "probabilities_after": [
+            0.005633424036204815,
+            0.49508440494537354,
+            0.4858323335647583,
+            0.013449853286147118
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": -0.005905598402023315,
+          "absolute_effect": 0.005905598402023315,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.005579184275120497,
+            0.478200763463974,
+            0.5022626519203186,
+            0.013957349583506584
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": 0.0521775484085083,
+          "absolute_effect": 0.0521775484085083,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": true,
+          "probabilities_after": [
+            0.006399793550372124,
+            0.5359449982643127,
+            0.444179505109787,
+            0.013475672341883183
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": -0.0025736093521118164,
+          "absolute_effect": 0.0025736093521118164,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0059529440477490425,
+            0.4804692268371582,
+            0.4989306628704071,
+            0.014647201634943485
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": 0.00766029953956604,
+          "absolute_effect": 0.00766029953956604,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": true,
+          "probabilities_after": [
+            0.0056716809049248695,
+            0.49173352122306824,
+            0.48869675397872925,
+            0.013898110017180443
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": -0.018312841653823853,
+          "absolute_effect": 0.018312841653823853,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.005829562898725271,
+            0.46554034948349,
+            0.5146698951721191,
+            0.013960192911326885
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": -0.0014016032218933105,
+          "absolute_effect": 0.0014016032218933105,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.005454640835523605,
+            0.48330259323120117,
+            0.4977586567401886,
+            0.01348408218473196
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": -0.01866164803504944,
+          "absolute_effect": 0.01866164803504944,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.005940386094152927,
+            0.4651055335998535,
+            0.5150187015533447,
+            0.013935374096035957
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": -0.019636839628219604,
+          "absolute_effect": 0.019636839628219604,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0060710664838552475,
+            0.4635525941848755,
+            0.5159938931465149,
+            0.014382450841367245
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": -0.017518609762191772,
+          "absolute_effect": 0.017518609762191772,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.005791900679469109,
+            0.4663420617580414,
+            0.5138756632804871,
+            0.013990388251841068
+          ]
+        }
+      ],
+      "ranked_effects": [
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": 0.0521775484085083,
+          "absolute_effect": 0.0521775484085083,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": true,
+          "probabilities_after": [
+            0.006399793550372124,
+            0.5359449982643127,
+            0.444179505109787,
+            0.013475672341883183
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": -0.019636839628219604,
+          "absolute_effect": 0.019636839628219604,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0060710664838552475,
+            0.4635525941848755,
+            0.5159938931465149,
+            0.014382450841367245
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": -0.01866164803504944,
+          "absolute_effect": 0.01866164803504944,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.005940386094152927,
+            0.4651055335998535,
+            0.5150187015533447,
+            0.013935374096035957
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": -0.018312841653823853,
+          "absolute_effect": 0.018312841653823853,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.005829562898725271,
+            0.46554034948349,
+            0.5146698951721191,
+            0.013960192911326885
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": -0.017518609762191772,
+          "absolute_effect": 0.017518609762191772,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.005791900679469109,
+            0.4663420617580414,
+            0.5138756632804871,
+            0.013990388251841068
+          ]
+        },
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": 0.010524719953536987,
+          "absolute_effect": 0.010524719953536987,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": true,
+          "probabilities_after": [
+            0.005633424036204815,
+            0.49508440494537354,
+            0.4858323335647583,
+            0.013449853286147118
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": 0.00766029953956604,
+          "absolute_effect": 0.00766029953956604,
+          "prediction_after": 1,
+          "prediction_after_letter": "B",
+          "flip": true,
+          "probabilities_after": [
+            0.0056716809049248695,
+            0.49173352122306824,
+            0.48869675397872925,
+            0.013898110017180443
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": -0.005905598402023315,
+          "absolute_effect": 0.005905598402023315,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.005579184275120497,
+            0.478200763463974,
+            0.5022626519203186,
+            0.013957349583506584
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": -0.0025736093521118164,
+          "absolute_effect": 0.0025736093521118164,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.0059529440477490425,
+            0.4804692268371582,
+            0.4989306628704071,
+            0.014647201634943485
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": -0.0014016032218933105,
+          "absolute_effect": 0.0014016032218933105,
+          "prediction_after": 2,
+          "prediction_after_letter": "C",
+          "flip": false,
+          "probabilities_after": [
+            0.005454640835523605,
+            0.48330259323120117,
+            0.4977586567401886,
+            0.01348408218473196
+          ]
+        }
+      ],
+      "top": {
+        "memory_index": 2,
+        "memory_name": "E03",
+        "signed_effect": 0.0521775484085083,
+        "absolute_effect": 0.0521775484085083,
+        "prediction_after": 1,
+        "prediction_after_letter": "B",
+        "flip": true,
+        "probabilities_after": [
+          0.006399793550372124,
+          0.5359449982643127,
+          0.444179505109787,
+          0.013475672341883183
+        ]
+      },
+      "bottom": {
+        "memory_index": 6,
+        "memory_name": "E07",
+        "signed_effect": -0.0014016032218933105,
+        "absolute_effect": 0.0014016032218933105,
+        "prediction_after": 2,
+        "prediction_after_letter": "C",
+        "flip": false,
+        "probabilities_after": [
+          0.005454640835523605,
+          0.48330259323120117,
+          0.4977586567401886,
+          0.01348408218473196
+        ]
+      }
+    },
+    "validation": {
+      "order": 9,
+      "question_id": "Feasibility_T5_305",
+      "video_id": "ZNQVC",
+      "category": "Feasibility",
+      "ground_truth": 2,
+      "prediction": 2,
+      "prediction_correct": 1,
+      "expected_prediction": 2,
+      "prediction_match": 1,
+      "top_event": 2,
+      "top_memory": "E03",
+      "expected_top_event": 2,
+      "top_memory_match": 1,
+      "top_prediction": 1,
+      "expected_top_prediction": 1,
+      "top_prediction_match": 1,
+      "top_abs_effect": 0.0521775484085083,
+      "expected_top_abs_effect": 0.0521775484085083,
+      "top_effect_match": 1,
+      "top_flip": 1,
+      "case_validation_ok": 1
+    }
+  },
+  {
+    "case": {
+      "question_id": "Feasibility_T5_2170",
+      "category": "Feasibility",
+      "video_id": "KFI7N",
+      "question": "Which object is the person able to throw after walking through the doorway?",
+      "option_a": "The broom.",
+      "option_b": "The bag.",
+      "option_c": "The clothes.",
+      "option_d": "The blanket.",
+      "answer": 0,
+      "baseline_prediction": 0,
+      "baseline_correct": 1,
+      "top_event": 5,
+      "bottom_event": 2,
+      "random_event": 2,
+      "top_abs_effect": 0.08011573553085327,
+      "bottom_abs_effect": 0.05685025453567505,
+      "random_abs_effect": 0.05685025453567505,
+      "top_signed_effect": -0.08011573553085327,
+      "bottom_signed_effect": -0.05685025453567505,
+      "random_signed_effect": -0.05685025453567505,
+      "top_prediction": 0,
+      "bottom_prediction": 0,
+      "random_prediction": 0,
+      "top_flip": 0,
+      "bottom_flip": 0,
+      "random_flip": 0,
+      "demo_order": 10,
+      "answer_letter": "A",
+      "prediction_letter": "A",
+      "top_prediction_letter": "A",
+      "top_memory": "E06",
+      "bottom_memory": "E03",
+      "random_memory": "E03",
+      "video_filename": "KFI7N.mp4",
+      "feature_filename": "KFI7N_s3d_official.npy",
+      "video_path": "../demo_videos/KFI7N.mp4",
+      "feature_path": "../demo_features/KFI7N_s3d_official.npy",
+      "video_valid": true,
+      "feature_valid": true,
+      "video_duration_seconds": 11.4114,
+      "feature_shape": [
+        33,
+        1024
+      ]
+    },
+    "runtime_result": {
+      "prediction": 0,
+      "prediction_letter": "A",
+      "prediction_probability": 0.5081151723861694,
+      "probabilities": [
+        0.5081151723861694,
+        0.1525682508945465,
+        0.17472012341022491,
+        0.16459642350673676
+      ],
+      "effects": [
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": -0.0684502124786377,
+          "absolute_effect": 0.0684502124786377,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5765653848648071,
+            0.13043959438800812,
+            0.1532241553068161,
+            0.13977089524269104
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": -0.06905823945999146,
+          "absolute_effect": 0.06905823945999146,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5771734118461609,
+            0.12939101457595825,
+            0.15249669551849365,
+            0.14093893766403198
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": -0.05685025453567505,
+          "absolute_effect": 0.05685025453567505,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5649654269218445,
+            0.1383250504732132,
+            0.154168963432312,
+            0.1425406038761139
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": -0.07226383686065674,
+          "absolute_effect": 0.07226383686065674,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5803790092468262,
+            0.12747137248516083,
+            0.15071649849414825,
+            0.14143313467502594
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": -0.06446892023086548,
+          "absolute_effect": 0.06446892023086548,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5725840926170349,
+            0.13069747388362885,
+            0.1540529429912567,
+            0.14266546070575714
+          ]
+        },
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": -0.08011573553085327,
+          "absolute_effect": 0.08011573553085327,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5882309079170227,
+            0.12670020759105682,
+            0.1479577124118805,
+            0.13711117208003998
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": -0.06396627426147461,
+          "absolute_effect": 0.06396627426147461,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.572081446647644,
+            0.13171546161174774,
+            0.15244930982589722,
+            0.14375367760658264
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": -0.07322341203689575,
+          "absolute_effect": 0.07322341203689575,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5813385844230652,
+            0.12881270051002502,
+            0.14873245358467102,
+            0.14111629128456116
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": -0.07510924339294434,
+          "absolute_effect": 0.07510924339294434,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5832244157791138,
+            0.12813884019851685,
+            0.14974190294742584,
+            0.13889482617378235
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": -0.05715489387512207,
+          "absolute_effect": 0.05715489387512207,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5652700662612915,
+            0.13125582039356232,
+            0.15588779747486115,
+            0.14758636057376862
+          ]
+        }
+      ],
+      "ranked_effects": [
+        {
+          "memory_index": 5,
+          "memory_name": "E06",
+          "signed_effect": -0.08011573553085327,
+          "absolute_effect": 0.08011573553085327,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5882309079170227,
+            0.12670020759105682,
+            0.1479577124118805,
+            0.13711117208003998
+          ]
+        },
+        {
+          "memory_index": 8,
+          "memory_name": "E09",
+          "signed_effect": -0.07510924339294434,
+          "absolute_effect": 0.07510924339294434,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5832244157791138,
+            0.12813884019851685,
+            0.14974190294742584,
+            0.13889482617378235
+          ]
+        },
+        {
+          "memory_index": 7,
+          "memory_name": "E08",
+          "signed_effect": -0.07322341203689575,
+          "absolute_effect": 0.07322341203689575,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5813385844230652,
+            0.12881270051002502,
+            0.14873245358467102,
+            0.14111629128456116
+          ]
+        },
+        {
+          "memory_index": 3,
+          "memory_name": "E04",
+          "signed_effect": -0.07226383686065674,
+          "absolute_effect": 0.07226383686065674,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5803790092468262,
+            0.12747137248516083,
+            0.15071649849414825,
+            0.14143313467502594
+          ]
+        },
+        {
+          "memory_index": 1,
+          "memory_name": "E02",
+          "signed_effect": -0.06905823945999146,
+          "absolute_effect": 0.06905823945999146,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5771734118461609,
+            0.12939101457595825,
+            0.15249669551849365,
+            0.14093893766403198
+          ]
+        },
+        {
+          "memory_index": 0,
+          "memory_name": "E01",
+          "signed_effect": -0.0684502124786377,
+          "absolute_effect": 0.0684502124786377,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5765653848648071,
+            0.13043959438800812,
+            0.1532241553068161,
+            0.13977089524269104
+          ]
+        },
+        {
+          "memory_index": 4,
+          "memory_name": "E05",
+          "signed_effect": -0.06446892023086548,
+          "absolute_effect": 0.06446892023086548,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5725840926170349,
+            0.13069747388362885,
+            0.1540529429912567,
+            0.14266546070575714
+          ]
+        },
+        {
+          "memory_index": 6,
+          "memory_name": "E07",
+          "signed_effect": -0.06396627426147461,
+          "absolute_effect": 0.06396627426147461,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.572081446647644,
+            0.13171546161174774,
+            0.15244930982589722,
+            0.14375367760658264
+          ]
+        },
+        {
+          "memory_index": 9,
+          "memory_name": "E10",
+          "signed_effect": -0.05715489387512207,
+          "absolute_effect": 0.05715489387512207,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5652700662612915,
+            0.13125582039356232,
+            0.15588779747486115,
+            0.14758636057376862
+          ]
+        },
+        {
+          "memory_index": 2,
+          "memory_name": "E03",
+          "signed_effect": -0.05685025453567505,
+          "absolute_effect": 0.05685025453567505,
+          "prediction_after": 0,
+          "prediction_after_letter": "A",
+          "flip": false,
+          "probabilities_after": [
+            0.5649654269218445,
+            0.1383250504732132,
+            0.154168963432312,
+            0.1425406038761139
+          ]
+        }
+      ],
+      "top": {
+        "memory_index": 5,
+        "memory_name": "E06",
+        "signed_effect": -0.08011573553085327,
+        "absolute_effect": 0.08011573553085327,
+        "prediction_after": 0,
+        "prediction_after_letter": "A",
+        "flip": false,
+        "probabilities_after": [
+          0.5882309079170227,
+          0.12670020759105682,
+          0.1479577124118805,
+          0.13711117208003998
+        ]
+      },
+      "bottom": {
+        "memory_index": 2,
+        "memory_name": "E03",
+        "signed_effect": -0.05685025453567505,
+        "absolute_effect": 0.05685025453567505,
+        "prediction_after": 0,
+        "prediction_after_letter": "A",
+        "flip": false,
+        "probabilities_after": [
+          0.5649654269218445,
+          0.1383250504732132,
+          0.154168963432312,
+          0.1425406038761139
+        ]
+      }
+    },
+    "validation": {
+      "order": 10,
+      "question_id": "Feasibility_T5_2170",
+      "video_id": "KFI7N",
+      "category": "Feasibility",
+      "ground_truth": 0,
+      "prediction": 0,
+      "prediction_correct": 1,
+      "expected_prediction": 0,
+      "prediction_match": 1,
+      "top_event": 5,
+      "top_memory": "E06",
+      "expected_top_event": 5,
+      "top_memory_match": 1,
+      "top_prediction": 0,
+      "expected_top_prediction": 0,
+      "top_prediction_match": 1,
+      "top_abs_effect": 0.08011573553085327,
+      "expected_top_abs_effect": 0.08011573553085327,
+      "top_effect_match": 1,
+      "top_flip": 0,
+      "case_validation_ok": 1
+    }
+  }
+]

@@ -1,0 +1,511 @@
+{
+  "profile_correlation": {
+    "mean": 0.9763945678023175,
+    "median": 0.9789481845250205,
+    "min": 0.9428550958138586,
+    "max": 0.9930813858126142
+  },
+  "interpretation": "The selectivity score compares each memory's response to a visual token against the responses of the other memories. It measures relative specificity, not semantic meaning.",
+  "memories": [
+    {
+      "memory": "E01",
+      "top_distinctive_regions": [
+        {
+          "memory": "E01",
+          "rank": 1,
+          "token": 16,
+          "specificity_z": -0.0384883684642269,
+          "sensitivity": 0.004718661308288574,
+          "excess_over_other_memories": -9.033415052626254e-06,
+          "approx_video_time_seconds": 6.0969255663430415
+        },
+        {
+          "memory": "E01",
+          "rank": 2,
+          "token": 15,
+          "specificity_z": -0.04029185358531485,
+          "sensitivity": 0.004254043102264404,
+          "excess_over_other_memories": -9.808275434706332e-06,
+          "approx_video_time_seconds": 5.799514563106796
+        },
+        {
+          "memory": "E01",
+          "rank": 3,
+          "token": 66,
+          "specificity_z": -0.13883716140958874,
+          "sensitivity": 0.0041465163230896,
+          "excess_over_other_memories": -3.522634506225586e-05,
+          "approx_video_time_seconds": 25.13122977346278
+        },
+        {
+          "memory": "E01",
+          "rank": 4,
+          "token": 14,
+          "specificity_z": -0.19371729171074256,
+          "sensitivity": 0.0031537413597106934,
+          "excess_over_other_memories": -3.9180119832356915e-05,
+          "approx_video_time_seconds": 5.50210355987055
+        },
+        {
+          "memory": "E01",
+          "rank": 5,
+          "token": 67,
+          "specificity_z": -0.2685523641895955,
+          "sensitivity": 0.0038996338844299316,
+          "excess_over_other_memories": -7.14527236090768e-05,
+          "approx_video_time_seconds": 25.726051779935272
+        }
+      ]
+    },
+    {
+      "memory": "E02",
+      "top_distinctive_regions": [
+        {
+          "memory": "E02",
+          "rank": 1,
+          "token": 68,
+          "specificity_z": 1.7300836694892388,
+          "sensitivity": 0.0038280487060546875,
+          "excess_over_other_memories": 0.00046606858571370457,
+          "approx_video_time_seconds": 26.02346278317152
+        },
+        {
+          "memory": "E02",
+          "rank": 2,
+          "token": 64,
+          "specificity_z": 1.6966292035708967,
+          "sensitivity": 0.0034134387969970703,
+          "excess_over_other_memories": 0.0002940098444620767,
+          "approx_video_time_seconds": 24.53640776699029
+        },
+        {
+          "memory": "E02",
+          "rank": 3,
+          "token": 67,
+          "specificity_z": 1.6791927927142842,
+          "sensitivity": 0.004366040229797363,
+          "excess_over_other_memories": 0.0004467765490214033,
+          "approx_video_time_seconds": 25.726051779935272
+        },
+        {
+          "memory": "E02",
+          "rank": 4,
+          "token": 65,
+          "specificity_z": 1.6657044042986777,
+          "sensitivity": 0.0041231513023376465,
+          "excess_over_other_memories": 0.0003560847706264919,
+          "approx_video_time_seconds": 24.833818770226536
+        },
+        {
+          "memory": "E02",
+          "rank": 5,
+          "token": 66,
+          "specificity_z": 1.6136589876860852,
+          "sensitivity": 0.004546701908111572,
+          "excess_over_other_memories": 0.0004094243049621582,
+          "approx_video_time_seconds": 25.13122977346278
+        }
+      ]
+    },
+    {
+      "memory": "E03",
+      "top_distinctive_regions": [
+        {
+          "memory": "E03",
+          "rank": 1,
+          "token": 53,
+          "specificity_z": 1.112040326689682,
+          "sensitivity": 0.0027811527252197266,
+          "excess_over_other_memories": 0.00011856026119656023,
+          "approx_video_time_seconds": 20.37265372168285
+        },
+        {
+          "memory": "E03",
+          "rank": 2,
+          "token": 79,
+          "specificity_z": 0.8243864138912412,
+          "sensitivity": 0.0015709996223449707,
+          "excess_over_other_memories": 7.867150836520734e-05,
+          "approx_video_time_seconds": 30.187216828478963
+        },
+        {
+          "memory": "E03",
+          "rank": 3,
+          "token": 78,
+          "specificity_z": 0.7672183224859348,
+          "sensitivity": 0.00273209810256958,
+          "excess_over_other_memories": 0.0001173747910393607,
+          "approx_video_time_seconds": 29.889805825242718
+        },
+        {
+          "memory": "E03",
+          "rank": 4,
+          "token": 77,
+          "specificity_z": 0.5792261228097364,
+          "sensitivity": 0.001984536647796631,
+          "excess_over_other_memories": 6.932682461208758e-05,
+          "approx_video_time_seconds": 29.592394822006472
+        },
+        {
+          "memory": "E03",
+          "rank": 5,
+          "token": 52,
+          "specificity_z": 0.5484917360666726,
+          "sensitivity": 0.0022166967391967773,
+          "excess_over_other_memories": 5.094210306803371e-05,
+          "approx_video_time_seconds": 19.777831715210358
+        }
+      ]
+    },
+    {
+      "memory": "E04",
+      "top_distinctive_regions": [
+        {
+          "memory": "E04",
+          "rank": 1,
+          "token": 44,
+          "specificity_z": 0.4463509239753614,
+          "sensitivity": 0.002932608127593994,
+          "excess_over_other_memories": 0.00013453430599636492,
+          "approx_video_time_seconds": 16.803721682847897
+        },
+        {
+          "memory": "E04",
+          "rank": 2,
+          "token": 67,
+          "specificity_z": 0.44159676458315456,
+          "sensitivity": 0.004069685935974121,
+          "excess_over_other_memories": 0.00011749400032891148,
+          "approx_video_time_seconds": 25.726051779935272
+        },
+        {
+          "memory": "E04",
+          "rank": 3,
+          "token": 45,
+          "specificity_z": 0.43666454479024586,
+          "sensitivity": 0.002748847007751465,
+          "excess_over_other_memories": 0.0001326335801018607,
+          "approx_video_time_seconds": 17.101132686084142
+        },
+        {
+          "memory": "E04",
+          "rank": 4,
+          "token": 40,
+          "specificity_z": 0.4358442655292932,
+          "sensitivity": 0.0027065277099609375,
+          "excess_over_other_memories": 0.00010967254638671875,
+          "approx_video_time_seconds": 15.316666666666666
+        },
+        {
+          "memory": "E04",
+          "rank": 5,
+          "token": 56,
+          "specificity_z": 0.4183005332182811,
+          "sensitivity": 0.0025863051414489746,
+          "excess_over_other_memories": 0.00012476576699150914,
+          "approx_video_time_seconds": 21.562297734627833
+        }
+      ]
+    },
+    {
+      "memory": "E05",
+      "top_distinctive_regions": [
+        {
+          "memory": "E05",
+          "rank": 1,
+          "token": 0,
+          "specificity_z": -0.46285016055104483,
+          "sensitivity": 0.0009086132049560547,
+          "excess_over_other_memories": -4.557106229994027e-05,
+          "approx_video_time_seconds": 0.14870550161812296
+        },
+        {
+          "memory": "E05",
+          "rank": 2,
+          "token": 73,
+          "specificity_z": -0.46592264124550425,
+          "sensitivity": 0.002440154552459717,
+          "excess_over_other_memories": -9.402963850233285e-05,
+          "approx_video_time_seconds": 27.807928802588997
+        },
+        {
+          "memory": "E05",
+          "rank": 3,
+          "token": 74,
+          "specificity_z": -0.4877350840234925,
+          "sensitivity": 0.0025166869163513184,
+          "excess_over_other_memories": -9.096993340386265e-05,
+          "approx_video_time_seconds": 28.40275080906149
+        },
+        {
+          "memory": "E05",
+          "rank": 4,
+          "token": 71,
+          "specificity_z": -0.48774152462138043,
+          "sensitivity": 0.0024603605270385742,
+          "excess_over_other_memories": -0.00011860662036471906,
+          "approx_video_time_seconds": 27.213106796116506
+        },
+        {
+          "memory": "E05",
+          "rank": 5,
+          "token": 72,
+          "specificity_z": -0.5282355003207342,
+          "sensitivity": 0.0023781657218933105,
+          "excess_over_other_memories": -0.00011688470840454102,
+          "approx_video_time_seconds": 27.51051779935275
+        }
+      ]
+    },
+    {
+      "memory": "E06",
+      "top_distinctive_regions": [
+        {
+          "memory": "E06",
+          "rank": 1,
+          "token": 51,
+          "specificity_z": 1.3365853767714353,
+          "sensitivity": 0.0019518733024597168,
+          "excess_over_other_memories": 0.00014270014233059344,
+          "approx_video_time_seconds": 19.480420711974112
+        },
+        {
+          "memory": "E06",
+          "rank": 2,
+          "token": 79,
+          "specificity_z": 1.146396091511862,
+          "sensitivity": 0.001598656177520752,
+          "excess_over_other_memories": 0.00010940101411607535,
+          "approx_video_time_seconds": 30.187216828478963
+        },
+        {
+          "memory": "E06",
+          "rank": 3,
+          "token": 78,
+          "specificity_z": 1.0862613195361708,
+          "sensitivity": 0.002776026725769043,
+          "excess_over_other_memories": 0.00016618437237209734,
+          "approx_video_time_seconds": 29.889805825242718
+        },
+        {
+          "memory": "E06",
+          "rank": 4,
+          "token": 52,
+          "specificity_z": 1.085431774103862,
+          "sensitivity": 0.0022615790367126465,
+          "excess_over_other_memories": 0.00010081132253011082,
+          "approx_video_time_seconds": 19.777831715210358
+        },
+        {
+          "memory": "E06",
+          "rank": 5,
+          "token": 18,
+          "specificity_z": 1.0199492638867784,
+          "sensitivity": 0.0033194422721862793,
+          "excess_over_other_memories": 0.00015344884660508902,
+          "approx_video_time_seconds": 6.98915857605178
+        }
+      ]
+    },
+    {
+      "memory": "E07",
+      "top_distinctive_regions": [
+        {
+          "memory": "E07",
+          "rank": 1,
+          "token": 18,
+          "specificity_z": 1.1414451623903394,
+          "sensitivity": 0.003335893154144287,
+          "excess_over_other_memories": 0.00017172760433620867,
+          "approx_video_time_seconds": 6.98915857605178
+        },
+        {
+          "memory": "E07",
+          "rank": 2,
+          "token": 19,
+          "specificity_z": 0.9927103299029791,
+          "sensitivity": 0.0030471086502075195,
+          "excess_over_other_memories": 0.00014856788847181527,
+          "approx_video_time_seconds": 7.286569579288026
+        },
+        {
+          "memory": "E07",
+          "rank": 3,
+          "token": 26,
+          "specificity_z": 0.8993316370720522,
+          "sensitivity": 0.0027706027030944824,
+          "excess_over_other_memories": 0.00016941626866658543,
+          "approx_video_time_seconds": 9.96326860841424
+        },
+        {
+          "memory": "E07",
+          "rank": 4,
+          "token": 17,
+          "specificity_z": 0.8588475593410597,
+          "sensitivity": 0.00402069091796875,
+          "excess_over_other_memories": 0.00015014410018920898,
+          "approx_video_time_seconds": 6.394336569579288
+        },
+        {
+          "memory": "E07",
+          "rank": 5,
+          "token": 27,
+          "specificity_z": 0.8362003116181281,
+          "sensitivity": 0.0029450058937072754,
+          "excess_over_other_memories": 0.00015094545152452262,
+          "approx_video_time_seconds": 10.260679611650486
+        }
+      ]
+    },
+    {
+      "memory": "E08",
+      "top_distinctive_regions": [
+        {
+          "memory": "E08",
+          "rank": 1,
+          "token": 29,
+          "specificity_z": 1.4530943618016952,
+          "sensitivity": 0.003686845302581787,
+          "excess_over_other_memories": 0.0003246201409233939,
+          "approx_video_time_seconds": 11.152912621359222
+        },
+        {
+          "memory": "E08",
+          "rank": 2,
+          "token": 30,
+          "specificity_z": 1.3886257539370048,
+          "sensitivity": 0.003735780715942383,
+          "excess_over_other_memories": 0.0002806650267706979,
+          "approx_video_time_seconds": 11.45032362459547
+        },
+        {
+          "memory": "E08",
+          "rank": 3,
+          "token": 65,
+          "specificity_z": 1.1687843856078302,
+          "sensitivity": 0.00402754545211792,
+          "excess_over_other_memories": 0.0002498560481601292,
+          "approx_video_time_seconds": 24.833818770226536
+        },
+        {
+          "memory": "E08",
+          "rank": 4,
+          "token": 66,
+          "specificity_z": 1.1323359464390756,
+          "sensitivity": 0.004436790943145752,
+          "excess_over_other_memories": 0.0002873010105556911,
+          "approx_video_time_seconds": 25.13122977346278
+        },
+        {
+          "memory": "E08",
+          "rank": 5,
+          "token": 77,
+          "specificity_z": 1.1115298390334343,
+          "sensitivity": 0.0020418763160705566,
+          "excess_over_other_memories": 0.00013303756713867188,
+          "approx_video_time_seconds": 29.592394822006472
+        }
+      ]
+    },
+    {
+      "memory": "E09",
+      "top_distinctive_regions": [
+        {
+          "memory": "E09",
+          "rank": 1,
+          "token": 15,
+          "specificity_z": 2.5020941812205764,
+          "sensitivity": 0.00481104850769043,
+          "excess_over_other_memories": 0.0006090866194831002,
+          "approx_video_time_seconds": 5.799514563106796
+        },
+        {
+          "memory": "E09",
+          "rank": 2,
+          "token": 14,
+          "specificity_z": 2.436987105862127,
+          "sensitivity": 0.0036326050758361816,
+          "excess_over_other_memories": 0.0004928906758626304,
+          "approx_video_time_seconds": 5.50210355987055
+        },
+        {
+          "memory": "E09",
+          "rank": 3,
+          "token": 13,
+          "specificity_z": 2.432756895937856,
+          "sensitivity": 0.0028310418128967285,
+          "excess_over_other_memories": 0.00042251745859781887,
+          "approx_video_time_seconds": 4.907281553398058
+        },
+        {
+          "memory": "E09",
+          "rank": 4,
+          "token": 16,
+          "specificity_z": 2.407667542213172,
+          "sensitivity": 0.0052353739738464355,
+          "excess_over_other_memories": 0.0005650917689005537,
+          "approx_video_time_seconds": 6.0969255663430415
+        },
+        {
+          "memory": "E09",
+          "rank": 5,
+          "token": 0,
+          "specificity_z": 2.2923224271790503,
+          "sensitivity": 0.0011527538299560547,
+          "excess_over_other_memories": 0.00022569629881117074,
+          "approx_video_time_seconds": 0.14870550161812296
+        }
+      ]
+    },
+    {
+      "memory": "E10",
+      "top_distinctive_regions": [
+        {
+          "memory": "E10",
+          "rank": 1,
+          "token": 79,
+          "specificity_z": 2.0562122280649526,
+          "sensitivity": 0.001676797866821289,
+          "excess_over_other_memories": 0.00019622511333889422,
+          "approx_video_time_seconds": 30.187216828478963
+        },
+        {
+          "memory": "E10",
+          "rank": 2,
+          "token": 9,
+          "specificity_z": 1.944818829903196,
+          "sensitivity": 0.0018732547760009766,
+          "excess_over_other_memories": 0.0004153582784864637,
+          "approx_video_time_seconds": 3.420226537216829
+        },
+        {
+          "memory": "E10",
+          "rank": 3,
+          "token": 78,
+          "specificity_z": 1.8468563613506408,
+          "sensitivity": 0.0028807520866394043,
+          "excess_over_other_memories": 0.00028254588445027684,
+          "approx_video_time_seconds": 29.889805825242718
+        },
+        {
+          "memory": "E10",
+          "rank": 4,
+          "token": 8,
+          "specificity_z": 1.829735900946044,
+          "sensitivity": 0.0018749833106994629,
+          "excess_over_other_memories": 0.0004100932015313043,
+          "approx_video_time_seconds": 3.1228155339805825
+        },
+        {
+          "memory": "E10",
+          "rank": 5,
+          "token": 40,
+          "specificity_z": 1.7718016881299528,
+          "sensitivity": 0.0030090808868408203,
+          "excess_over_other_memories": 0.0004458427429199219,
+          "approx_video_time_seconds": 15.316666666666666
+        }
+      ]
+    }
+  ]
+}

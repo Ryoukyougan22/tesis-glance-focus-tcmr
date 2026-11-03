@@ -1,0 +1,167 @@
+{
+  "cases": [
+    {
+      "question_id": "Sequence_T3_4937",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "state_cleared": true
+    },
+    {
+      "question_id": "Sequence_T4_3292",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "state_cleared": true
+    },
+    {
+      "question_id": "Sequence_T3_6255",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "state_cleared": true
+    },
+    {
+      "question_id": "Interaction_T1_262",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "state_cleared": true
+    },
+    {
+      "question_id": "Interaction_T4_572",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "state_cleared": true
+    },
+    {
+      "question_id": "Interaction_T1_7248",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "state_cleared": true
+    },
+    {
+      "question_id": "Prediction_T4_634",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "state_cleared": true
+    },
+    {
+      "question_id": "Prediction_T1_1408",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "state_cleared": true
+    },
+    {
+      "question_id": "Feasibility_T5_305",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "state_cleared": true
+    },
+    {
+      "question_id": "Feasibility_T5_2170",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "state_cleared": true
+    }
+  ],
+  "memories": 100,
+  "frames_decoded": 252,
+  "errors": []
+}

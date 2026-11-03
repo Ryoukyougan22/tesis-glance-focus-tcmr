@@ -1,0 +1,11 @@
+case_id,category,question,num_memories,sensitivity_ok,selectivity_ok,output_folder,representation_stage,metrics_recomputed_from_saved_refined_vectors_ok,final_pipeline_alignment_max_abs_error
+RKGG5,Sequence,What happened after the person sat on the sofa/couch?,10,True,True,results/memory_visual_sensitivity_final/RKGG5,tcmr_refined,True,1.0251998901367188e-05
+DQEC3,Sequence,What happened before the person opened the bag?,10,True,True,results/memory_visual_sensitivity_final/DQEC3,tcmr_refined,True,9.506940841674805e-06
+UEP20,Sequence,What happened after the person lied on the bed?,10,True,True,results/memory_visual_sensitivity_final/UEP20,tcmr_refined,True,0.0
+6CAZU,Interaction,Which object was taken by the person?,10,True,True,results/memory_visual_sensitivity_final/6CAZU,tcmr_refined,True,0.0
+8SDK5,Interaction,What did the person do while they were leaning on the chair and carrying the box?,10,True,True,results/memory_visual_sensitivity_final/8SDK5,tcmr_refined,True,9.88692045211792e-06
+QPX3S,Interaction,Which object was put down by the person?,10,True,True,results/memory_visual_sensitivity_final/QPX3S,tcmr_refined,True,0.0
+IO712,Prediction,Which object would the person open next after they close the window?,10,True,True,results/memory_visual_sensitivity_final/IO712,tcmr_refined,True,0.0
+I1OLQ,Prediction,What will the person do next?,10,True,True,results/memory_visual_sensitivity_final/I1OLQ,tcmr_refined,True,0.0
+ZNQVC,Feasibility,Which object is the person able to take after grasping onto the doorknob?,10,True,True,results/memory_visual_sensitivity_final/ZNQVC,tcmr_refined,True,1.0848045349121094e-05
+KFI7N,Feasibility,Which object is the person able to throw after walking through the doorway?,10,True,True,results/memory_visual_sensitivity_final/KFI7N,tcmr_refined,True,9.775161743164062e-06

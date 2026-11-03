@@ -1,0 +1,11 @@
+question_id,video_id,inference,memories,interventions,visual_stage,frames
+Sequence_T3_4937,RKGG5,PASS,10,10,tcmr_refined,30
+Sequence_T4_3292,DQEC3,PASS,10,10,tcmr_refined,30
+Sequence_T3_6255,UEP20,PASS,10,10,tcmr_refined,30
+Interaction_T1_262,6CAZU,PASS,10,10,tcmr_refined,30
+Interaction_T4_572,8SDK5,PASS,10,10,tcmr_refined,30
+Interaction_T1_7248,QPX3S,PASS,10,10,tcmr_refined,30
+Prediction_T4_634,IO712,PASS,10,10,tcmr_refined,30
+Prediction_T1_1408,I1OLQ,PASS,10,10,tcmr_refined,30
+Feasibility_T5_305,ZNQVC,PASS,10,10,tcmr_refined,30
+Feasibility_T5_2170,KFI7N,PASS,10,10,tcmr_refined,30

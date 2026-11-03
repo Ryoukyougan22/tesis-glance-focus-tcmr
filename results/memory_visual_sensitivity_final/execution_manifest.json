@@ -1,0 +1,19 @@
+{
+  "representation_stage": "tcmr_refined",
+  "checkpoints_sha256": {
+    "checkpoints/star/model_3000.tar": "74e3c2064d61ee4762c2d1cac8853017124a3c47df3e351ae7a3dd066c765326",
+    "checkpoints/tcmr/temporal_relation_encoder_historical.pt": "8a30ff3e331fe40a121a0b6e3f6c13182fd3216caee5664fcf124336ad569eb9"
+  },
+  "batch_size": 1,
+  "seed": 42,
+  "window": 3,
+  "top_k": 5,
+  "environment": {
+    "python": "3.7.16",
+    "torch": "1.11.0+cu113",
+    "numpy": "1.21.6",
+    "device": "cuda:0"
+  },
+  "original_manifest_sha256": "636f86c396c9809852e4d4a03691180e38a4af7dc93bd5898d99e481d0bbc547",
+  "note": "Minimal publication manifest; private execution paths omitted. Numerical artifacts unchanged."
+}

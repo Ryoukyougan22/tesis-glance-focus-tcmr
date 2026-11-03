@@ -1,0 +1,4432 @@
+{
+  "configuration": {
+    "representation_stage": "tcmr_refined",
+    "gf_checkpoint": "checkpoints/star/model_3000.tar",
+    "gf_sha256": "74e3c2064d61ee4762c2d1cac8853017124a3c47df3e351ae7a3dd066c765326",
+    "tcmr_checkpoint": "checkpoints/tcmr/temporal_relation_encoder_historical.pt",
+    "tcmr_sha256": "8a30ff3e331fe40a121a0b6e3f6c13182fd3216caee5664fcf124336ad569eb9",
+    "visual_root": "results/memory_visual_sensitivity_final",
+    "cases": "results/demo_library/demo_cases_10_prepared.json",
+    "reference": "results/demo_library/validation_10/validation_10_detailed.json",
+    "batch_size": 1,
+    "seed": 42,
+    "atol": 1e-05,
+    "rtol": 0
+  },
+  "cases": [
+    {
+      "question_id": "Sequence_T3_4937",
+      "video_id": "RKGG5",
+      "analysis": {
+        "case_id": "Sequence_T3_4937",
+        "baseline": {
+          "probabilities": [
+            0.32992127537727356,
+            0.241067573428154,
+            0.39282697439193726,
+            0.03618424013257027
+          ],
+          "prediction": "C",
+          "answer": "Threw the broom.",
+          "probability": 0.39282697439193726,
+          "correct": true
+        },
+        "current": {
+          "probabilities": [
+            0.32992127537727356,
+            0.241067573428154,
+            0.39282697439193726,
+            0.03618424013257027
+          ],
+          "prediction": "C",
+          "answer": "Threw the broom.",
+          "probability": 0.39282697439193726,
+          "correct": true
+        },
+        "selected": null,
+        "reference_match": true,
+        "source": "live_model",
+        "methodological_note": "Las intervenciones permiten analizar la influencia de las representaciones internas sobre la decisión del modelo. No representan necesariamente relaciones causales físicas entre eventos del video.",
+        "memories": [
+          {
+            "memory": "E04",
+            "index": 4,
+            "description": "Representación latente interna",
+            "delta": 0.04078325629234314,
+            "absolute_delta": 0.04078325629234314,
+            "original_answer_probability_after": 0.3520437180995941,
+            "after": {
+              "probabilities": [
+                0.3630622923374176,
+                0.2531195282936096,
+                0.3520437180995941,
+                0.03177451714873314
+              ],
+              "prediction": "A",
+              "answer": "Took the phone/camera.",
+              "probability": 0.3630622923374176,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 1
+          },
+          {
+            "memory": "E02",
+            "index": 2,
+            "description": "Representación latente interna",
+            "delta": 0.034997791051864624,
+            "absolute_delta": 0.034997791051864624,
+            "original_answer_probability_after": 0.35782918334007263,
+            "after": {
+              "probabilities": [
+                0.355965793132782,
+                0.2546820342540741,
+                0.35782918334007263,
+                0.0315229594707489
+              ],
+              "prediction": "C",
+              "answer": "Threw the broom.",
+              "probability": 0.35782918334007263,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 2
+          },
+          {
+            "memory": "E03",
+            "index": 3,
+            "description": "Representación latente interna",
+            "delta": 0.03360816836357117,
+            "absolute_delta": 0.03360816836357117,
+            "original_answer_probability_after": 0.3592188060283661,
+            "after": {
+              "probabilities": [
+                0.3579785227775574,
+                0.2504613995552063,
+                0.3592188060283661,
+                0.03234121575951576
+              ],
+              "prediction": "C",
+              "answer": "Threw the broom.",
+              "probability": 0.3592188060283661,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 3
+          },
+          {
+            "memory": "E09",
+            "index": 9,
+            "description": "Representación latente interna",
+            "delta": 0.0333307683467865,
+            "absolute_delta": 0.0333307683467865,
+            "original_answer_probability_after": 0.35949620604515076,
+            "after": {
+              "probabilities": [
+                0.35332056879997253,
+                0.2543526291847229,
+                0.35949620604515076,
+                0.03283054754137993
+              ],
+              "prediction": "C",
+              "answer": "Threw the broom.",
+              "probability": 0.35949620604515076,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 4
+          },
+          {
+            "memory": "E10",
+            "index": 10,
+            "description": "Representación latente interna",
+            "delta": 0.03209403157234192,
+            "absolute_delta": 0.03209403157234192,
+            "original_answer_probability_after": 0.36073294281959534,
+            "after": {
+              "probabilities": [
+                0.3528902530670166,
+                0.254581093788147,
+                0.36073294281959534,
+                0.03179573267698288
+              ],
+              "prediction": "C",
+              "answer": "Threw the broom.",
+              "probability": 0.36073294281959534,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 5
+          },
+          {
+            "memory": "E01",
+            "index": 1,
+            "description": "Representación latente interna",
+            "delta": 0.03174290060997009,
+            "absolute_delta": 0.03174290060997009,
+            "original_answer_probability_after": 0.36108407378196716,
+            "after": {
+              "probabilities": [
+                0.34930557012557983,
+                0.25744426250457764,
+                0.36108407378196716,
+                0.032166074961423874
+              ],
+              "prediction": "C",
+              "answer": "Threw the broom.",
+              "probability": 0.36108407378196716,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 6
+          },
+          {
+            "memory": "E06",
+            "index": 6,
+            "description": "Representación latente interna",
+            "delta": 0.03085428476333618,
+            "absolute_delta": 0.03085428476333618,
+            "original_answer_probability_after": 0.3619726896286011,
+            "after": {
+              "probabilities": [
+                0.35142824053764343,
+                0.2538679242134094,
+                0.3619726896286011,
+                0.03273113816976547
+              ],
+              "prediction": "C",
+              "answer": "Threw the broom.",
+              "probability": 0.3619726896286011,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 7
+          },
+          {
+            "memory": "E07",
+            "index": 7,
+            "description": "Representación latente interna",
+            "delta": 0.028280287981033325,
+            "absolute_delta": 0.028280287981033325,
+            "original_answer_probability_after": 0.36454668641090393,
+            "after": {
+              "probabilities": [
+                0.34989050030708313,
+                0.2531587779521942,
+                0.36454668641090393,
+                0.03240397945046425
+              ],
+              "prediction": "C",
+              "answer": "Threw the broom.",
+              "probability": 0.36454668641090393,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 8
+          },
+          {
+            "memory": "E08",
+            "index": 8,
+            "description": "Representación latente interna",
+            "delta": 0.02785855531692505,
+            "absolute_delta": 0.02785855531692505,
+            "original_answer_probability_after": 0.3649684190750122,
+            "after": {
+              "probabilities": [
+                0.3481350541114807,
+                0.2543559968471527,
+                0.3649684190750122,
+                0.03254053741693497
+              ],
+              "prediction": "C",
+              "answer": "Threw the broom.",
+              "probability": 0.3649684190750122,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 9
+          },
+          {
+            "memory": "E05",
+            "index": 5,
+            "description": "Representación latente interna",
+            "delta": 0.02687820792198181,
+            "absolute_delta": 0.02687820792198181,
+            "original_answer_probability_after": 0.36594876646995544,
+            "after": {
+              "probabilities": [
+                0.35500094294548035,
+                0.24722528457641602,
+                0.36594876646995544,
+                0.03182497248053551
+              ],
+              "prediction": "C",
+              "answer": "Threw the broom.",
+              "probability": 0.36594876646995544,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 10
+          }
+        ],
+        "top": 4,
+        "bottom": 5,
+        "random": 6,
+        "random_seed": 42,
+        "technical": {
+          "device": "cuda:0",
+          "checkpoint_sha256": {
+            "gf": "74e3c2064d61ee4762c2d1cac8853017124a3c47df3e351ae7a3dd066c765326",
+            "tcmr": "8a30ff3e331fe40a121a0b6e3f6c13182fd3216caee5664fcf124336ad569eb9"
+          },
+          "gf_checkpoint": "model_3000.tar",
+          "tcmr_checkpoint": "temporal_relation_encoder_seed42_git_287b173f.pt",
+          "feature_filename": "RKGG5_s3d_official.npy",
+          "tcmr_alpha": 0.15344971418380737,
+          "random_seed": 42,
+          "question_batch_size": 1,
+          "execution_ms": 1519.93,
+          "operation": "analysis"
+        }
+      },
+      "grounding_source": "results/memory_visual_sensitivity_final/RKGG5/memory_visual_selectivity.json",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "frames": [
+        {
+          "memory": "E01",
+          "rank": 1,
+          "sha256": "1ba658da985003a6f3f9f2a96aa5efd99df0b9a57918d811b8bdae44352d2a2c"
+        },
+        {
+          "memory": "E01",
+          "rank": 2,
+          "sha256": "b3c53204b84bdc8b47dfdfc797f4eecbc6882b5f3ee740ee9262a668b28379fe"
+        },
+        {
+          "memory": "E01",
+          "rank": 3,
+          "sha256": "966d198586f52d5643b3f8012631aa72eacd225c155f2b3b8e22a9dd82b082e2"
+        },
+        {
+          "memory": "E02",
+          "rank": 1,
+          "sha256": "512f2149405288abe622575d35a2e241581a55a78931ab754199841ad58982c6"
+        },
+        {
+          "memory": "E02",
+          "rank": 2,
+          "sha256": "9694e63892593bd6bbbbd85a54a852e39b0e25c0ed57af92d2681acfdde6a047"
+        },
+        {
+          "memory": "E02",
+          "rank": 3,
+          "sha256": "5497dba1930dc97e1da3dbe61005a0b5074c88afa911614c2d6c9e97896a9627"
+        },
+        {
+          "memory": "E03",
+          "rank": 1,
+          "sha256": "dc4c984be4d8b1b810a4933c9a548bbe1236e7e50161bc99e87317a890fb3d8d"
+        },
+        {
+          "memory": "E03",
+          "rank": 2,
+          "sha256": "08b84ee90cb3d11938604accfdd6c550e230de895c441bd08c3a35534e68a879"
+        },
+        {
+          "memory": "E03",
+          "rank": 3,
+          "sha256": "dd78762f900e7e140b704637dc951a54f56f489261511460d1c965c8e372cc7e"
+        },
+        {
+          "memory": "E04",
+          "rank": 1,
+          "sha256": "69343d1d27b58c25b0072a0218e6912759f88a8f8e510d3e8732c4e6dff6882c"
+        },
+        {
+          "memory": "E04",
+          "rank": 2,
+          "sha256": "748b05d86f24d1fdd8b1b170487965bdbe8257430aee78d6e8fd219869a8e6a3"
+        },
+        {
+          "memory": "E04",
+          "rank": 3,
+          "sha256": "02ca543d556f4a6babf3162f486b8c9786fe7d3c33be07b77026a1864596e070"
+        },
+        {
+          "memory": "E05",
+          "rank": 1,
+          "sha256": "9e7956edc9b06231be8781eb3ed9d88a9e5b122f51ddc453a90cbde66356e71c"
+        },
+        {
+          "memory": "E05",
+          "rank": 2,
+          "sha256": "7fc448db008adc9126e31804f8e0f881d09c546bf13fb5b20ec53e1d8ce387c3"
+        },
+        {
+          "memory": "E05",
+          "rank": 3,
+          "sha256": "eb77e1926132df33b4d176edc2c61db8c23f4dedabd0a2ec9f6774b6c73bf0fc"
+        },
+        {
+          "memory": "E06",
+          "rank": 1,
+          "sha256": "1017b9146241a7ff1eafa907fc832a7a4611e9d2b46e13b0a287f0f9f3c2e093"
+        },
+        {
+          "memory": "E06",
+          "rank": 2,
+          "sha256": "65364a0790baa0d574077c4a09bff8ce7ba90e0dfd6ef9a9addb252500aa5a14"
+        },
+        {
+          "memory": "E06",
+          "rank": 3,
+          "sha256": "b84df36f7f394e06ef3fe27ef063016b0323f9a5a24526e98511ae358f5653f3"
+        },
+        {
+          "memory": "E07",
+          "rank": 1,
+          "sha256": "8009d682cbeb5858b7a292e432f4d5fd5a5f27837657a417d0bcb1d40b40694f"
+        },
+        {
+          "memory": "E07",
+          "rank": 2,
+          "sha256": "d717d212332ec707992d875cd302c35b6284048a6d99ed81988fb5334053dd97"
+        },
+        {
+          "memory": "E07",
+          "rank": 3,
+          "sha256": "b3b4f8e67e5420bf5f26017e677e247be30f45f0a90db34e5c3f802e2fff1ea1"
+        },
+        {
+          "memory": "E08",
+          "rank": 1,
+          "sha256": "7fc448db008adc9126e31804f8e0f881d09c546bf13fb5b20ec53e1d8ce387c3"
+        },
+        {
+          "memory": "E08",
+          "rank": 2,
+          "sha256": "785ed1b02f00f965e940a02c731b495059be19234eff7e5106e3c4e142d1340d"
+        },
+        {
+          "memory": "E08",
+          "rank": 3,
+          "sha256": "ae662538f7a9b1b18bb282da232a322168e54915715e099b7f5c76ec28a2d041"
+        },
+        {
+          "memory": "E09",
+          "rank": 1,
+          "sha256": "b37f070734ef6f9fce93aeabc8d30c752a955d62cdb56f7f8ff32fe35448bc4a"
+        },
+        {
+          "memory": "E09",
+          "rank": 2,
+          "sha256": "db9bcd37ceae5c842cef4c3a6d35d3464219153cd3ab1ead0ea583f56d96684b"
+        },
+        {
+          "memory": "E09",
+          "rank": 3,
+          "sha256": "7f3b39984b632fc61141b2956be7bfa4d587c702f67ef2a7a78502167f906dc1"
+        },
+        {
+          "memory": "E10",
+          "rank": 1,
+          "sha256": "9e7956edc9b06231be8781eb3ed9d88a9e5b122f51ddc453a90cbde66356e71c"
+        },
+        {
+          "memory": "E10",
+          "rank": 2,
+          "sha256": "eb77e1926132df33b4d176edc2c61db8c23f4dedabd0a2ec9f6774b6c73bf0fc"
+        },
+        {
+          "memory": "E10",
+          "rank": 3,
+          "sha256": "0c718db52f44ae3c5a38be3a519740f428734d096efae9104b85a4ed952899c4"
+        }
+      ]
+    },
+    {
+      "question_id": "Sequence_T4_3292",
+      "video_id": "DQEC3",
+      "analysis": {
+        "case_id": "Sequence_T4_3292",
+        "baseline": {
+          "probabilities": [
+            0.5162521004676819,
+            0.4566696584224701,
+            0.017662907019257545,
+            0.009415281936526299
+          ],
+          "prediction": "A",
+          "answer": "Tidied up the closet/cabinet.",
+          "probability": 0.5162521004676819,
+          "correct": true
+        },
+        "current": {
+          "probabilities": [
+            0.5162521004676819,
+            0.4566696584224701,
+            0.017662907019257545,
+            0.009415281936526299
+          ],
+          "prediction": "A",
+          "answer": "Tidied up the closet/cabinet.",
+          "probability": 0.5162521004676819,
+          "correct": true
+        },
+        "selected": null,
+        "reference_match": true,
+        "source": "live_model",
+        "methodological_note": "Las intervenciones permiten analizar la influencia de las representaciones internas sobre la decisión del modelo. No representan necesariamente relaciones causales físicas entre eventos del video.",
+        "memories": [
+          {
+            "memory": "E08",
+            "index": 8,
+            "description": "Representación latente interna",
+            "delta": 0.03752508759498596,
+            "absolute_delta": 0.03752508759498596,
+            "original_answer_probability_after": 0.4787270128726959,
+            "after": {
+              "probabilities": [
+                0.4787270128726959,
+                0.4992208778858185,
+                0.014413783326745033,
+                0.007638351991772652
+              ],
+              "prediction": "B",
+              "answer": "Put down the towel.",
+              "probability": 0.4992208778858185,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 1
+          },
+          {
+            "memory": "E03",
+            "index": 3,
+            "description": "Representación latente interna",
+            "delta": 0.035860151052474976,
+            "absolute_delta": 0.035860151052474976,
+            "original_answer_probability_after": 0.4803919494152069,
+            "after": {
+              "probabilities": [
+                0.4803919494152069,
+                0.4977051317691803,
+                0.0144039336591959,
+                0.007499007973819971
+              ],
+              "prediction": "B",
+              "answer": "Put down the towel.",
+              "probability": 0.4977051317691803,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 2
+          },
+          {
+            "memory": "E06",
+            "index": 6,
+            "description": "Representación latente interna",
+            "delta": 0.031662583351135254,
+            "absolute_delta": 0.031662583351135254,
+            "original_answer_probability_after": 0.48458951711654663,
+            "after": {
+              "probabilities": [
+                0.48458951711654663,
+                0.49366822838783264,
+                0.0142802270129323,
+                0.007462019100785255
+              ],
+              "prediction": "B",
+              "answer": "Put down the towel.",
+              "probability": 0.49366822838783264,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 3
+          },
+          {
+            "memory": "E05",
+            "index": 5,
+            "description": "Representación latente interna",
+            "delta": 0.02641955018043518,
+            "absolute_delta": 0.02641955018043518,
+            "original_answer_probability_after": 0.4898325502872467,
+            "after": {
+              "probabilities": [
+                0.4898325502872467,
+                0.4878043532371521,
+                0.014668981544673443,
+                0.0076940422877669334
+              ],
+              "prediction": "A",
+              "answer": "Tidied up the closet/cabinet.",
+              "probability": 0.4898325502872467,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 4
+          },
+          {
+            "memory": "E02",
+            "index": 2,
+            "description": "Representación latente interna",
+            "delta": 0.024209320545196533,
+            "absolute_delta": 0.024209320545196533,
+            "original_answer_probability_after": 0.49204277992248535,
+            "after": {
+              "probabilities": [
+                0.49204277992248535,
+                0.4857673943042755,
+                0.014632700011134148,
+                0.007557123899459839
+              ],
+              "prediction": "A",
+              "answer": "Tidied up the closet/cabinet.",
+              "probability": 0.49204277992248535,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 5
+          },
+          {
+            "memory": "E10",
+            "index": 10,
+            "description": "Representación latente interna",
+            "delta": 0.023595720529556274,
+            "absolute_delta": 0.023595720529556274,
+            "original_answer_probability_after": 0.4926563799381256,
+            "after": {
+              "probabilities": [
+                0.4926563799381256,
+                0.48534831404685974,
+                0.014454272575676441,
+                0.007541114930063486
+              ],
+              "prediction": "A",
+              "answer": "Tidied up the closet/cabinet.",
+              "probability": 0.4926563799381256,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 6
+          },
+          {
+            "memory": "E01",
+            "index": 1,
+            "description": "Representación latente interna",
+            "delta": 0.02332592010498047,
+            "absolute_delta": 0.02332592010498047,
+            "original_answer_probability_after": 0.4929261803627014,
+            "after": {
+              "probabilities": [
+                0.4929261803627014,
+                0.48572319746017456,
+                0.013930517248809338,
+                0.0074200681410729885
+              ],
+              "prediction": "A",
+              "answer": "Tidied up the closet/cabinet.",
+              "probability": 0.4929261803627014,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 7
+          },
+          {
+            "memory": "E07",
+            "index": 7,
+            "description": "Representación latente interna",
+            "delta": 0.021050870418548584,
+            "absolute_delta": 0.021050870418548584,
+            "original_answer_probability_after": 0.4952012300491333,
+            "after": {
+              "probabilities": [
+                0.4952012300491333,
+                0.48305875062942505,
+                0.014309621416032314,
+                0.00743041280657053
+              ],
+              "prediction": "A",
+              "answer": "Tidied up the closet/cabinet.",
+              "probability": 0.4952012300491333,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 8
+          },
+          {
+            "memory": "E09",
+            "index": 9,
+            "description": "Representación latente interna",
+            "delta": 0.019353240728378296,
+            "absolute_delta": 0.019353240728378296,
+            "original_answer_probability_after": 0.4968988597393036,
+            "after": {
+              "probabilities": [
+                0.4968988597393036,
+                0.48058488965034485,
+                0.014826936647295952,
+                0.00768935214728117
+              ],
+              "prediction": "A",
+              "answer": "Tidied up the closet/cabinet.",
+              "probability": 0.4968988597393036,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 9
+          },
+          {
+            "memory": "E04",
+            "index": 4,
+            "description": "Representación latente interna",
+            "delta": 0.005041658878326416,
+            "absolute_delta": 0.005041658878326416,
+            "original_answer_probability_after": 0.5112104415893555,
+            "after": {
+              "probabilities": [
+                0.5112104415893555,
+                0.46655958890914917,
+                0.014641448855400085,
+                0.007588486187160015
+              ],
+              "prediction": "A",
+              "answer": "Tidied up the closet/cabinet.",
+              "probability": 0.5112104415893555,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 10
+          }
+        ],
+        "top": 8,
+        "bottom": 4,
+        "random": 7,
+        "random_seed": 42,
+        "technical": {
+          "device": "cuda:0",
+          "checkpoint_sha256": {
+            "gf": "74e3c2064d61ee4762c2d1cac8853017124a3c47df3e351ae7a3dd066c765326",
+            "tcmr": "8a30ff3e331fe40a121a0b6e3f6c13182fd3216caee5664fcf124336ad569eb9"
+          },
+          "gf_checkpoint": "model_3000.tar",
+          "tcmr_checkpoint": "temporal_relation_encoder_seed42_git_287b173f.pt",
+          "feature_filename": "DQEC3_s3d_official.npy",
+          "tcmr_alpha": 0.15344971418380737,
+          "random_seed": 42,
+          "question_batch_size": 1,
+          "execution_ms": 288.13,
+          "operation": "analysis"
+        }
+      },
+      "grounding_source": "results/memory_visual_sensitivity_final/DQEC3/memory_visual_selectivity.json",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "frames": [
+        {
+          "memory": "E01",
+          "rank": 1,
+          "sha256": "a7c570fac274f64af15a5a25c3afe3094389b8ba568d8138cc7adfd1da811a0a"
+        },
+        {
+          "memory": "E01",
+          "rank": 2,
+          "sha256": "6af1c495c787b515855a6f0cb1fa4d9585b8049e8c6cd9bc812c7dc5d3bd8a31"
+        },
+        {
+          "memory": "E01",
+          "rank": 3,
+          "sha256": "d7255134ba9eb9e9d6e7f76069ff0d44ee6830ea3934b537926f659a0907d49f"
+        },
+        {
+          "memory": "E02",
+          "rank": 1,
+          "sha256": "9b9c862add964401f77adfd27626d8550fa592499513a0e057a7f88531186a40"
+        },
+        {
+          "memory": "E02",
+          "rank": 2,
+          "sha256": "92e7956a0d944a978fc190470ff936f291827f37fc283157a96581ef0f3c16f7"
+        },
+        {
+          "memory": "E02",
+          "rank": 3,
+          "sha256": "81e9d0e551e0f35ec3d85f8f3ed36c689ff999bbc6595581712e9cbb9d97196c"
+        },
+        {
+          "memory": "E03",
+          "rank": 1,
+          "sha256": "3962505db0d169324838fa9d5d6b758fe7d4ce5c94154d26f8eb1f24a717ce00"
+        },
+        {
+          "memory": "E03",
+          "rank": 2,
+          "sha256": "5361602b7652d5558ee7d3d7887c5a0a1a87518fd7c9d75d5ed8d91bb31dc3a0"
+        },
+        {
+          "memory": "E03",
+          "rank": 3,
+          "sha256": "cb9fd34def5ceb2abed6c78310941d74aab38fcea9fb80d7e6b42ab457b1f762"
+        },
+        {
+          "memory": "E04",
+          "rank": 1,
+          "sha256": "3962505db0d169324838fa9d5d6b758fe7d4ce5c94154d26f8eb1f24a717ce00"
+        },
+        {
+          "memory": "E04",
+          "rank": 2,
+          "sha256": "5361602b7652d5558ee7d3d7887c5a0a1a87518fd7c9d75d5ed8d91bb31dc3a0"
+        },
+        {
+          "memory": "E04",
+          "rank": 3,
+          "sha256": "cb9fd34def5ceb2abed6c78310941d74aab38fcea9fb80d7e6b42ab457b1f762"
+        },
+        {
+          "memory": "E05",
+          "rank": 1,
+          "sha256": "0719d01126ab3b8e4099c9d737d167c24f0664cecb15ee46eb8a8b6d37a48b6d"
+        },
+        {
+          "memory": "E05",
+          "rank": 2,
+          "sha256": "ebc9fe9bb26f05cc4753931de21d10f45c016160d709935b8ccf9ff19bfbd54d"
+        },
+        {
+          "memory": "E05",
+          "rank": 3,
+          "sha256": "3e38aa4eab740959ef70d5f99b178170ece559b1678321ec8333a8cd52b95ea7"
+        },
+        {
+          "memory": "E06",
+          "rank": 1,
+          "sha256": "c1de545b69bfa969e7f728afbb2e0dcdbfd6ec447c3f927200f3187310fbba87"
+        },
+        {
+          "memory": "E06",
+          "rank": 2,
+          "sha256": "eea39bf307e6e96bc16ac40e1d45e3f3066278e8d5aef61d6348d7e80e360f1a"
+        },
+        {
+          "memory": "E06",
+          "rank": 3,
+          "sha256": "d87a4e90a5e3e96c8c70e86756c6a4c0dbe0c99a92e5d3197cf0a0b4bbae67fd"
+        },
+        {
+          "memory": "E07",
+          "rank": 1,
+          "sha256": "92e7956a0d944a978fc190470ff936f291827f37fc283157a96581ef0f3c16f7"
+        },
+        {
+          "memory": "E07",
+          "rank": 2,
+          "sha256": "81e9d0e551e0f35ec3d85f8f3ed36c689ff999bbc6595581712e9cbb9d97196c"
+        },
+        {
+          "memory": "E07",
+          "rank": 3,
+          "sha256": "ad44394c0852b6125123e07d7869768453cf15a4754c957e41158fd06b94f91b"
+        },
+        {
+          "memory": "E08",
+          "rank": 1,
+          "sha256": "55319130dca4f917511f2a11d3803708939b6ce54022d5e26197dc4fb3c2ae76"
+        },
+        {
+          "memory": "E08",
+          "rank": 2,
+          "sha256": "15ced9f71a85118791e4f86c02ae9553b1095dd4795571bf4b54cb18750b5189"
+        },
+        {
+          "memory": "E08",
+          "rank": 3,
+          "sha256": "81581d654f7887261cf90fd8da6573b84818b0a5c0cab29b8f255cbd8f3f82fd"
+        },
+        {
+          "memory": "E09",
+          "rank": 1,
+          "sha256": "ca616063c87b1cdcc636d7167d30796a5887879c9e1334d5a396dcd1a04362f6"
+        },
+        {
+          "memory": "E09",
+          "rank": 2,
+          "sha256": "9b9c862add964401f77adfd27626d8550fa592499513a0e057a7f88531186a40"
+        },
+        {
+          "memory": "E09",
+          "rank": 3,
+          "sha256": "92e7956a0d944a978fc190470ff936f291827f37fc283157a96581ef0f3c16f7"
+        },
+        {
+          "memory": "E10",
+          "rank": 1,
+          "sha256": "d734cb828c2ed09af2f4793b0a522c829efa1fb001e179c8363e402909a0c31c"
+        },
+        {
+          "memory": "E10",
+          "rank": 2,
+          "sha256": "5361602b7652d5558ee7d3d7887c5a0a1a87518fd7c9d75d5ed8d91bb31dc3a0"
+        },
+        {
+          "memory": "E10",
+          "rank": 3,
+          "sha256": "f16514914e29b3ba7ab627c2387cb720aa3444c6acf67e2cb976262bd1910a9a"
+        }
+      ]
+    },
+    {
+      "question_id": "Sequence_T3_6255",
+      "video_id": "UEP20",
+      "analysis": {
+        "case_id": "Sequence_T3_6255",
+        "baseline": {
+          "probabilities": [
+            0.0011817242484539747,
+            0.3716602027416229,
+            0.6191376447677612,
+            0.008020424284040928
+          ],
+          "prediction": "C",
+          "answer": "Took the sandwich.",
+          "probability": 0.6191376447677612,
+          "correct": true
+        },
+        "current": {
+          "probabilities": [
+            0.0011817242484539747,
+            0.3716602027416229,
+            0.6191376447677612,
+            0.008020424284040928
+          ],
+          "prediction": "C",
+          "answer": "Took the sandwich.",
+          "probability": 0.6191376447677612,
+          "correct": true
+        },
+        "selected": null,
+        "reference_match": true,
+        "source": "live_model",
+        "methodological_note": "Las intervenciones permiten analizar la influencia de las representaciones internas sobre la decisión del modelo. No representan necesariamente relaciones causales físicas entre eventos del video.",
+        "memories": [
+          {
+            "memory": "E03",
+            "index": 3,
+            "description": "Representación latente interna",
+            "delta": 0.10123848915100098,
+            "absolute_delta": 0.10123848915100098,
+            "original_answer_probability_after": 0.5178991556167603,
+            "after": {
+              "probabilities": [
+                0.0012231968576088548,
+                0.4715425372123718,
+                0.5178991556167603,
+                0.009335142560303211
+              ],
+              "prediction": "C",
+              "answer": "Took the sandwich.",
+              "probability": 0.5178991556167603,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 1
+          },
+          {
+            "memory": "E05",
+            "index": 5,
+            "description": "Representación latente interna",
+            "delta": 0.09429699182510376,
+            "absolute_delta": 0.09429699182510376,
+            "original_answer_probability_after": 0.5248406529426575,
+            "after": {
+              "probabilities": [
+                0.001162747386842966,
+                0.46580323576927185,
+                0.5248406529426575,
+                0.008193357847630978
+              ],
+              "prediction": "C",
+              "answer": "Took the sandwich.",
+              "probability": 0.5248406529426575,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 2
+          },
+          {
+            "memory": "E04",
+            "index": 4,
+            "description": "Representación latente interna",
+            "delta": 0.09367328882217407,
+            "absolute_delta": 0.09367328882217407,
+            "original_answer_probability_after": 0.5254643559455872,
+            "after": {
+              "probabilities": [
+                0.00117694481741637,
+                0.4657110273838043,
+                0.5254643559455872,
+                0.00764769222587347
+              ],
+              "prediction": "C",
+              "answer": "Took the sandwich.",
+              "probability": 0.5254643559455872,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 3
+          },
+          {
+            "memory": "E01",
+            "index": 1,
+            "description": "Representación latente interna",
+            "delta": 0.09326702356338501,
+            "absolute_delta": 0.09326702356338501,
+            "original_answer_probability_after": 0.5258706212043762,
+            "after": {
+              "probabilities": [
+                0.001137972460128367,
+                0.464646577835083,
+                0.5258706212043762,
+                0.008344833739101887
+              ],
+              "prediction": "C",
+              "answer": "Took the sandwich.",
+              "probability": 0.5258706212043762,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 4
+          },
+          {
+            "memory": "E09",
+            "index": 9,
+            "description": "Representación latente interna",
+            "delta": 0.08977222442626953,
+            "absolute_delta": 0.08977222442626953,
+            "original_answer_probability_after": 0.5293654203414917,
+            "after": {
+              "probabilities": [
+                0.0011287489905953407,
+                0.4616367220878601,
+                0.5293654203414917,
+                0.00786910206079483
+              ],
+              "prediction": "C",
+              "answer": "Took the sandwich.",
+              "probability": 0.5293654203414917,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 5
+          },
+          {
+            "memory": "E08",
+            "index": 8,
+            "description": "Representación latente interna",
+            "delta": 0.08864545822143555,
+            "absolute_delta": 0.08864545822143555,
+            "original_answer_probability_after": 0.5304921865463257,
+            "after": {
+              "probabilities": [
+                0.001150342752225697,
+                0.4602679908275604,
+                0.5304921865463257,
+                0.00808954518288374
+              ],
+              "prediction": "C",
+              "answer": "Took the sandwich.",
+              "probability": 0.5304921865463257,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 6
+          },
+          {
+            "memory": "E10",
+            "index": 10,
+            "description": "Representación latente interna",
+            "delta": 0.08855253458023071,
+            "absolute_delta": 0.08855253458023071,
+            "original_answer_probability_after": 0.5305851101875305,
+            "after": {
+              "probabilities": [
+                0.0011362587101757526,
+                0.4602140486240387,
+                0.5305851101875305,
+                0.008064611814916134
+              ],
+              "prediction": "C",
+              "answer": "Took the sandwich.",
+              "probability": 0.5305851101875305,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 7
+          },
+          {
+            "memory": "E07",
+            "index": 7,
+            "description": "Representación latente interna",
+            "delta": 0.08701056241989136,
+            "absolute_delta": 0.08701056241989136,
+            "original_answer_probability_after": 0.5321270823478699,
+            "after": {
+              "probabilities": [
+                0.0011417136993259192,
+                0.4591321349143982,
+                0.5321270823478699,
+                0.007599113509058952
+              ],
+              "prediction": "C",
+              "answer": "Took the sandwich.",
+              "probability": 0.5321270823478699,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 8
+          },
+          {
+            "memory": "E06",
+            "index": 6,
+            "description": "Representación latente interna",
+            "delta": 0.08653008937835693,
+            "absolute_delta": 0.08653008937835693,
+            "original_answer_probability_after": 0.5326075553894043,
+            "after": {
+              "probabilities": [
+                0.0011399721261113882,
+                0.4585433304309845,
+                0.5326075553894043,
+                0.007709125056862831
+              ],
+              "prediction": "C",
+              "answer": "Took the sandwich.",
+              "probability": 0.5326075553894043,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 9
+          },
+          {
+            "memory": "E02",
+            "index": 2,
+            "description": "Representación latente interna",
+            "delta": 0.08308553695678711,
+            "absolute_delta": 0.08308553695678711,
+            "original_answer_probability_after": 0.5360521078109741,
+            "after": {
+              "probabilities": [
+                0.0011747352546080947,
+                0.45506995916366577,
+                0.5360521078109741,
+                0.007703184615820646
+              ],
+              "prediction": "C",
+              "answer": "Took the sandwich.",
+              "probability": 0.5360521078109741,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 10
+          }
+        ],
+        "top": 3,
+        "bottom": 2,
+        "random": 3,
+        "random_seed": 42,
+        "technical": {
+          "device": "cuda:0",
+          "checkpoint_sha256": {
+            "gf": "74e3c2064d61ee4762c2d1cac8853017124a3c47df3e351ae7a3dd066c765326",
+            "tcmr": "8a30ff3e331fe40a121a0b6e3f6c13182fd3216caee5664fcf124336ad569eb9"
+          },
+          "gf_checkpoint": "model_3000.tar",
+          "tcmr_checkpoint": "temporal_relation_encoder_seed42_git_287b173f.pt",
+          "feature_filename": "UEP20_s3d_official.npy",
+          "tcmr_alpha": 0.15344971418380737,
+          "random_seed": 42,
+          "question_batch_size": 1,
+          "execution_ms": 267.2,
+          "operation": "analysis"
+        }
+      },
+      "grounding_source": "results/memory_visual_sensitivity_final/UEP20/memory_visual_selectivity.json",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "frames": [
+        {
+          "memory": "E01",
+          "rank": 1,
+          "sha256": "859420572b0c025ea0d86896c9f0d7907f5d1c03cb6232a6202861d789959577"
+        },
+        {
+          "memory": "E01",
+          "rank": 2,
+          "sha256": "b2a0cf9794281bfc7943d1a687318aaded561c32fc1c544b1a846e59666c8d74"
+        },
+        {
+          "memory": "E01",
+          "rank": 3,
+          "sha256": "0d08e1476ef00e9095a785703677c2e8d7e7356449e46b258fc9e676431933d2"
+        },
+        {
+          "memory": "E02",
+          "rank": 1,
+          "sha256": "11f4bc8294f2eaf8566fedf6fb5dff644398b96ef0f1befaa617e68544c8126c"
+        },
+        {
+          "memory": "E02",
+          "rank": 2,
+          "sha256": "7a504b91f8f1a9c002f4f04519e4f7be342b727e2febe31cd454101a9addd053"
+        },
+        {
+          "memory": "E02",
+          "rank": 3,
+          "sha256": "3fcf84eab07c293b069c7d920cfb365315b7297985ae5bb16f20485f77b7b943"
+        },
+        {
+          "memory": "E03",
+          "rank": 1,
+          "sha256": "cc64dacbd4dd8890fad483df2fb89cb94ebac9c79c4730e3af5d13e242ffd899"
+        },
+        {
+          "memory": "E03",
+          "rank": 2,
+          "sha256": "a7979c25de852634f7462d03b7a035581ac50a087a64a3a854a9bd5bbb7b3e82"
+        },
+        {
+          "memory": "E03",
+          "rank": 3,
+          "sha256": "5155abf547a103f8ed69dc1de9e09972b94dc213628cb23b7dead25c51a71316"
+        },
+        {
+          "memory": "E04",
+          "rank": 1,
+          "sha256": "fe13e4709a34f8f304f07cca11a8af10968416ec6ce5d24ff649ec8fc7624f8e"
+        },
+        {
+          "memory": "E04",
+          "rank": 2,
+          "sha256": "3fcf84eab07c293b069c7d920cfb365315b7297985ae5bb16f20485f77b7b943"
+        },
+        {
+          "memory": "E04",
+          "rank": 3,
+          "sha256": "9e1a62761f438f6af160f99a9da48dd9ae3b3ab2eb914e9c7de5ea459f74ed4c"
+        },
+        {
+          "memory": "E05",
+          "rank": 1,
+          "sha256": "724df5b3de52958da273cce75609009854e456c9ccfd5707e7b8f74ca9cfcbbe"
+        },
+        {
+          "memory": "E05",
+          "rank": 2,
+          "sha256": "ab8cdcf6f5ef8417ebea771170368c9e1da0c11d943f44ebb1bac4d643e52390"
+        },
+        {
+          "memory": "E05",
+          "rank": 3,
+          "sha256": "67b61f47c7286a9599b8f2c92d7fbec4e42adee2cbc594e9e72ee6d7ef2483b6"
+        },
+        {
+          "memory": "E06",
+          "rank": 1,
+          "sha256": "381e99b8215c242f846a05ce1cc62ea77dcf649502371d13b53f59a8b72f94f0"
+        },
+        {
+          "memory": "E06",
+          "rank": 2,
+          "sha256": "a7979c25de852634f7462d03b7a035581ac50a087a64a3a854a9bd5bbb7b3e82"
+        },
+        {
+          "memory": "E06",
+          "rank": 3,
+          "sha256": "5155abf547a103f8ed69dc1de9e09972b94dc213628cb23b7dead25c51a71316"
+        },
+        {
+          "memory": "E07",
+          "rank": 1,
+          "sha256": "1293ccd2588d4698fce9d62baa8f9e05adb522395ece6998a8df20470914f5dd"
+        },
+        {
+          "memory": "E07",
+          "rank": 2,
+          "sha256": "a72b76167e3391b325e384fba3754f496aeeeddae4311c07b1865a47d66ef221"
+        },
+        {
+          "memory": "E07",
+          "rank": 3,
+          "sha256": "8f57b4d52c62964d5e813afe0cecc04919663f0a73ce1d15f7570b705c198cec"
+        },
+        {
+          "memory": "E08",
+          "rank": 1,
+          "sha256": "ec947446d3b202f69d110e1f9034a62a8eca4343e0834efa9b531214ad13b180"
+        },
+        {
+          "memory": "E08",
+          "rank": 2,
+          "sha256": "82917ee6a8849192441cb9c193dc2384ae02e9ad156af56f2144b75965c8408d"
+        },
+        {
+          "memory": "E08",
+          "rank": 3,
+          "sha256": "e2fa5a89bb42967874362d350973ac971b787971bc8ea0e02d228e791e2edee4"
+        },
+        {
+          "memory": "E09",
+          "rank": 1,
+          "sha256": "b2a0cf9794281bfc7943d1a687318aaded561c32fc1c544b1a846e59666c8d74"
+        },
+        {
+          "memory": "E09",
+          "rank": 2,
+          "sha256": "a8b7fd3d48b6b9118d3f71d4f033d2767244fdd5b45e3460d19a57c4e60874b1"
+        },
+        {
+          "memory": "E09",
+          "rank": 3,
+          "sha256": "b15971257298f0e7d53a4b6c772e494572aeb0ef1c7ae0ca4a82f8a526cc0f53"
+        },
+        {
+          "memory": "E10",
+          "rank": 1,
+          "sha256": "a7979c25de852634f7462d03b7a035581ac50a087a64a3a854a9bd5bbb7b3e82"
+        },
+        {
+          "memory": "E10",
+          "rank": 2,
+          "sha256": "378e8bacc10afedc9f18ebb5b65cad95fc5f8837cfbc5510e3accce7e801f8da"
+        },
+        {
+          "memory": "E10",
+          "rank": 3,
+          "sha256": "5155abf547a103f8ed69dc1de9e09972b94dc213628cb23b7dead25c51a71316"
+        }
+      ]
+    },
+    {
+      "question_id": "Interaction_T1_262",
+      "video_id": "6CAZU",
+      "analysis": {
+        "case_id": "Interaction_T1_262",
+        "baseline": {
+          "probabilities": [
+            0.11205892264842987,
+            0.408219575881958,
+            0.15031957626342773,
+            0.3294018805027008
+          ],
+          "prediction": "B",
+          "answer": "The sandwich.",
+          "probability": 0.408219575881958,
+          "correct": true
+        },
+        "current": {
+          "probabilities": [
+            0.11205892264842987,
+            0.408219575881958,
+            0.15031957626342773,
+            0.3294018805027008
+          ],
+          "prediction": "B",
+          "answer": "The sandwich.",
+          "probability": 0.408219575881958,
+          "correct": true
+        },
+        "selected": null,
+        "reference_match": true,
+        "source": "live_model",
+        "methodological_note": "Las intervenciones permiten analizar la influencia de las representaciones internas sobre la decisión del modelo. No representan necesariamente relaciones causales físicas entre eventos del video.",
+        "memories": [
+          {
+            "memory": "E03",
+            "index": 3,
+            "description": "Representación latente interna",
+            "delta": 0.05332985520362854,
+            "absolute_delta": 0.05332985520362854,
+            "original_answer_probability_after": 0.35488972067832947,
+            "after": {
+              "probabilities": [
+                0.11028125137090683,
+                0.35488972067832947,
+                0.14764665067195892,
+                0.3871823251247406
+              ],
+              "prediction": "D",
+              "answer": "The picture.",
+              "probability": 0.3871823251247406,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 1
+          },
+          {
+            "memory": "E01",
+            "index": 1,
+            "description": "Representación latente interna",
+            "delta": 0.0501590371131897,
+            "absolute_delta": 0.0501590371131897,
+            "original_answer_probability_after": 0.3580605387687683,
+            "after": {
+              "probabilities": [
+                0.10601083934307098,
+                0.3580605387687683,
+                0.14690947532653809,
+                0.3890191316604614
+              ],
+              "prediction": "D",
+              "answer": "The picture.",
+              "probability": 0.3890191316604614,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 2
+          },
+          {
+            "memory": "E05",
+            "index": 5,
+            "description": "Representación latente interna",
+            "delta": 0.047992169857025146,
+            "absolute_delta": 0.047992169857025146,
+            "original_answer_probability_after": 0.36022740602493286,
+            "after": {
+              "probabilities": [
+                0.10536443442106247,
+                0.36022740602493286,
+                0.14802920818328857,
+                0.3863789141178131
+              ],
+              "prediction": "D",
+              "answer": "The picture.",
+              "probability": 0.3863789141178131,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 3
+          },
+          {
+            "memory": "E10",
+            "index": 10,
+            "description": "Representación latente interna",
+            "delta": 0.04451128840446472,
+            "absolute_delta": 0.04451128840446472,
+            "original_answer_probability_after": 0.3637082874774933,
+            "after": {
+              "probabilities": [
+                0.10541318356990814,
+                0.3637082874774933,
+                0.14718428254127502,
+                0.38369420170783997
+              ],
+              "prediction": "D",
+              "answer": "The picture.",
+              "probability": 0.38369420170783997,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 4
+          },
+          {
+            "memory": "E07",
+            "index": 7,
+            "description": "Representación latente interna",
+            "delta": 0.043563276529312134,
+            "absolute_delta": 0.043563276529312134,
+            "original_answer_probability_after": 0.3646562993526459,
+            "after": {
+              "probabilities": [
+                0.10180416703224182,
+                0.3646562993526459,
+                0.14664003252983093,
+                0.38689950108528137
+              ],
+              "prediction": "D",
+              "answer": "The picture.",
+              "probability": 0.38689950108528137,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 5
+          },
+          {
+            "memory": "E08",
+            "index": 8,
+            "description": "Representación latente interna",
+            "delta": 0.04271209239959717,
+            "absolute_delta": 0.04271209239959717,
+            "original_answer_probability_after": 0.36550748348236084,
+            "after": {
+              "probabilities": [
+                0.10319340974092484,
+                0.36550748348236084,
+                0.14594846963882446,
+                0.38535067439079285
+              ],
+              "prediction": "D",
+              "answer": "The picture.",
+              "probability": 0.38535067439079285,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 6
+          },
+          {
+            "memory": "E04",
+            "index": 4,
+            "description": "Representación latente interna",
+            "delta": 0.03577938675880432,
+            "absolute_delta": 0.03577938675880432,
+            "original_answer_probability_after": 0.3724401891231537,
+            "after": {
+              "probabilities": [
+                0.10449738800525665,
+                0.3724401891231537,
+                0.1472386121749878,
+                0.37582382559776306
+              ],
+              "prediction": "D",
+              "answer": "The picture.",
+              "probability": 0.37582382559776306,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 7
+          },
+          {
+            "memory": "E02",
+            "index": 2,
+            "description": "Representación latente interna",
+            "delta": 0.03410264849662781,
+            "absolute_delta": 0.03410264849662781,
+            "original_answer_probability_after": 0.3741169273853302,
+            "after": {
+              "probabilities": [
+                0.10203509032726288,
+                0.3741169273853302,
+                0.1437835395336151,
+                0.3800643980503082
+              ],
+              "prediction": "D",
+              "answer": "The picture.",
+              "probability": 0.3800643980503082,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 8
+          },
+          {
+            "memory": "E09",
+            "index": 9,
+            "description": "Representación latente interna",
+            "delta": 0.03374981880187988,
+            "absolute_delta": 0.03374981880187988,
+            "original_answer_probability_after": 0.3744697570800781,
+            "after": {
+              "probabilities": [
+                0.10461783409118652,
+                0.3744697570800781,
+                0.14816343784332275,
+                0.3727489411830902
+              ],
+              "prediction": "B",
+              "answer": "The sandwich.",
+              "probability": 0.3744697570800781,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 9
+          },
+          {
+            "memory": "E06",
+            "index": 6,
+            "description": "Representación latente interna",
+            "delta": 0.0323946475982666,
+            "absolute_delta": 0.0323946475982666,
+            "original_answer_probability_after": 0.3758249282836914,
+            "after": {
+              "probabilities": [
+                0.10408426076173782,
+                0.3758249282836914,
+                0.14826472103595734,
+                0.37182608246803284
+              ],
+              "prediction": "B",
+              "answer": "The sandwich.",
+              "probability": 0.3758249282836914,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 10
+          }
+        ],
+        "top": 3,
+        "bottom": 6,
+        "random": 2,
+        "random_seed": 42,
+        "technical": {
+          "device": "cuda:0",
+          "checkpoint_sha256": {
+            "gf": "74e3c2064d61ee4762c2d1cac8853017124a3c47df3e351ae7a3dd066c765326",
+            "tcmr": "8a30ff3e331fe40a121a0b6e3f6c13182fd3216caee5664fcf124336ad569eb9"
+          },
+          "gf_checkpoint": "model_3000.tar",
+          "tcmr_checkpoint": "temporal_relation_encoder_seed42_git_287b173f.pt",
+          "feature_filename": "6CAZU_s3d_official.npy",
+          "tcmr_alpha": 0.15344971418380737,
+          "random_seed": 42,
+          "question_batch_size": 1,
+          "execution_ms": 282.43,
+          "operation": "analysis"
+        }
+      },
+      "grounding_source": "results/memory_visual_sensitivity_final/6CAZU/memory_visual_selectivity.json",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "frames": [
+        {
+          "memory": "E01",
+          "rank": 1,
+          "sha256": "99cf8c2c72be8f8a82a8d68fa6b67f340a9312225b16e6110890bddf4e42fe9c"
+        },
+        {
+          "memory": "E01",
+          "rank": 2,
+          "sha256": "d0b16a3c1bcf02f8c5a267e4bdf7b3ac87ad8260644da23a925df6513c6bd34a"
+        },
+        {
+          "memory": "E01",
+          "rank": 3,
+          "sha256": "79b24469c2ead84c07b4a730ede82de916fc93abc4123eff6d213557c2ebe7cd"
+        },
+        {
+          "memory": "E02",
+          "rank": 1,
+          "sha256": "9dbc6b8ccc1260cd911fb85ede633e0b0fc9b5b3504c194eaf47ee373faf9150"
+        },
+        {
+          "memory": "E02",
+          "rank": 2,
+          "sha256": "aa2faef2623b0ec5dfdc4cffd51b9fa13ab695b5dd2ce14b50322ea939856af1"
+        },
+        {
+          "memory": "E02",
+          "rank": 3,
+          "sha256": "73872889a64f6d8950d15f0b0a748434cae1350e58623a9f8de465be88016f73"
+        },
+        {
+          "memory": "E03",
+          "rank": 1,
+          "sha256": "5417d870dce45273b19b7666d80fbd16d7b1372ba75d0d185c25417178fc1313"
+        },
+        {
+          "memory": "E03",
+          "rank": 2,
+          "sha256": "bd6ed2605bb70ac0ae6131669f4faf3d4c902b40faba8500cb05fcad54c93fda"
+        },
+        {
+          "memory": "E03",
+          "rank": 3,
+          "sha256": "50223efec2cfc34c0904a7c0a0c9df5f0f51171de3a6fa4e51dd4ff17d0eee72"
+        },
+        {
+          "memory": "E04",
+          "rank": 1,
+          "sha256": "5417d870dce45273b19b7666d80fbd16d7b1372ba75d0d185c25417178fc1313"
+        },
+        {
+          "memory": "E04",
+          "rank": 2,
+          "sha256": "846a74a501fab5d99355646df21e889147b82619cc8af6ec8e4cd68690613da7"
+        },
+        {
+          "memory": "E04",
+          "rank": 3,
+          "sha256": "bd6ed2605bb70ac0ae6131669f4faf3d4c902b40faba8500cb05fcad54c93fda"
+        },
+        {
+          "memory": "E05",
+          "rank": 1,
+          "sha256": "50223efec2cfc34c0904a7c0a0c9df5f0f51171de3a6fa4e51dd4ff17d0eee72"
+        },
+        {
+          "memory": "E05",
+          "rank": 2,
+          "sha256": "5417d870dce45273b19b7666d80fbd16d7b1372ba75d0d185c25417178fc1313"
+        },
+        {
+          "memory": "E05",
+          "rank": 3,
+          "sha256": "bd6ed2605bb70ac0ae6131669f4faf3d4c902b40faba8500cb05fcad54c93fda"
+        },
+        {
+          "memory": "E06",
+          "rank": 1,
+          "sha256": "82048b23044fe0e42e120caa89749dd552f08e488dd782dde3ec2dba77be060c"
+        },
+        {
+          "memory": "E06",
+          "rank": 2,
+          "sha256": "ee7b6f1f8fc1052a03a922722d00e6d76aba1bd8fa0f9f7dae73c8c91ea453ef"
+        },
+        {
+          "memory": "E06",
+          "rank": 3,
+          "sha256": "a4418b0eb60a8be0b78254cc3c2a821bab98859b5c6e682fcaaaa2c2e12ef1bf"
+        },
+        {
+          "memory": "E07",
+          "rank": 1,
+          "sha256": "dc204e41458929b30c0e27c3db619b6dd3c3507b47ee727de62f9df85067cf20"
+        },
+        {
+          "memory": "E07",
+          "rank": 2,
+          "sha256": "5370a0d789910157920524b8d66b6940721da0ffa7efe9207ec0ffbcdb67b958"
+        },
+        {
+          "memory": "E07",
+          "rank": 3,
+          "sha256": "748407d104489d0c46085b356222995ad1c5a65a1639451a5b4f0c4cbe889e86"
+        },
+        {
+          "memory": "E08",
+          "rank": 1,
+          "sha256": "f43bd240f3e1a18aa4a98876c2afc5c062df3584eb8631a8a29db6b61a278a75"
+        },
+        {
+          "memory": "E08",
+          "rank": 2,
+          "sha256": "fea716d82ef5becd79160ac8d87305df834e47478d0c14abab855019d75afc51"
+        },
+        {
+          "memory": "E08",
+          "rank": 3,
+          "sha256": "60e1de548d70f0a397d59d23dcdd1cd97c3051c94395f729e740f6cd3e822fdc"
+        },
+        {
+          "memory": "E09",
+          "rank": 1,
+          "sha256": "fe979500e6d721f710b1a1d49470141ac8378c2e46ee0e6af988a52eda22ccef"
+        },
+        {
+          "memory": "E09",
+          "rank": 2,
+          "sha256": "48bb699186055899d19d511b400b39455b569caae74cc7bce8e3f1e49d81a6bc"
+        },
+        {
+          "memory": "E09",
+          "rank": 3,
+          "sha256": "6019a54f290f49e9d9198b834236b7eb8dc0923c3209e117e9bd562b30700bb0"
+        },
+        {
+          "memory": "E10",
+          "rank": 1,
+          "sha256": "e83b3c9cb968b8b6cce3ed82fb493817f2fe7848d1c13568da5214dc8980f6d1"
+        },
+        {
+          "memory": "E10",
+          "rank": 2,
+          "sha256": "6019a54f290f49e9d9198b834236b7eb8dc0923c3209e117e9bd562b30700bb0"
+        },
+        {
+          "memory": "E10",
+          "rank": 3,
+          "sha256": "4734a77a9b8e3e51dbe0cd0e177d6aa0169f3a4df09b7493381eb08360fc7b30"
+        }
+      ]
+    },
+    {
+      "question_id": "Interaction_T4_572",
+      "video_id": "8SDK5",
+      "analysis": {
+        "case_id": "Interaction_T4_572",
+        "baseline": {
+          "probabilities": [
+            0.4586333930492401,
+            0.48333269357681274,
+            0.012341596186161041,
+            0.04569234326481819
+          ],
+          "prediction": "B",
+          "answer": "Sat on the sofa/couch.",
+          "probability": 0.48333269357681274,
+          "correct": true
+        },
+        "current": {
+          "probabilities": [
+            0.4586333930492401,
+            0.48333269357681274,
+            0.012341596186161041,
+            0.04569234326481819
+          ],
+          "prediction": "B",
+          "answer": "Sat on the sofa/couch.",
+          "probability": 0.48333269357681274,
+          "correct": true
+        },
+        "selected": null,
+        "reference_match": true,
+        "source": "live_model",
+        "methodological_note": "Las intervenciones permiten analizar la influencia de las representaciones internas sobre la decisión del modelo. No representan necesariamente relaciones causales físicas entre eventos del video.",
+        "memories": [
+          {
+            "memory": "E02",
+            "index": 2,
+            "description": "Representación latente interna",
+            "delta": 0.04706349968910217,
+            "absolute_delta": 0.04706349968910217,
+            "original_answer_probability_after": 0.43626919388771057,
+            "after": {
+              "probabilities": [
+                0.5179146528244019,
+                0.43626919388771057,
+                0.009655551053583622,
+                0.03616061061620712
+              ],
+              "prediction": "A",
+              "answer": "Took the paper/notebook.",
+              "probability": 0.5179146528244019,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 1
+          },
+          {
+            "memory": "E08",
+            "index": 8,
+            "description": "Representación latente interna",
+            "delta": 0.04696664214134216,
+            "absolute_delta": 0.04696664214134216,
+            "original_answer_probability_after": 0.4363660514354706,
+            "after": {
+              "probabilities": [
+                0.5171868801116943,
+                0.4363660514354706,
+                0.009845850057899952,
+                0.03660118952393532
+              ],
+              "prediction": "A",
+              "answer": "Took the paper/notebook.",
+              "probability": 0.5171868801116943,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 2
+          },
+          {
+            "memory": "E10",
+            "index": 10,
+            "description": "Representación latente interna",
+            "delta": 0.046440452337265015,
+            "absolute_delta": 0.046440452337265015,
+            "original_answer_probability_after": 0.43689224123954773,
+            "after": {
+              "probabilities": [
+                0.5178475379943848,
+                0.43689224123954773,
+                0.009164446033537388,
+                0.03609572350978851
+              ],
+              "prediction": "A",
+              "answer": "Took the paper/notebook.",
+              "probability": 0.5178475379943848,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 3
+          },
+          {
+            "memory": "E05",
+            "index": 5,
+            "description": "Representación latente interna",
+            "delta": 0.04434722661972046,
+            "absolute_delta": 0.04434722661972046,
+            "original_answer_probability_after": 0.4389854669570923,
+            "after": {
+              "probabilities": [
+                0.5145308971405029,
+                0.4389854669570923,
+                0.009439189918339252,
+                0.0370444729924202
+              ],
+              "prediction": "A",
+              "answer": "Took the paper/notebook.",
+              "probability": 0.5145308971405029,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 4
+          },
+          {
+            "memory": "E09",
+            "index": 9,
+            "description": "Representación latente interna",
+            "delta": 0.043792128562927246,
+            "absolute_delta": 0.043792128562927246,
+            "original_answer_probability_after": 0.4395405650138855,
+            "after": {
+              "probabilities": [
+                0.514098048210144,
+                0.4395405650138855,
+                0.009564769454300404,
+                0.036796607077121735
+              ],
+              "prediction": "A",
+              "answer": "Took the paper/notebook.",
+              "probability": 0.514098048210144,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 5
+          },
+          {
+            "memory": "E01",
+            "index": 1,
+            "description": "Representación latente interna",
+            "delta": 0.04369691014289856,
+            "absolute_delta": 0.04369691014289856,
+            "original_answer_probability_after": 0.4396357834339142,
+            "after": {
+              "probabilities": [
+                0.5140736699104309,
+                0.4396357834339142,
+                0.009411170147359371,
+                0.03687937930226326
+              ],
+              "prediction": "A",
+              "answer": "Took the paper/notebook.",
+              "probability": 0.5140736699104309,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 6
+          },
+          {
+            "memory": "E03",
+            "index": 3,
+            "description": "Representación latente interna",
+            "delta": 0.04190957546234131,
+            "absolute_delta": 0.04190957546234131,
+            "original_answer_probability_after": 0.44142311811447144,
+            "after": {
+              "probabilities": [
+                0.5123746395111084,
+                0.44142311811447144,
+                0.009479532018303871,
+                0.03672274947166443
+              ],
+              "prediction": "A",
+              "answer": "Took the paper/notebook.",
+              "probability": 0.5123746395111084,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 7
+          },
+          {
+            "memory": "E06",
+            "index": 6,
+            "description": "Representación latente interna",
+            "delta": 0.040574342012405396,
+            "absolute_delta": 0.040574342012405396,
+            "original_answer_probability_after": 0.44275835156440735,
+            "after": {
+              "probabilities": [
+                0.5104622840881348,
+                0.44275835156440735,
+                0.009512358345091343,
+                0.03726701810956001
+              ],
+              "prediction": "A",
+              "answer": "Took the paper/notebook.",
+              "probability": 0.5104622840881348,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 8
+          },
+          {
+            "memory": "E04",
+            "index": 4,
+            "description": "Representación latente interna",
+            "delta": 0.04015707969665527,
+            "absolute_delta": 0.04015707969665527,
+            "original_answer_probability_after": 0.44317561388015747,
+            "after": {
+              "probabilities": [
+                0.5102685689926147,
+                0.44317561388015747,
+                0.009530328214168549,
+                0.03702547401189804
+              ],
+              "prediction": "A",
+              "answer": "Took the paper/notebook.",
+              "probability": 0.5102685689926147,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 9
+          },
+          {
+            "memory": "E07",
+            "index": 7,
+            "description": "Representación latente interna",
+            "delta": 0.039925992488861084,
+            "absolute_delta": 0.039925992488861084,
+            "original_answer_probability_after": 0.44340670108795166,
+            "after": {
+              "probabilities": [
+                0.5097017884254456,
+                0.44340670108795166,
+                0.009683446027338505,
+                0.03720802068710327
+              ],
+              "prediction": "A",
+              "answer": "Took the paper/notebook.",
+              "probability": 0.5097017884254456,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 10
+          }
+        ],
+        "top": 2,
+        "bottom": 7,
+        "random": 4,
+        "random_seed": 42,
+        "technical": {
+          "device": "cuda:0",
+          "checkpoint_sha256": {
+            "gf": "74e3c2064d61ee4762c2d1cac8853017124a3c47df3e351ae7a3dd066c765326",
+            "tcmr": "8a30ff3e331fe40a121a0b6e3f6c13182fd3216caee5664fcf124336ad569eb9"
+          },
+          "gf_checkpoint": "model_3000.tar",
+          "tcmr_checkpoint": "temporal_relation_encoder_seed42_git_287b173f.pt",
+          "feature_filename": "8SDK5_s3d_official.npy",
+          "tcmr_alpha": 0.15344971418380737,
+          "random_seed": 42,
+          "question_batch_size": 1,
+          "execution_ms": 289.86,
+          "operation": "analysis"
+        }
+      },
+      "grounding_source": "results/memory_visual_sensitivity_final/8SDK5/memory_visual_selectivity.json",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "frames": [
+        {
+          "memory": "E01",
+          "rank": 1,
+          "sha256": "cd032370794ca44cd4ac4dd115bb76ecedef22eb0613a13dc510be12cc5fb0a5"
+        },
+        {
+          "memory": "E01",
+          "rank": 2,
+          "sha256": "514292fd6ba3bb42d136f1544e94f95b390200ac74641d8897331f0109f33475"
+        },
+        {
+          "memory": "E01",
+          "rank": 3,
+          "sha256": "54b503ba07eadc65170142fa8f69d3f2eaedbaaae8e6cedbdfa09c6c5096b2e8"
+        },
+        {
+          "memory": "E02",
+          "rank": 1,
+          "sha256": "e26baeed9d811bd4a0cb0d5aa8ecd94837a5251eb28755676796946f8605a18b"
+        },
+        {
+          "memory": "E02",
+          "rank": 2,
+          "sha256": "60143f6aad647dc320d6dc87be20f637e44deef4e22176987d9f9a3b1e4d0113"
+        },
+        {
+          "memory": "E02",
+          "rank": 3,
+          "sha256": "448505f2cfd849d0a92f3d721e3e8d93b26ff33cba242441cd380167ea041fbc"
+        },
+        {
+          "memory": "E03",
+          "rank": 1,
+          "sha256": "8a3015877424e8ec344b329e9cedb3acd9845386b9de171bccbeec749de0a6e4"
+        },
+        {
+          "memory": "E03",
+          "rank": 2,
+          "sha256": "10a79de667f05f647c085fdc132f6b525e5e0ff965e0cec7bdf8a6390ccbfed9"
+        },
+        {
+          "memory": "E03",
+          "rank": 3,
+          "sha256": "80f457f77a2aedfba183e78b079875cdb5a0a6a91a9fb3e688f95d1a1f5107cc"
+        },
+        {
+          "memory": "E04",
+          "rank": 1,
+          "sha256": "fbc32ea57b055a935eb5f998d0676a09df10c1cdf2f4c264e223124eb23d8407"
+        },
+        {
+          "memory": "E04",
+          "rank": 2,
+          "sha256": "97a6456048b60e4368618f6559647f52c72b8c30ff7e0922b0705c8b26378b3f"
+        },
+        {
+          "memory": "E04",
+          "rank": 3,
+          "sha256": "66f6f796470613adf6db24dd3c2c90130331e1610b5dc44460fa6b7d059b7ed6"
+        },
+        {
+          "memory": "E05",
+          "rank": 1,
+          "sha256": "316d5d52ebaf753f50a35bdb8f927374acd36a379025fc6ba5f6fb270a174721"
+        },
+        {
+          "memory": "E05",
+          "rank": 2,
+          "sha256": "59339b9567851b27393325e8ae8b310f46fdaf6096ac0a9c589ec76714ac9e5a"
+        },
+        {
+          "memory": "E05",
+          "rank": 3,
+          "sha256": "c573f7b57b3b7d50d0992e7b965ed1f7d83a3674b7657f64c8132235ac7ec664"
+        },
+        {
+          "memory": "E06",
+          "rank": 1,
+          "sha256": "cda21a908427a5671af82dec0ace891dd2f283144024cdc17f6f0d6be219f53e"
+        },
+        {
+          "memory": "E06",
+          "rank": 2,
+          "sha256": "d08dce9c4652a5ad87f1d8b0cc465260e3e830da10e3071a9337445df285768a"
+        },
+        {
+          "memory": "E06",
+          "rank": 3,
+          "sha256": "b3fa8995fa5342f91642a6b9dab6090fa020c40d1663704d0fb192e9e731e1ee"
+        },
+        {
+          "memory": "E07",
+          "rank": 1,
+          "sha256": "6b676050680f3095ea44e84e3f1e18000a47b63d02776356e074500a6ca0a852"
+        },
+        {
+          "memory": "E07",
+          "rank": 2,
+          "sha256": "30b47e45f9b430cd38f5341309a5a8af97b889887b1ac8f763ab2fee4a167452"
+        },
+        {
+          "memory": "E07",
+          "rank": 3,
+          "sha256": "1011f742cd7fc593c71f2429d536877110a73aee2677b55361ea654ad6dbfdc1"
+        },
+        {
+          "memory": "E08",
+          "rank": 1,
+          "sha256": "97a30a31ad755cc4ecc80118eda9853ac459344c05f2c141431c976d8f326a92"
+        },
+        {
+          "memory": "E08",
+          "rank": 2,
+          "sha256": "e977e8a045d20df6a054f690725861b40ffd90ca4cfe3504fca6c5f3ff2cd22b"
+        },
+        {
+          "memory": "E08",
+          "rank": 3,
+          "sha256": "fbc32ea57b055a935eb5f998d0676a09df10c1cdf2f4c264e223124eb23d8407"
+        },
+        {
+          "memory": "E09",
+          "rank": 1,
+          "sha256": "2d83372954a3c1dda5f638902cd97f1ae63cb7f8effa97f54663151c93f66c8c"
+        },
+        {
+          "memory": "E09",
+          "rank": 2,
+          "sha256": "e7dce6e7aba84fcba66c6791992b3ba5a4f4324da88fe5afb25ff3c279cd15a1"
+        },
+        {
+          "memory": "E09",
+          "rank": 3,
+          "sha256": "5d52ed7ab522014bb7d015865c38ce984457626debbbc6f356f28d33d1b00224"
+        },
+        {
+          "memory": "E10",
+          "rank": 1,
+          "sha256": "cda21a908427a5671af82dec0ace891dd2f283144024cdc17f6f0d6be219f53e"
+        },
+        {
+          "memory": "E10",
+          "rank": 2,
+          "sha256": "d08dce9c4652a5ad87f1d8b0cc465260e3e830da10e3071a9337445df285768a"
+        },
+        {
+          "memory": "E10",
+          "rank": 3,
+          "sha256": "b3fa8995fa5342f91642a6b9dab6090fa020c40d1663704d0fb192e9e731e1ee"
+        }
+      ]
+    },
+    {
+      "question_id": "Interaction_T1_7248",
+      "video_id": "QPX3S",
+      "analysis": {
+        "case_id": "Interaction_T1_7248",
+        "baseline": {
+          "probabilities": [
+            0.028650593012571335,
+            0.14903685450553894,
+            0.6974704265594482,
+            0.12484210729598999
+          ],
+          "prediction": "C",
+          "answer": "The food.",
+          "probability": 0.6974704265594482,
+          "correct": true
+        },
+        "current": {
+          "probabilities": [
+            0.028650593012571335,
+            0.14903685450553894,
+            0.6974704265594482,
+            0.12484210729598999
+          ],
+          "prediction": "C",
+          "answer": "The food.",
+          "probability": 0.6974704265594482,
+          "correct": true
+        },
+        "selected": null,
+        "reference_match": true,
+        "source": "live_model",
+        "methodological_note": "Las intervenciones permiten analizar la influencia de las representaciones internas sobre la decisión del modelo. No representan necesariamente relaciones causales físicas entre eventos del video.",
+        "memories": [
+          {
+            "memory": "E04",
+            "index": 4,
+            "description": "Representación latente interna",
+            "delta": -0.07449531555175781,
+            "absolute_delta": 0.07449531555175781,
+            "original_answer_probability_after": 0.771965742111206,
+            "after": {
+              "probabilities": [
+                0.0184673722833395,
+                0.10616251826286316,
+                0.771965742111206,
+                0.10340433567762375
+              ],
+              "prediction": "C",
+              "answer": "The food.",
+              "probability": 0.771965742111206,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 1
+          },
+          {
+            "memory": "E06",
+            "index": 6,
+            "description": "Representación latente interna",
+            "delta": -0.06959134340286255,
+            "absolute_delta": 0.06959134340286255,
+            "original_answer_probability_after": 0.7670617699623108,
+            "after": {
+              "probabilities": [
+                0.019135594367980957,
+                0.10868440568447113,
+                0.7670617699623108,
+                0.1051182746887207
+              ],
+              "prediction": "C",
+              "answer": "The food.",
+              "probability": 0.7670617699623108,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 2
+          },
+          {
+            "memory": "E02",
+            "index": 2,
+            "description": "Representación latente interna",
+            "delta": -0.06798315048217773,
+            "absolute_delta": 0.06798315048217773,
+            "original_answer_probability_after": 0.765453577041626,
+            "after": {
+              "probabilities": [
+                0.01940123550593853,
+                0.10961664468050003,
+                0.765453577041626,
+                0.1055285856127739
+              ],
+              "prediction": "C",
+              "answer": "The food.",
+              "probability": 0.765453577041626,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 3
+          },
+          {
+            "memory": "E03",
+            "index": 3,
+            "description": "Representación latente interna",
+            "delta": -0.06781154870986938,
+            "absolute_delta": 0.06781154870986938,
+            "original_answer_probability_after": 0.7652819752693176,
+            "after": {
+              "probabilities": [
+                0.019899358972907066,
+                0.10974719375371933,
+                0.7652819752693176,
+                0.10507147014141083
+              ],
+              "prediction": "C",
+              "answer": "The food.",
+              "probability": 0.7652819752693176,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 4
+          },
+          {
+            "memory": "E08",
+            "index": 8,
+            "description": "Representación latente interna",
+            "delta": -0.06751275062561035,
+            "absolute_delta": 0.06751275062561035,
+            "original_answer_probability_after": 0.7649831771850586,
+            "after": {
+              "probabilities": [
+                0.019976237788796425,
+                0.10859138518571854,
+                0.7649831771850586,
+                0.10644926130771637
+              ],
+              "prediction": "C",
+              "answer": "The food.",
+              "probability": 0.7649831771850586,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 5
+          },
+          {
+            "memory": "E07",
+            "index": 7,
+            "description": "Representación latente interna",
+            "delta": -0.06622850894927979,
+            "absolute_delta": 0.06622850894927979,
+            "original_answer_probability_after": 0.763698935508728,
+            "after": {
+              "probabilities": [
+                0.019963309168815613,
+                0.10887414216995239,
+                0.763698935508728,
+                0.1074635460972786
+              ],
+              "prediction": "C",
+              "answer": "The food.",
+              "probability": 0.763698935508728,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 6
+          },
+          {
+            "memory": "E05",
+            "index": 5,
+            "description": "Representación latente interna",
+            "delta": -0.0657808780670166,
+            "absolute_delta": 0.0657808780670166,
+            "original_answer_probability_after": 0.7632513046264648,
+            "after": {
+              "probabilities": [
+                0.019950805231928825,
+                0.10836128145456314,
+                0.7632513046264648,
+                0.10843658447265625
+              ],
+              "prediction": "C",
+              "answer": "The food.",
+              "probability": 0.7632513046264648,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 7
+          },
+          {
+            "memory": "E09",
+            "index": 9,
+            "description": "Representación latente interna",
+            "delta": -0.06413847208023071,
+            "absolute_delta": 0.06413847208023071,
+            "original_answer_probability_after": 0.761608898639679,
+            "after": {
+              "probabilities": [
+                0.020418401807546616,
+                0.11053189635276794,
+                0.761608898639679,
+                0.1074407622218132
+              ],
+              "prediction": "C",
+              "answer": "The food.",
+              "probability": 0.761608898639679,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 8
+          },
+          {
+            "memory": "E10",
+            "index": 10,
+            "description": "Representación latente interna",
+            "delta": -0.06367886066436768,
+            "absolute_delta": 0.06367886066436768,
+            "original_answer_probability_after": 0.7611492872238159,
+            "after": {
+              "probabilities": [
+                0.020076319575309753,
+                0.11129409074783325,
+                0.7611492872238159,
+                0.10748030990362167
+              ],
+              "prediction": "C",
+              "answer": "The food.",
+              "probability": 0.7611492872238159,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 9
+          },
+          {
+            "memory": "E01",
+            "index": 1,
+            "description": "Representación latente interna",
+            "delta": -0.06133323907852173,
+            "absolute_delta": 0.06133323907852173,
+            "original_answer_probability_after": 0.75880366563797,
+            "after": {
+              "probabilities": [
+                0.021124456077814102,
+                0.1108560860157013,
+                0.75880366563797,
+                0.10921573638916016
+              ],
+              "prediction": "C",
+              "answer": "The food.",
+              "probability": 0.75880366563797,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 10
+          }
+        ],
+        "top": 4,
+        "bottom": 1,
+        "random": 2,
+        "random_seed": 42,
+        "technical": {
+          "device": "cuda:0",
+          "checkpoint_sha256": {
+            "gf": "74e3c2064d61ee4762c2d1cac8853017124a3c47df3e351ae7a3dd066c765326",
+            "tcmr": "8a30ff3e331fe40a121a0b6e3f6c13182fd3216caee5664fcf124336ad569eb9"
+          },
+          "gf_checkpoint": "model_3000.tar",
+          "tcmr_checkpoint": "temporal_relation_encoder_seed42_git_287b173f.pt",
+          "feature_filename": "QPX3S_s3d_official.npy",
+          "tcmr_alpha": 0.15344971418380737,
+          "random_seed": 42,
+          "question_batch_size": 1,
+          "execution_ms": 270.53,
+          "operation": "analysis"
+        }
+      },
+      "grounding_source": "results/memory_visual_sensitivity_final/QPX3S/memory_visual_selectivity.json",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "frames": [
+        {
+          "memory": "E01",
+          "rank": 1,
+          "sha256": "fd8f428f812e95dda84e915ddfd12e07da357dfb923aeb2efa9d8372385a120b"
+        },
+        {
+          "memory": "E01",
+          "rank": 2,
+          "sha256": "43828cce9d63ba154406f388637348ccd0440d7d75261dd16d9716b5d61bbb22"
+        },
+        {
+          "memory": "E01",
+          "rank": 3,
+          "sha256": "241e1202fd306c96327545c0fb3bbe6c935560f913312b1276a0eebca5b351f8"
+        },
+        {
+          "memory": "E02",
+          "rank": 1,
+          "sha256": "e54487909b816371ce7bd7a4877ce8bc1ec219a9239ff2675a9d0ccaf2875f0d"
+        },
+        {
+          "memory": "E02",
+          "rank": 2,
+          "sha256": "9a4b85e2452a1b07a3ffd4d3f9bd9b7411c8bfa686f729754a36bdbaa6e92175"
+        },
+        {
+          "memory": "E02",
+          "rank": 3,
+          "sha256": "b76a9ec4a8e86d556e3c865f66564deefa00f41da82728459741e688bb43e99d"
+        },
+        {
+          "memory": "E03",
+          "rank": 1,
+          "sha256": "e75b60b1e6e7bb673f273ce25b52a416da87293fc5e39a876a79a6ad06138e4a"
+        },
+        {
+          "memory": "E03",
+          "rank": 2,
+          "sha256": "9a4b85e2452a1b07a3ffd4d3f9bd9b7411c8bfa686f729754a36bdbaa6e92175"
+        },
+        {
+          "memory": "E03",
+          "rank": 3,
+          "sha256": "c83fe15508125b3d0a20ada9eabef2c1b32ffd6947e525e0cc5986621e547e8b"
+        },
+        {
+          "memory": "E04",
+          "rank": 1,
+          "sha256": "ef8cbea562539040b6a565b71113862a86ee5ea05323b974fcec60c37fad86be"
+        },
+        {
+          "memory": "E04",
+          "rank": 2,
+          "sha256": "b2a62bb58cb01ee0bd287294e0132490da25531ee3e1cfb491249bc93b4fd4ff"
+        },
+        {
+          "memory": "E04",
+          "rank": 3,
+          "sha256": "676913fb0baadf46e9f157133cd601f8ed3254a03b0fc45b21e2a3eb6d4092d7"
+        },
+        {
+          "memory": "E05",
+          "rank": 1,
+          "sha256": "69240fbcf234902c620468baa8c8f29b159d7ee701a958acbffbabc1a805ad31"
+        },
+        {
+          "memory": "E05",
+          "rank": 2,
+          "sha256": "d8b234c1d769803178791cd3d0e7f356c89eab44911aeff1a518e17a3281e699"
+        },
+        {
+          "memory": "E05",
+          "rank": 3,
+          "sha256": "92b0b956027c1654d56abe959a051127de669d18d3ae4491ace67eccb14a0b7a"
+        },
+        {
+          "memory": "E06",
+          "rank": 1,
+          "sha256": "e54487909b816371ce7bd7a4877ce8bc1ec219a9239ff2675a9d0ccaf2875f0d"
+        },
+        {
+          "memory": "E06",
+          "rank": 2,
+          "sha256": "8fe4a1f1bf5dd475c20c986807de31f8f5b0d52eaf28047f761aef6961cc231c"
+        },
+        {
+          "memory": "E06",
+          "rank": 3,
+          "sha256": "5bd0615afc519f7901e17b28de86f8484de0f044ba3a6d6e1a4787cc93fabada"
+        },
+        {
+          "memory": "E07",
+          "rank": 1,
+          "sha256": "23993df013add95861e8235a6b5f31db6681856f91ee499406ef1e494ef05a6d"
+        },
+        {
+          "memory": "E07",
+          "rank": 2,
+          "sha256": "85d20ca06cb82b0958a9ac0fc224461f1bf05ecb107d9da07c7611a5db245988"
+        },
+        {
+          "memory": "E07",
+          "rank": 3,
+          "sha256": "75f22e2acfea8a5068a4a6584007a47e83d96d06878bca5b80a1518a2cfa1e4c"
+        },
+        {
+          "memory": "E08",
+          "rank": 1,
+          "sha256": "fd8f428f812e95dda84e915ddfd12e07da357dfb923aeb2efa9d8372385a120b"
+        },
+        {
+          "memory": "E08",
+          "rank": 2,
+          "sha256": "241e1202fd306c96327545c0fb3bbe6c935560f913312b1276a0eebca5b351f8"
+        },
+        {
+          "memory": "E08",
+          "rank": 3,
+          "sha256": "43828cce9d63ba154406f388637348ccd0440d7d75261dd16d9716b5d61bbb22"
+        },
+        {
+          "memory": "E09",
+          "rank": 1,
+          "sha256": "0afa0290da701f7995a731dddaae7be9d5dd38c5b02cfaf2f51198497030fb56"
+        },
+        {
+          "memory": "E09",
+          "rank": 2,
+          "sha256": "d224f2db6b0df9cc8198a3dd5166a787de8664dca42221f8b92f2239305e3373"
+        },
+        {
+          "memory": "E09",
+          "rank": 3,
+          "sha256": "c83fe15508125b3d0a20ada9eabef2c1b32ffd6947e525e0cc5986621e547e8b"
+        },
+        {
+          "memory": "E10",
+          "rank": 1,
+          "sha256": "f28abb186782bb8e66f7690f21b2e3ad6b6117e1026ab8cdfdc21497adbb7273"
+        },
+        {
+          "memory": "E10",
+          "rank": 2,
+          "sha256": "cee8ccaf89ba38bcf5e95b2a38def99e774e8948e8371bcaa2285c52d983bfae"
+        },
+        {
+          "memory": "E10",
+          "rank": 3,
+          "sha256": "59dc8e78a76bb0367d98f9479d9a241f1bb9a7f0b49322ec41fdda01e1af84e5"
+        }
+      ]
+    },
+    {
+      "question_id": "Prediction_T4_634",
+      "video_id": "IO712",
+      "analysis": {
+        "case_id": "Prediction_T4_634",
+        "baseline": {
+          "probabilities": [
+            0.005950878839939833,
+            0.4469289779663086,
+            0.051329366862773895,
+            0.4957907497882843
+          ],
+          "prediction": "D",
+          "answer": "The book.",
+          "probability": 0.4957907497882843,
+          "correct": true
+        },
+        "current": {
+          "probabilities": [
+            0.005950878839939833,
+            0.4469289779663086,
+            0.051329366862773895,
+            0.4957907497882843
+          ],
+          "prediction": "D",
+          "answer": "The book.",
+          "probability": 0.4957907497882843,
+          "correct": true
+        },
+        "selected": null,
+        "reference_match": true,
+        "source": "live_model",
+        "methodological_note": "Las intervenciones permiten analizar la influencia de las representaciones internas sobre la decisión del modelo. No representan necesariamente relaciones causales físicas entre eventos del video.",
+        "memories": [
+          {
+            "memory": "E07",
+            "index": 7,
+            "description": "Representación latente interna",
+            "delta": 0.030913561582565308,
+            "absolute_delta": 0.030913561582565308,
+            "original_answer_probability_after": 0.464877188205719,
+            "after": {
+              "probabilities": [
+                0.005741491448134184,
+                0.4697219431400299,
+                0.059659410268068314,
+                0.464877188205719
+              ],
+              "prediction": "B",
+              "answer": "The door.",
+              "probability": 0.4697219431400299,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 1
+          },
+          {
+            "memory": "E02",
+            "index": 2,
+            "description": "Representación latente interna",
+            "delta": 0.019393593072891235,
+            "absolute_delta": 0.019393593072891235,
+            "original_answer_probability_after": 0.47639715671539307,
+            "after": {
+              "probabilities": [
+                0.005700248293578625,
+                0.46102175116539,
+                0.05688084661960602,
+                0.47639715671539307
+              ],
+              "prediction": "D",
+              "answer": "The book.",
+              "probability": 0.47639715671539307,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 2
+          },
+          {
+            "memory": "E03",
+            "index": 3,
+            "description": "Representación latente interna",
+            "delta": 0.01783338189125061,
+            "absolute_delta": 0.01783338189125061,
+            "original_answer_probability_after": 0.4779573678970337,
+            "after": {
+              "probabilities": [
+                0.00563015416264534,
+                0.45864298939704895,
+                0.05776950716972351,
+                0.4779573678970337
+              ],
+              "prediction": "D",
+              "answer": "The book.",
+              "probability": 0.4779573678970337,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 3
+          },
+          {
+            "memory": "E05",
+            "index": 5,
+            "description": "Representación latente interna",
+            "delta": 0.01754322648048401,
+            "absolute_delta": 0.01754322648048401,
+            "original_answer_probability_after": 0.4782475233078003,
+            "after": {
+              "probabilities": [
+                0.0058130379766225815,
+                0.45998308062553406,
+                0.05595635250210762,
+                0.4782475233078003
+              ],
+              "prediction": "D",
+              "answer": "The book.",
+              "probability": 0.4782475233078003,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 4
+          },
+          {
+            "memory": "E09",
+            "index": 9,
+            "description": "Representación latente interna",
+            "delta": 0.014887392520904541,
+            "absolute_delta": 0.014887392520904541,
+            "original_answer_probability_after": 0.48090335726737976,
+            "after": {
+              "probabilities": [
+                0.005820306949317455,
+                0.4572836756706238,
+                0.055992621928453445,
+                0.48090335726737976
+              ],
+              "prediction": "D",
+              "answer": "The book.",
+              "probability": 0.48090335726737976,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 5
+          },
+          {
+            "memory": "E01",
+            "index": 1,
+            "description": "Representación latente interna",
+            "delta": 0.01317375898361206,
+            "absolute_delta": 0.01317375898361206,
+            "original_answer_probability_after": 0.48261699080467224,
+            "after": {
+              "probabilities": [
+                0.00582094443961978,
+                0.4544872045516968,
+                0.057074856013059616,
+                0.48261699080467224
+              ],
+              "prediction": "D",
+              "answer": "The book.",
+              "probability": 0.48261699080467224,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 6
+          },
+          {
+            "memory": "E08",
+            "index": 8,
+            "description": "Representación latente interna",
+            "delta": 0.010788381099700928,
+            "absolute_delta": 0.010788381099700928,
+            "original_answer_probability_after": 0.4850023686885834,
+            "after": {
+              "probabilities": [
+                0.0058200727216899395,
+                0.45362451672554016,
+                0.055552978068590164,
+                0.4850023686885834
+              ],
+              "prediction": "D",
+              "answer": "The book.",
+              "probability": 0.4850023686885834,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 7
+          },
+          {
+            "memory": "E04",
+            "index": 4,
+            "description": "Representación latente interna",
+            "delta": 0.010468810796737671,
+            "absolute_delta": 0.010468810796737671,
+            "original_answer_probability_after": 0.48532193899154663,
+            "after": {
+              "probabilities": [
+                0.005843596067279577,
+                0.4527667462825775,
+                0.05606776848435402,
+                0.48532193899154663
+              ],
+              "prediction": "D",
+              "answer": "The book.",
+              "probability": 0.48532193899154663,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 8
+          },
+          {
+            "memory": "E10",
+            "index": 10,
+            "description": "Representación latente interna",
+            "delta": 0.009694159030914307,
+            "absolute_delta": 0.009694159030914307,
+            "original_answer_probability_after": 0.48609659075737,
+            "after": {
+              "probabilities": [
+                0.005761196371167898,
+                0.45134857296943665,
+                0.05679363012313843,
+                0.48609659075737
+              ],
+              "prediction": "D",
+              "answer": "The book.",
+              "probability": 0.48609659075737,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 9
+          },
+          {
+            "memory": "E06",
+            "index": 6,
+            "description": "Representación latente interna",
+            "delta": 0.006358116865158081,
+            "absolute_delta": 0.006358116865158081,
+            "original_answer_probability_after": 0.4894326329231262,
+            "after": {
+              "probabilities": [
+                0.005828483495861292,
+                0.44853875041007996,
+                0.056200042366981506,
+                0.4894326329231262
+              ],
+              "prediction": "D",
+              "answer": "The book.",
+              "probability": 0.4894326329231262,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 10
+          }
+        ],
+        "top": 7,
+        "bottom": 6,
+        "random": 3,
+        "random_seed": 42,
+        "technical": {
+          "device": "cuda:0",
+          "checkpoint_sha256": {
+            "gf": "74e3c2064d61ee4762c2d1cac8853017124a3c47df3e351ae7a3dd066c765326",
+            "tcmr": "8a30ff3e331fe40a121a0b6e3f6c13182fd3216caee5664fcf124336ad569eb9"
+          },
+          "gf_checkpoint": "model_3000.tar",
+          "tcmr_checkpoint": "temporal_relation_encoder_seed42_git_287b173f.pt",
+          "feature_filename": "IO712_s3d_official.npy",
+          "tcmr_alpha": 0.15344971418380737,
+          "random_seed": 42,
+          "question_batch_size": 1,
+          "execution_ms": 271.82,
+          "operation": "analysis"
+        }
+      },
+      "grounding_source": "results/memory_visual_sensitivity_final/IO712/memory_visual_selectivity.json",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "frames": [
+        {
+          "memory": "E01",
+          "rank": 1,
+          "sha256": "7c596d00351d95ef89b2df427f6ac38e66988399e51b3543a14ffabf43ce58b2"
+        },
+        {
+          "memory": "E01",
+          "rank": 2,
+          "sha256": "bbf2769e16d32fb52b401c851044b9c012a9d4459599abc34d25f5dbbda294fd"
+        },
+        {
+          "memory": "E01",
+          "rank": 3,
+          "sha256": "5707b6eafdfaf988f64bee44aed0697b687abaf07308c0b27ebc1376377801ed"
+        },
+        {
+          "memory": "E02",
+          "rank": 1,
+          "sha256": "4f17bfd6258fff45681b9d8705fc6a2dfc68a2747bebebef0d8b1f4589ee4e69"
+        },
+        {
+          "memory": "E02",
+          "rank": 2,
+          "sha256": "f410107d688055317263d69a911104b9dadd6aa77b488952974edd87fa79e0e1"
+        },
+        {
+          "memory": "E02",
+          "rank": 3,
+          "sha256": "73f36cd3511ad943d3dad9a127abf6198d7b55b4aa153456ccc2c5f0087f316c"
+        },
+        {
+          "memory": "E03",
+          "rank": 1,
+          "sha256": "bbf2769e16d32fb52b401c851044b9c012a9d4459599abc34d25f5dbbda294fd"
+        },
+        {
+          "memory": "E03",
+          "rank": 2,
+          "sha256": "7c596d00351d95ef89b2df427f6ac38e66988399e51b3543a14ffabf43ce58b2"
+        },
+        {
+          "memory": "E03",
+          "rank": 3,
+          "sha256": "5707b6eafdfaf988f64bee44aed0697b687abaf07308c0b27ebc1376377801ed"
+        },
+        {
+          "memory": "E04",
+          "rank": 1,
+          "sha256": "644015af8bdef93b3afbe127638d9b50bbc38dd9df06dabb3f8891fd3f5c4bc9"
+        },
+        {
+          "memory": "E04",
+          "rank": 2,
+          "sha256": "81707dc5ee49b2433e92e155ad3a63b83e043ed8cb49d4ee75168056f8b5c40c"
+        },
+        {
+          "memory": "E04",
+          "rank": 3,
+          "sha256": "ace1d91bf937b4f9b746e9f7356a20a08c3ace4ce191cd8f134281a3ab1fb0b8"
+        },
+        {
+          "memory": "E05",
+          "rank": 1,
+          "sha256": "25088d897c58b7843cf8b75db5411a598556fa85842df3a4bdb2130392de7139"
+        },
+        {
+          "memory": "E05",
+          "rank": 2,
+          "sha256": "c9ee9ea011181535c7831c854003dccef1b0b1c43a255760b6bc04faf4846ce9"
+        },
+        {
+          "memory": "E05",
+          "rank": 3,
+          "sha256": "5707b6eafdfaf988f64bee44aed0697b687abaf07308c0b27ebc1376377801ed"
+        },
+        {
+          "memory": "E06",
+          "rank": 1,
+          "sha256": "2b2c3a6053cc00125d660e2a049a71100980fd44b219e08ff243071d72591c59"
+        },
+        {
+          "memory": "E06",
+          "rank": 2,
+          "sha256": "6f75fbd8b660525ae8722a68798b6a142f5cac878d8308f27393ce43e3660ad7"
+        },
+        {
+          "memory": "E06",
+          "rank": 3,
+          "sha256": "a8ce6a54e5b5b60d59d95ca435dcea4d231298bf080c259050d51890c1276cc7"
+        },
+        {
+          "memory": "E07",
+          "rank": 1,
+          "sha256": "729aea819d1c9b085904fef8af84838590c96d40d4d89502dfbe050521ba0a04"
+        },
+        {
+          "memory": "E07",
+          "rank": 2,
+          "sha256": "d621e9297a6f692272de9a9fd51f4bd7accd14047082c8bac923e998dd302f12"
+        },
+        {
+          "memory": "E07",
+          "rank": 3,
+          "sha256": "3350905a0965fefcb16dc018115df6938cbdae845f5f3a1a9606508687291204"
+        },
+        {
+          "memory": "E08",
+          "rank": 1,
+          "sha256": "1fbd66087b31a8ff9c68df75b015aa3f269c75446609f587f9c911336fd1c839"
+        },
+        {
+          "memory": "E08",
+          "rank": 2,
+          "sha256": "d57662083e1a64eaebba17f614c8f51163e17c01ddfd4977ecdd33ed55c91d5c"
+        },
+        {
+          "memory": "E08",
+          "rank": 3,
+          "sha256": "6f75fbd8b660525ae8722a68798b6a142f5cac878d8308f27393ce43e3660ad7"
+        },
+        {
+          "memory": "E09",
+          "rank": 1,
+          "sha256": "06d0958f61950b7ed11f15fe35c40eb1b2b03ed03f7664de46f4cb214d5c76f1"
+        },
+        {
+          "memory": "E09",
+          "rank": 2,
+          "sha256": "7c596d00351d95ef89b2df427f6ac38e66988399e51b3543a14ffabf43ce58b2"
+        },
+        {
+          "memory": "E09",
+          "rank": 3,
+          "sha256": "b4c2d82165fae98c1b138de525703efd0950d11f3c86b4dddb016f30fb46588a"
+        },
+        {
+          "memory": "E10",
+          "rank": 1,
+          "sha256": "ed0d7038f17dbd95f917d2d772e2dd219f4c9c2102532aac641b51e42464defc"
+        },
+        {
+          "memory": "E10",
+          "rank": 2,
+          "sha256": "a71e521626d9c0b276594e22525c14448ac8c8ee1ff853d44fc19aea3abf81e9"
+        },
+        {
+          "memory": "E10",
+          "rank": 3,
+          "sha256": "ace1d91bf937b4f9b746e9f7356a20a08c3ace4ce191cd8f134281a3ab1fb0b8"
+        }
+      ]
+    },
+    {
+      "question_id": "Prediction_T1_1408",
+      "video_id": "I1OLQ",
+      "analysis": {
+        "case_id": "Prediction_T1_1408",
+        "baseline": {
+          "probabilities": [
+            0.4102380871772766,
+            0.07746458053588867,
+            0.46960800886154175,
+            0.042689334601163864
+          ],
+          "prediction": "C",
+          "answer": "Open the bag.",
+          "probability": 0.46960800886154175,
+          "correct": true
+        },
+        "current": {
+          "probabilities": [
+            0.4102380871772766,
+            0.07746458053588867,
+            0.46960800886154175,
+            0.042689334601163864
+          ],
+          "prediction": "C",
+          "answer": "Open the bag.",
+          "probability": 0.46960800886154175,
+          "correct": true
+        },
+        "selected": null,
+        "reference_match": true,
+        "source": "live_model",
+        "methodological_note": "Las intervenciones permiten analizar la influencia de las representaciones internas sobre la decisión del modelo. No representan necesariamente relaciones causales físicas entre eventos del video.",
+        "memories": [
+          {
+            "memory": "E03",
+            "index": 3,
+            "description": "Representación latente interna",
+            "delta": -0.09492242336273193,
+            "absolute_delta": 0.09492242336273193,
+            "original_answer_probability_after": 0.5645304322242737,
+            "after": {
+              "probabilities": [
+                0.3276236653327942,
+                0.0768875777721405,
+                0.5645304322242737,
+                0.03095831535756588
+              ],
+              "prediction": "C",
+              "answer": "Open the bag.",
+              "probability": 0.5645304322242737,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 1
+          },
+          {
+            "memory": "E01",
+            "index": 1,
+            "description": "Representación latente interna",
+            "delta": -0.07634520530700684,
+            "absolute_delta": 0.07634520530700684,
+            "original_answer_probability_after": 0.5459532141685486,
+            "after": {
+              "probabilities": [
+                0.34614500403404236,
+                0.0731523409485817,
+                0.5459532141685486,
+                0.03474941849708557
+              ],
+              "prediction": "C",
+              "answer": "Open the bag.",
+              "probability": 0.5459532141685486,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 2
+          },
+          {
+            "memory": "E07",
+            "index": 7,
+            "description": "Representación latente interna",
+            "delta": -0.05910438299179077,
+            "absolute_delta": 0.05910438299179077,
+            "original_answer_probability_after": 0.5287123918533325,
+            "after": {
+              "probabilities": [
+                0.35728180408477783,
+                0.07772742211818695,
+                0.5287123918533325,
+                0.03627841919660568
+              ],
+              "prediction": "C",
+              "answer": "Open the bag.",
+              "probability": 0.5287123918533325,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 3
+          },
+          {
+            "memory": "E08",
+            "index": 8,
+            "description": "Representación latente interna",
+            "delta": -0.05298823118209839,
+            "absolute_delta": 0.05298823118209839,
+            "original_answer_probability_after": 0.5225962400436401,
+            "after": {
+              "probabilities": [
+                0.36114636063575745,
+                0.07854767888784409,
+                0.5225962400436401,
+                0.037709642201662064
+              ],
+              "prediction": "C",
+              "answer": "Open the bag.",
+              "probability": 0.5225962400436401,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 4
+          },
+          {
+            "memory": "E09",
+            "index": 9,
+            "description": "Representación latente interna",
+            "delta": -0.05197542905807495,
+            "absolute_delta": 0.05197542905807495,
+            "original_answer_probability_after": 0.5215834379196167,
+            "after": {
+              "probabilities": [
+                0.364605575799942,
+                0.07645656168460846,
+                0.5215834379196167,
+                0.0373544879257679
+              ],
+              "prediction": "C",
+              "answer": "Open the bag.",
+              "probability": 0.5215834379196167,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 5
+          },
+          {
+            "memory": "E05",
+            "index": 5,
+            "description": "Representación latente interna",
+            "delta": -0.05115175247192383,
+            "absolute_delta": 0.05115175247192383,
+            "original_answer_probability_after": 0.5207597613334656,
+            "after": {
+              "probabilities": [
+                0.36410680413246155,
+                0.07854317128658295,
+                0.5207597613334656,
+                0.036590300500392914
+              ],
+              "prediction": "C",
+              "answer": "Open the bag.",
+              "probability": 0.5207597613334656,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 6
+          },
+          {
+            "memory": "E06",
+            "index": 6,
+            "description": "Representación latente interna",
+            "delta": -0.040983498096466064,
+            "absolute_delta": 0.040983498096466064,
+            "original_answer_probability_after": 0.5105915069580078,
+            "after": {
+              "probabilities": [
+                0.37243831157684326,
+                0.08103837817907333,
+                0.5105915069580078,
+                0.03593182936310768
+              ],
+              "prediction": "C",
+              "answer": "Open the bag.",
+              "probability": 0.5105915069580078,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 7
+          },
+          {
+            "memory": "E02",
+            "index": 2,
+            "description": "Representación latente interna",
+            "delta": -0.03896290063858032,
+            "absolute_delta": 0.03896290063858032,
+            "original_answer_probability_after": 0.5085709095001221,
+            "after": {
+              "probabilities": [
+                0.37603381276130676,
+                0.0779363289475441,
+                0.5085709095001221,
+                0.03745896369218826
+              ],
+              "prediction": "C",
+              "answer": "Open the bag.",
+              "probability": 0.5085709095001221,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 8
+          },
+          {
+            "memory": "E04",
+            "index": 4,
+            "description": "Representación latente interna",
+            "delta": -0.03427356481552124,
+            "absolute_delta": 0.03427356481552124,
+            "original_answer_probability_after": 0.503881573677063,
+            "after": {
+              "probabilities": [
+                0.3784800171852112,
+                0.08079125732183456,
+                0.503881573677063,
+                0.036847155541181564
+              ],
+              "prediction": "C",
+              "answer": "Open the bag.",
+              "probability": 0.503881573677063,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 9
+          },
+          {
+            "memory": "E10",
+            "index": 10,
+            "description": "Representación latente interna",
+            "delta": -0.033996760845184326,
+            "absolute_delta": 0.033996760845184326,
+            "original_answer_probability_after": 0.5036047697067261,
+            "after": {
+              "probabilities": [
+                0.3769752085208893,
+                0.08108055591583252,
+                0.5036047697067261,
+                0.03833945840597153
+              ],
+              "prediction": "C",
+              "answer": "Open the bag.",
+              "probability": 0.5036047697067261,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 10
+          }
+        ],
+        "top": 3,
+        "bottom": 10,
+        "random": 4,
+        "random_seed": 42,
+        "technical": {
+          "device": "cuda:0",
+          "checkpoint_sha256": {
+            "gf": "74e3c2064d61ee4762c2d1cac8853017124a3c47df3e351ae7a3dd066c765326",
+            "tcmr": "8a30ff3e331fe40a121a0b6e3f6c13182fd3216caee5664fcf124336ad569eb9"
+          },
+          "gf_checkpoint": "model_3000.tar",
+          "tcmr_checkpoint": "temporal_relation_encoder_seed42_git_287b173f.pt",
+          "feature_filename": "I1OLQ_s3d_official.npy",
+          "tcmr_alpha": 0.15344971418380737,
+          "random_seed": 42,
+          "question_batch_size": 1,
+          "execution_ms": 285.09,
+          "operation": "analysis"
+        }
+      },
+      "grounding_source": "results/memory_visual_sensitivity_final/I1OLQ/memory_visual_selectivity.json",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "frames": [
+        {
+          "memory": "E01",
+          "rank": 1,
+          "sha256": "a5f683af495aba382b03d0dbd7da4c5add29533829b087ac2485b941555b3865"
+        },
+        {
+          "memory": "E01",
+          "rank": 2,
+          "sha256": "8328e995e4be35e226700debfa83c85734f7eb8b47719f2a059ce7663b9b6f62"
+        },
+        {
+          "memory": "E01",
+          "rank": 3,
+          "sha256": "e61bb16896fe1252ef4aa61a2c4b550370714830d89e9eb18f42c018abc792ae"
+        },
+        {
+          "memory": "E02",
+          "rank": 1,
+          "sha256": "4cd4535ee92ce5d34424f2916fa50c1b8eca9d701bda38bdc14877ee6718f983"
+        },
+        {
+          "memory": "E02",
+          "rank": 2,
+          "sha256": "556c76c6f40ef5349faa04dea688517dac93a0716b691466a6f412260a77fcd1"
+        },
+        {
+          "memory": "E02",
+          "rank": 3,
+          "sha256": "22e512f20ddafab0740afc66f4151d5416d34f95dc53602709949105adc35640"
+        },
+        {
+          "memory": "E03",
+          "rank": 1,
+          "sha256": "951293252fc79d4b46bdea3915e95297da85ba8502ad9ef31938efa2aafd0705"
+        },
+        {
+          "memory": "E03",
+          "rank": 2,
+          "sha256": "334bef2357ab8fd11ee6935cf233fdf82cb7a41d5f461814a18bc1e1bc4a98ea"
+        },
+        {
+          "memory": "E03",
+          "rank": 3,
+          "sha256": "2bb02ef11da8a021de511d3542bf9484a3d56f63f7421eaa206a494b8b74d6a9"
+        },
+        {
+          "memory": "E04",
+          "rank": 1,
+          "sha256": "e3e7a14e9fd6265ba14203e30c615d4f1c4b8042c918541a29acd9350bb5e407"
+        },
+        {
+          "memory": "E04",
+          "rank": 2,
+          "sha256": "58476b06e637ff79c780d9a20d9c4ce0ed43f5b0567226eca4e613f2ee1b0f80"
+        },
+        {
+          "memory": "E04",
+          "rank": 3,
+          "sha256": "6322dc7c73c77d85f2ca13f5384bbb0869c0f6f1e19d515f4670065f6591292e"
+        },
+        {
+          "memory": "E05",
+          "rank": 1,
+          "sha256": "13b7a35e4cf0019f1d2c0b340032fed7b67264c35b3622706f9b3c6e16ca1c63"
+        },
+        {
+          "memory": "E05",
+          "rank": 2,
+          "sha256": "aa31c1b2a53f94d425db3e515ada53c917895ae8b328607b476c17ea05eee5d5"
+        },
+        {
+          "memory": "E05",
+          "rank": 3,
+          "sha256": "f171463fe84ecc1a49748b053928593c9ff6987ef326d12c1406938cc27a324d"
+        },
+        {
+          "memory": "E06",
+          "rank": 1,
+          "sha256": "02f9dc2cc640043b5b83311e8e4d1f6358249be91cd8398f0b6fcf3ccd50b178"
+        },
+        {
+          "memory": "E06",
+          "rank": 2,
+          "sha256": "6525900f7928e08c7875ca19b596147a9a759342cd2b7ec97daea572812431fd"
+        },
+        {
+          "memory": "E06",
+          "rank": 3,
+          "sha256": "d8cc4b54c12980ee107ac971fa523302c62ccc2f47179a91ce4304359fdfccaf"
+        },
+        {
+          "memory": "E07",
+          "rank": 1,
+          "sha256": "021a52fa091aa9f811916dafe92e8f6f4dec0a9a5e3b348c5b2278da133d8388"
+        },
+        {
+          "memory": "E07",
+          "rank": 2,
+          "sha256": "f9711dad9fdb4b36d92081048060d5f7c0a25486960a1d3db860e9cae33c0ce9"
+        },
+        {
+          "memory": "E07",
+          "rank": 3,
+          "sha256": "a6ff9d21085833c9d9ba11328610e74ed3fcccf25e63e0cc7d00a3dcf6b90374"
+        },
+        {
+          "memory": "E08",
+          "rank": 1,
+          "sha256": "600a4705727d801aae17cd9b96c121829868f568c6e37a465a2cdd554e958a41"
+        },
+        {
+          "memory": "E08",
+          "rank": 2,
+          "sha256": "c89be6d90d4e1ad36009fa838e4085a0143f6cca93b9af1ca31af19d4c5e91ae"
+        },
+        {
+          "memory": "E08",
+          "rank": 3,
+          "sha256": "b765c223af7278b25681707ff2eeefadfb841623bdaac2a33aa41c31177b3c94"
+        },
+        {
+          "memory": "E09",
+          "rank": 1,
+          "sha256": "82c28fbaa95a4952862e0ba8944d4d71803a51aecb4ccc2587c129f5a528e470"
+        },
+        {
+          "memory": "E09",
+          "rank": 2,
+          "sha256": "e63da3faf760e067300d6f9ecde7a5e9d9531ec9050a46f5177403642bf8d2b8"
+        },
+        {
+          "memory": "E09",
+          "rank": 3,
+          "sha256": "9cd6222b6a9dae2daff053fc58d6c890b0993817da4315b5c38b78b69c236b77"
+        },
+        {
+          "memory": "E10",
+          "rank": 1,
+          "sha256": "951293252fc79d4b46bdea3915e95297da85ba8502ad9ef31938efa2aafd0705"
+        },
+        {
+          "memory": "E10",
+          "rank": 2,
+          "sha256": "3e6f5adf7b06e46c123b2a1efeb11cf932eb16664a475bb5e7163c4e491763e3"
+        },
+        {
+          "memory": "E10",
+          "rank": 3,
+          "sha256": "334bef2357ab8fd11ee6935cf233fdf82cb7a41d5f461814a18bc1e1bc4a98ea"
+        }
+      ]
+    },
+    {
+      "question_id": "Feasibility_T5_305",
+      "video_id": "ZNQVC",
+      "analysis": {
+        "case_id": "Feasibility_T5_305",
+        "baseline": {
+          "probabilities": [
+            0.007721277419477701,
+            0.47975191473960876,
+            0.4963570535182953,
+            0.01616978831589222
+          ],
+          "prediction": "C",
+          "answer": "The shoe.",
+          "probability": 0.4963570535182953,
+          "correct": true
+        },
+        "current": {
+          "probabilities": [
+            0.007721277419477701,
+            0.47975191473960876,
+            0.4963570535182953,
+            0.01616978831589222
+          ],
+          "prediction": "C",
+          "answer": "The shoe.",
+          "probability": 0.4963570535182953,
+          "correct": true
+        },
+        "selected": null,
+        "reference_match": true,
+        "source": "live_model",
+        "methodological_note": "Las intervenciones permiten analizar la influencia de las representaciones internas sobre la decisión del modelo. No representan necesariamente relaciones causales físicas entre eventos del video.",
+        "memories": [
+          {
+            "memory": "E03",
+            "index": 3,
+            "description": "Representación latente interna",
+            "delta": 0.0521775484085083,
+            "absolute_delta": 0.0521775484085083,
+            "original_answer_probability_after": 0.444179505109787,
+            "after": {
+              "probabilities": [
+                0.006399793550372124,
+                0.5359449982643127,
+                0.444179505109787,
+                0.013475672341883183
+              ],
+              "prediction": "B",
+              "answer": "The bag.",
+              "probability": 0.5359449982643127,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 1
+          },
+          {
+            "memory": "E09",
+            "index": 9,
+            "description": "Representación latente interna",
+            "delta": -0.019636839628219604,
+            "absolute_delta": 0.019636839628219604,
+            "original_answer_probability_after": 0.5159938931465149,
+            "after": {
+              "probabilities": [
+                0.0060710664838552475,
+                0.4635525941848755,
+                0.5159938931465149,
+                0.014382450841367245
+              ],
+              "prediction": "C",
+              "answer": "The shoe.",
+              "probability": 0.5159938931465149,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 2
+          },
+          {
+            "memory": "E08",
+            "index": 8,
+            "description": "Representación latente interna",
+            "delta": -0.01866164803504944,
+            "absolute_delta": 0.01866164803504944,
+            "original_answer_probability_after": 0.5150187015533447,
+            "after": {
+              "probabilities": [
+                0.005940386094152927,
+                0.4651055335998535,
+                0.5150187015533447,
+                0.013935374096035957
+              ],
+              "prediction": "C",
+              "answer": "The shoe.",
+              "probability": 0.5150187015533447,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 3
+          },
+          {
+            "memory": "E06",
+            "index": 6,
+            "description": "Representación latente interna",
+            "delta": -0.018312841653823853,
+            "absolute_delta": 0.018312841653823853,
+            "original_answer_probability_after": 0.5146698951721191,
+            "after": {
+              "probabilities": [
+                0.005829562898725271,
+                0.46554034948349,
+                0.5146698951721191,
+                0.013960192911326885
+              ],
+              "prediction": "C",
+              "answer": "The shoe.",
+              "probability": 0.5146698951721191,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 4
+          },
+          {
+            "memory": "E10",
+            "index": 10,
+            "description": "Representación latente interna",
+            "delta": -0.017518609762191772,
+            "absolute_delta": 0.017518609762191772,
+            "original_answer_probability_after": 0.5138756632804871,
+            "after": {
+              "probabilities": [
+                0.005791900679469109,
+                0.4663420617580414,
+                0.5138756632804871,
+                0.013990388251841068
+              ],
+              "prediction": "C",
+              "answer": "The shoe.",
+              "probability": 0.5138756632804871,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 5
+          },
+          {
+            "memory": "E01",
+            "index": 1,
+            "description": "Representación latente interna",
+            "delta": 0.010524719953536987,
+            "absolute_delta": 0.010524719953536987,
+            "original_answer_probability_after": 0.4858323335647583,
+            "after": {
+              "probabilities": [
+                0.005633424036204815,
+                0.49508440494537354,
+                0.4858323335647583,
+                0.013449853286147118
+              ],
+              "prediction": "B",
+              "answer": "The bag.",
+              "probability": 0.49508440494537354,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 6
+          },
+          {
+            "memory": "E05",
+            "index": 5,
+            "description": "Representación latente interna",
+            "delta": 0.00766029953956604,
+            "absolute_delta": 0.00766029953956604,
+            "original_answer_probability_after": 0.48869675397872925,
+            "after": {
+              "probabilities": [
+                0.0056716809049248695,
+                0.49173352122306824,
+                0.48869675397872925,
+                0.013898110017180443
+              ],
+              "prediction": "B",
+              "answer": "The bag.",
+              "probability": 0.49173352122306824,
+              "correct": false
+            },
+            "flip": true,
+            "rank": 7
+          },
+          {
+            "memory": "E02",
+            "index": 2,
+            "description": "Representación latente interna",
+            "delta": -0.005905598402023315,
+            "absolute_delta": 0.005905598402023315,
+            "original_answer_probability_after": 0.5022626519203186,
+            "after": {
+              "probabilities": [
+                0.005579184275120497,
+                0.478200763463974,
+                0.5022626519203186,
+                0.013957349583506584
+              ],
+              "prediction": "C",
+              "answer": "The shoe.",
+              "probability": 0.5022626519203186,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 8
+          },
+          {
+            "memory": "E04",
+            "index": 4,
+            "description": "Representación latente interna",
+            "delta": -0.0025736093521118164,
+            "absolute_delta": 0.0025736093521118164,
+            "original_answer_probability_after": 0.4989306628704071,
+            "after": {
+              "probabilities": [
+                0.0059529440477490425,
+                0.4804692268371582,
+                0.4989306628704071,
+                0.014647201634943485
+              ],
+              "prediction": "C",
+              "answer": "The shoe.",
+              "probability": 0.4989306628704071,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 9
+          },
+          {
+            "memory": "E07",
+            "index": 7,
+            "description": "Representación latente interna",
+            "delta": -0.0014016032218933105,
+            "absolute_delta": 0.0014016032218933105,
+            "original_answer_probability_after": 0.4977586567401886,
+            "after": {
+              "probabilities": [
+                0.005454640835523605,
+                0.48330259323120117,
+                0.4977586567401886,
+                0.01348408218473196
+              ],
+              "prediction": "C",
+              "answer": "The shoe.",
+              "probability": 0.4977586567401886,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 10
+          }
+        ],
+        "top": 3,
+        "bottom": 7,
+        "random": 2,
+        "random_seed": 42,
+        "technical": {
+          "device": "cuda:0",
+          "checkpoint_sha256": {
+            "gf": "74e3c2064d61ee4762c2d1cac8853017124a3c47df3e351ae7a3dd066c765326",
+            "tcmr": "8a30ff3e331fe40a121a0b6e3f6c13182fd3216caee5664fcf124336ad569eb9"
+          },
+          "gf_checkpoint": "model_3000.tar",
+          "tcmr_checkpoint": "temporal_relation_encoder_seed42_git_287b173f.pt",
+          "feature_filename": "ZNQVC_s3d_official.npy",
+          "tcmr_alpha": 0.15344971418380737,
+          "random_seed": 42,
+          "question_batch_size": 1,
+          "execution_ms": 276.34,
+          "operation": "analysis"
+        }
+      },
+      "grounding_source": "results/memory_visual_sensitivity_final/ZNQVC/memory_visual_selectivity.json",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "frames": [
+        {
+          "memory": "E01",
+          "rank": 1,
+          "sha256": "b676a1050f0670c4e0cc9991c17019808e651565488d3fb083bd7c2338e9576f"
+        },
+        {
+          "memory": "E01",
+          "rank": 2,
+          "sha256": "4d0858d580d47d2692d074f515bb1df4ad35cf78feb9c4e1c4ec49dd229246d5"
+        },
+        {
+          "memory": "E01",
+          "rank": 3,
+          "sha256": "46c0222433a43eef4700ef011b072144860ed3eb60e18f77bbfb4a37f9c1c9ad"
+        },
+        {
+          "memory": "E02",
+          "rank": 1,
+          "sha256": "1ffbf2a8b28adbc6fbda68b4618816f95bb287003ddea8e13a82335498a3a9dc"
+        },
+        {
+          "memory": "E02",
+          "rank": 2,
+          "sha256": "9ffa80325228f02dcee967932ca706003c99e719b7c581b4e75ab539ed118a48"
+        },
+        {
+          "memory": "E02",
+          "rank": 3,
+          "sha256": "07cc1a371a9dc0795624e3e7a44537f7ab52b4c8c1eaedabf2537a9b06db135f"
+        },
+        {
+          "memory": "E03",
+          "rank": 1,
+          "sha256": "e3faadefe2dc68259eac96f1770a11e06bbdfbe099b745a5227db8d5a0b3cedb"
+        },
+        {
+          "memory": "E03",
+          "rank": 2,
+          "sha256": "9b8285810bdf5bfe1731cb11e3c61134bc8e408511ca6ffb4d173ab9f08f36d8"
+        },
+        {
+          "memory": "E03",
+          "rank": 3,
+          "sha256": "5fa36b6c9f98d978075cd5ef667a1a6fd16eb22c16784403d7bbd05e865c0b84"
+        },
+        {
+          "memory": "E04",
+          "rank": 1,
+          "sha256": "07cc1a371a9dc0795624e3e7a44537f7ab52b4c8c1eaedabf2537a9b06db135f"
+        },
+        {
+          "memory": "E04",
+          "rank": 2,
+          "sha256": "1ffbf2a8b28adbc6fbda68b4618816f95bb287003ddea8e13a82335498a3a9dc"
+        },
+        {
+          "memory": "E04",
+          "rank": 3,
+          "sha256": "35e4b0cbdafcde159246894856a5dfa08de8700a601e6e025ac73253e44dcf26"
+        },
+        {
+          "memory": "E05",
+          "rank": 1,
+          "sha256": "fa01f5d232fd1c314a6790427be6ff115cc310db5bbd37ee23a9fca19042febe"
+        },
+        {
+          "memory": "E05",
+          "rank": 2,
+          "sha256": "35e4b0cbdafcde159246894856a5dfa08de8700a601e6e025ac73253e44dcf26"
+        },
+        {
+          "memory": "E05",
+          "rank": 3,
+          "sha256": "1ffbf2a8b28adbc6fbda68b4618816f95bb287003ddea8e13a82335498a3a9dc"
+        },
+        {
+          "memory": "E06",
+          "rank": 1,
+          "sha256": "46c0222433a43eef4700ef011b072144860ed3eb60e18f77bbfb4a37f9c1c9ad"
+        },
+        {
+          "memory": "E06",
+          "rank": 2,
+          "sha256": "faee99c38912347e6438f7e0128f06dca3e28e8b2464257b895a439ba8549bf7"
+        },
+        {
+          "memory": "E06",
+          "rank": 3,
+          "sha256": "4d0858d580d47d2692d074f515bb1df4ad35cf78feb9c4e1c4ec49dd229246d5"
+        },
+        {
+          "memory": "E07",
+          "rank": 1,
+          "sha256": "9431c29b1be18119663a367863623c97622837576f185ba23d910be01b911e8b"
+        },
+        {
+          "memory": "E07",
+          "rank": 2,
+          "sha256": "ed4c9a15c0a07d5bd28ff0b3f9d7863909c801fbafa7bc8b7082e8f3b0bf7931"
+        },
+        {
+          "memory": "E07",
+          "rank": 3,
+          "sha256": "cf268958ad56b362585ad94f89f4cfce9c5ff185c05519039390629084f038b1"
+        },
+        {
+          "memory": "E08",
+          "rank": 1,
+          "sha256": "89bf638dcda17b759ef3d4db20555ada69b65880c25d78724486f98de50b71af"
+        },
+        {
+          "memory": "E08",
+          "rank": 2,
+          "sha256": "722e9508bc3e9b4b3ad7a622e3c897417a649928bf12e29c045d9f39aba414ed"
+        },
+        {
+          "memory": "E08",
+          "rank": 3,
+          "sha256": "9ffa80325228f02dcee967932ca706003c99e719b7c581b4e75ab539ed118a48"
+        },
+        {
+          "memory": "E09",
+          "rank": 1,
+          "sha256": "ab7f0d3452e702d53e40d16878b36a980bd9f1e92de05fedb45ae1636e127566"
+        },
+        {
+          "memory": "E09",
+          "rank": 2,
+          "sha256": "fea6f915d82da9a89f74e96b487776004086ab314b76c75dba32bcce2cddd23b"
+        },
+        {
+          "memory": "E09",
+          "rank": 3,
+          "sha256": "cb641773d834f1541bae9a5b10de5f66b84186c6368e1a5683e29667489a9aac"
+        },
+        {
+          "memory": "E10",
+          "rank": 1,
+          "sha256": "722e9508bc3e9b4b3ad7a622e3c897417a649928bf12e29c045d9f39aba414ed"
+        },
+        {
+          "memory": "E10",
+          "rank": 2,
+          "sha256": "5fb48cf1bdc47bb6421216071a8fab32454ebfbfa82e09528e9ea957bc289a12"
+        },
+        {
+          "memory": "E10",
+          "rank": 3,
+          "sha256": "5965e07103bfed220989bb37649a815ef29626cd1925c1b84d0a36025733be93"
+        }
+      ]
+    },
+    {
+      "question_id": "Feasibility_T5_2170",
+      "video_id": "KFI7N",
+      "analysis": {
+        "case_id": "Feasibility_T5_2170",
+        "baseline": {
+          "probabilities": [
+            0.5081151723861694,
+            0.1525682508945465,
+            0.17472012341022491,
+            0.16459642350673676
+          ],
+          "prediction": "A",
+          "answer": "The broom.",
+          "probability": 0.5081151723861694,
+          "correct": true
+        },
+        "current": {
+          "probabilities": [
+            0.5081151723861694,
+            0.1525682508945465,
+            0.17472012341022491,
+            0.16459642350673676
+          ],
+          "prediction": "A",
+          "answer": "The broom.",
+          "probability": 0.5081151723861694,
+          "correct": true
+        },
+        "selected": null,
+        "reference_match": true,
+        "source": "live_model",
+        "methodological_note": "Las intervenciones permiten analizar la influencia de las representaciones internas sobre la decisión del modelo. No representan necesariamente relaciones causales físicas entre eventos del video.",
+        "memories": [
+          {
+            "memory": "E06",
+            "index": 6,
+            "description": "Representación latente interna",
+            "delta": -0.08011573553085327,
+            "absolute_delta": 0.08011573553085327,
+            "original_answer_probability_after": 0.5882309079170227,
+            "after": {
+              "probabilities": [
+                0.5882309079170227,
+                0.12670020759105682,
+                0.1479577124118805,
+                0.13711117208003998
+              ],
+              "prediction": "A",
+              "answer": "The broom.",
+              "probability": 0.5882309079170227,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 1
+          },
+          {
+            "memory": "E09",
+            "index": 9,
+            "description": "Representación latente interna",
+            "delta": -0.07510924339294434,
+            "absolute_delta": 0.07510924339294434,
+            "original_answer_probability_after": 0.5832244157791138,
+            "after": {
+              "probabilities": [
+                0.5832244157791138,
+                0.12813884019851685,
+                0.14974190294742584,
+                0.13889482617378235
+              ],
+              "prediction": "A",
+              "answer": "The broom.",
+              "probability": 0.5832244157791138,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 2
+          },
+          {
+            "memory": "E08",
+            "index": 8,
+            "description": "Representación latente interna",
+            "delta": -0.07322341203689575,
+            "absolute_delta": 0.07322341203689575,
+            "original_answer_probability_after": 0.5813385844230652,
+            "after": {
+              "probabilities": [
+                0.5813385844230652,
+                0.12881270051002502,
+                0.14873245358467102,
+                0.14111629128456116
+              ],
+              "prediction": "A",
+              "answer": "The broom.",
+              "probability": 0.5813385844230652,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 3
+          },
+          {
+            "memory": "E04",
+            "index": 4,
+            "description": "Representación latente interna",
+            "delta": -0.07226383686065674,
+            "absolute_delta": 0.07226383686065674,
+            "original_answer_probability_after": 0.5803790092468262,
+            "after": {
+              "probabilities": [
+                0.5803790092468262,
+                0.12747137248516083,
+                0.15071649849414825,
+                0.14143313467502594
+              ],
+              "prediction": "A",
+              "answer": "The broom.",
+              "probability": 0.5803790092468262,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 4
+          },
+          {
+            "memory": "E02",
+            "index": 2,
+            "description": "Representación latente interna",
+            "delta": -0.06905823945999146,
+            "absolute_delta": 0.06905823945999146,
+            "original_answer_probability_after": 0.5771734118461609,
+            "after": {
+              "probabilities": [
+                0.5771734118461609,
+                0.12939101457595825,
+                0.15249669551849365,
+                0.14093893766403198
+              ],
+              "prediction": "A",
+              "answer": "The broom.",
+              "probability": 0.5771734118461609,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 5
+          },
+          {
+            "memory": "E01",
+            "index": 1,
+            "description": "Representación latente interna",
+            "delta": -0.0684502124786377,
+            "absolute_delta": 0.0684502124786377,
+            "original_answer_probability_after": 0.5765653848648071,
+            "after": {
+              "probabilities": [
+                0.5765653848648071,
+                0.13043959438800812,
+                0.1532241553068161,
+                0.13977089524269104
+              ],
+              "prediction": "A",
+              "answer": "The broom.",
+              "probability": 0.5765653848648071,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 6
+          },
+          {
+            "memory": "E05",
+            "index": 5,
+            "description": "Representación latente interna",
+            "delta": -0.06446892023086548,
+            "absolute_delta": 0.06446892023086548,
+            "original_answer_probability_after": 0.5725840926170349,
+            "after": {
+              "probabilities": [
+                0.5725840926170349,
+                0.13069747388362885,
+                0.1540529429912567,
+                0.14266546070575714
+              ],
+              "prediction": "A",
+              "answer": "The broom.",
+              "probability": 0.5725840926170349,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 7
+          },
+          {
+            "memory": "E07",
+            "index": 7,
+            "description": "Representación latente interna",
+            "delta": -0.06396627426147461,
+            "absolute_delta": 0.06396627426147461,
+            "original_answer_probability_after": 0.572081446647644,
+            "after": {
+              "probabilities": [
+                0.572081446647644,
+                0.13171546161174774,
+                0.15244930982589722,
+                0.14375367760658264
+              ],
+              "prediction": "A",
+              "answer": "The broom.",
+              "probability": 0.572081446647644,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 8
+          },
+          {
+            "memory": "E10",
+            "index": 10,
+            "description": "Representación latente interna",
+            "delta": -0.05715489387512207,
+            "absolute_delta": 0.05715489387512207,
+            "original_answer_probability_after": 0.5652700662612915,
+            "after": {
+              "probabilities": [
+                0.5652700662612915,
+                0.13125582039356232,
+                0.15588779747486115,
+                0.14758636057376862
+              ],
+              "prediction": "A",
+              "answer": "The broom.",
+              "probability": 0.5652700662612915,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 9
+          },
+          {
+            "memory": "E03",
+            "index": 3,
+            "description": "Representación latente interna",
+            "delta": -0.05685025453567505,
+            "absolute_delta": 0.05685025453567505,
+            "original_answer_probability_after": 0.5649654269218445,
+            "after": {
+              "probabilities": [
+                0.5649654269218445,
+                0.1383250504732132,
+                0.154168963432312,
+                0.1425406038761139
+              ],
+              "prediction": "A",
+              "answer": "The broom.",
+              "probability": 0.5649654269218445,
+              "correct": true
+            },
+            "flip": false,
+            "rank": 10
+          }
+        ],
+        "top": 6,
+        "bottom": 3,
+        "random": 3,
+        "random_seed": 42,
+        "technical": {
+          "device": "cuda:0",
+          "checkpoint_sha256": {
+            "gf": "74e3c2064d61ee4762c2d1cac8853017124a3c47df3e351ae7a3dd066c765326",
+            "tcmr": "8a30ff3e331fe40a121a0b6e3f6c13182fd3216caee5664fcf124336ad569eb9"
+          },
+          "gf_checkpoint": "model_3000.tar",
+          "tcmr_checkpoint": "temporal_relation_encoder_seed42_git_287b173f.pt",
+          "feature_filename": "KFI7N_s3d_official.npy",
+          "tcmr_alpha": 0.15344971418380737,
+          "random_seed": 42,
+          "question_batch_size": 1,
+          "execution_ms": 255.06,
+          "operation": "analysis"
+        }
+      },
+      "grounding_source": "results/memory_visual_sensitivity_final/KFI7N/memory_visual_selectivity.json",
+      "memories": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "frames": [
+        {
+          "memory": "E01",
+          "rank": 1,
+          "sha256": "e21cd9bbea0de3e2dc1ad3e0e64dfc3c73dc2e222a93699c160ce970ce70e6eb"
+        },
+        {
+          "memory": "E01",
+          "rank": 2,
+          "sha256": "9fb70d01caa5b88f77e3eee123d9554e0def15343b7b33e101694152de71adea"
+        },
+        {
+          "memory": "E01",
+          "rank": 3,
+          "sha256": "e9f821cb4f3996190e91b79ad7a68e527d5f303a95e8d2c2532a94a1b7a00455"
+        },
+        {
+          "memory": "E02",
+          "rank": 1,
+          "sha256": "aeb5aa70eb9a7d8c774f1c0f8545fe06dae14c2d7983acf54b9490bd651a371e"
+        },
+        {
+          "memory": "E02",
+          "rank": 2,
+          "sha256": "682dcf802eb2f7a159b49bce1ba2f872be20c1c413bfe8a4d8b8e7d7d5569014"
+        },
+        {
+          "memory": "E02",
+          "rank": 3,
+          "sha256": "1e18f644bab8dfc3a85624089823cb688841aa55776c31b89d1aaa97ba2a27d0"
+        },
+        {
+          "memory": "E03",
+          "rank": 1,
+          "sha256": "6a20f37e773f4611d49554a912015ec62145dc6f82a6943677c8d086d47b7dbe"
+        },
+        {
+          "memory": "E03",
+          "rank": 2,
+          "sha256": "4dd0e2b61606034177cc02da2d2d6a58db3c19e6c76471c687146429811facde"
+        },
+        {
+          "memory": "E03",
+          "rank": 3,
+          "sha256": "e16bdac313957b1d707b8d4c2d9849b73aa323835d60ea73f3f00686a58fdb9d"
+        },
+        {
+          "memory": "E04",
+          "rank": 1,
+          "sha256": "e16bdac313957b1d707b8d4c2d9849b73aa323835d60ea73f3f00686a58fdb9d"
+        },
+        {
+          "memory": "E04",
+          "rank": 2,
+          "sha256": "45a6bca00d958db476bf0d34eed5c34a48a8118ea3865b8c90ad5a9d64d1b610"
+        },
+        {
+          "memory": "E04",
+          "rank": 3,
+          "sha256": "52acbe56f42b288eba42ac3072eee70f82bfd98279adbfac62e54f77cf96e3f3"
+        },
+        {
+          "memory": "E05",
+          "rank": 1,
+          "sha256": "7560456775bcc25ac13f9c35a3978e7858130371876df1067345a34f760ba161"
+        },
+        {
+          "memory": "E05",
+          "rank": 2,
+          "sha256": "4f9db84582c8f411373dbd0c8280ab0c79db399cbb210ba93a9ee1a26e83c13d"
+        },
+        {
+          "memory": "E05",
+          "rank": 3,
+          "sha256": "a56393b8f0b42cff0b89f1d5a38ecae6d32363ff2aec515dea0a23d18ba690ef"
+        },
+        {
+          "memory": "E06",
+          "rank": 1,
+          "sha256": "cc891766c7a69a668271c961e2e94bf6dc4e7dc635eab867bdf7df020c9e4d0f"
+        },
+        {
+          "memory": "E06",
+          "rank": 2,
+          "sha256": "53fc966c840eceaab66a5abcb8c6d3717b34496e8a876bcb6801e5723633b51b"
+        },
+        {
+          "memory": "E06",
+          "rank": 3,
+          "sha256": "a56393b8f0b42cff0b89f1d5a38ecae6d32363ff2aec515dea0a23d18ba690ef"
+        },
+        {
+          "memory": "E07",
+          "rank": 1,
+          "sha256": "2d2a99c652a36da204b1e2bb1e69ee0f70ad911f822e747f5ca457b671610b41"
+        },
+        {
+          "memory": "E07",
+          "rank": 2,
+          "sha256": "682dcf802eb2f7a159b49bce1ba2f872be20c1c413bfe8a4d8b8e7d7d5569014"
+        },
+        {
+          "memory": "E07",
+          "rank": 3,
+          "sha256": "7d49eea492ee7c83b4b1c6b8c07e99ef753877c117c711a2333a27a49b74f78e"
+        },
+        {
+          "memory": "E08",
+          "rank": 1,
+          "sha256": "49efea13a186dd162993241f40f5cba74832f37a3caad7a5daae64fd77c34a48"
+        },
+        {
+          "memory": "E08",
+          "rank": 2,
+          "sha256": "27cc58d65b5ca9f441a40709f6fab42e72906cc7975b29d262fda1f80d65f049"
+        },
+        {
+          "memory": "E08",
+          "rank": 3,
+          "sha256": "7d49eea492ee7c83b4b1c6b8c07e99ef753877c117c711a2333a27a49b74f78e"
+        },
+        {
+          "memory": "E09",
+          "rank": 1,
+          "sha256": "5ee16bccbe48cc4e17ba70ffb771b419a4caa0ff933959c9a3fe370007db982e"
+        },
+        {
+          "memory": "E09",
+          "rank": 2,
+          "sha256": "e1b0790233b8ad9fd97eb3328c05a940b39287204bee40e31181260f23fa6cab"
+        },
+        {
+          "memory": "E09",
+          "rank": 3,
+          "sha256": "265118a360c861ac6d29e67a66e47d6c7726b067c8be1c7123022bd80e595180"
+        },
+        {
+          "memory": "E10",
+          "rank": 1,
+          "sha256": "a0c6cdaf7b28995d1143ef75441d8be27de3594ac11336d5d420579284a8a7ab"
+        },
+        {
+          "memory": "E10",
+          "rank": 2,
+          "sha256": "53fc966c840eceaab66a5abcb8c6d3717b34496e8a876bcb6801e5723633b51b"
+        },
+        {
+          "memory": "E10",
+          "rank": 3,
+          "sha256": "fdcafa68b6c7eb78b845cf2e174399d21d072b2ce4f35c701970a0da87a6ac98"
+        }
+      ]
+    }
+  ],
+  "memories": 100,
+  "frames": 300,
+  "interventions": 100,
+  "errors": []
+}

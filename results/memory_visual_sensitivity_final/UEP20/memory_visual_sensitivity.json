@@ -1,0 +1,717 @@
+{
+  "representation_stage": "tcmr_refined",
+  "refinement": {
+    "mechanism": "train_temporal_refinement.sort_memories_and_spans + loaded TemporalRelationEncoder",
+    "glance_focus_checkpoint": "checkpoints/star/model_3000.tar",
+    "temporal_checkpoint": "checkpoints/tcmr/temporal_relation_encoder_historical.pt",
+    "checkpoint_sha256": "8a30ff3e331fe40a121a0b6e3f6c13182fd3216caee5664fcf124336ad569eb9",
+    "alpha": 0.15344971418380737,
+    "baseline_query_order": [
+      7,
+      3,
+      2,
+      6,
+      8,
+      0,
+      4,
+      9,
+      1,
+      5
+    ],
+    "perturbation_spans": "Recomputed by Glancing; gathered in baseline query order, not frozen.",
+    "option_collapse": "Mean after TCMR, as in the interventional analysis.",
+    "final_pipeline_alignment_max_abs_error": 0.0,
+    "final_pipeline_alignment_checked_tokens": 80,
+    "alignment_tolerance": {
+      "rtol": 1e-05,
+      "atol": 1e-05
+    },
+    "baseline_refinement_l2": 15.181539535522461
+  },
+  "video": "../demo_videos/UEP20.mp4",
+  "features": "../demo_features/UEP20_s3d_official.npy",
+  "raw_feature_length": 103,
+  "prepared_feature_length": 80,
+  "valid_visual_tokens": 80,
+  "video_duration_seconds": 30.633333333333333,
+  "perturbation": {
+    "operation": "Zero a local window of prepared visual S3D feature tokens, then rerun Glancing and TCMR with recomputed spans.",
+    "window_size": 3,
+    "primary_metric": "1 - cosine_similarity between baseline and perturbed memory vector",
+    "secondary_metric": "L2(memory_perturbed - memory_baseline) / ||memory_baseline||"
+  },
+  "memory_identity_note": "Perturbed memories are aligned using the baseline query order after sorting by baseline pred_spans center. This avoids redefining E01...E10 after each perturbation.",
+  "interpretation_warning": "This is a visual sensitivity analysis of TCMR-refined internal memories, not raw Glancing memories. A high score means that removing a visual feature region changes a memory representation more. It does not prove that the memory has a single semantic meaning, and the approximate video times are visualization aids rather than ground-truth temporal annotations.",
+  "memories": [
+    {
+      "memory": "E01",
+      "original_query_index_before_temporal_sort": 7,
+      "top_k_concentration": 0.11684167133241845,
+      "top_regions": [
+        {
+          "rank": 1,
+          "center_visual_token": 16,
+          "perturbed_token_range": [
+            15,
+            17
+          ],
+          "cosine_distance": 0.004718661308288574,
+          "relative_l2": 0.09710890799760818,
+          "approx_video_time_seconds": 6.0969255663430415,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E01/rank_01_token_016_6.10s.jpg"
+        },
+        {
+          "rank": 2,
+          "center_visual_token": 15,
+          "perturbed_token_range": [
+            14,
+            16
+          ],
+          "cosine_distance": 0.004254043102264404,
+          "relative_l2": 0.09219538420438766,
+          "approx_video_time_seconds": 5.799514563106796,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E01/rank_02_token_015_5.80s.jpg"
+        },
+        {
+          "rank": 3,
+          "center_visual_token": 66,
+          "perturbed_token_range": [
+            65,
+            67
+          ],
+          "cosine_distance": 0.0041465163230896,
+          "relative_l2": 0.09102915227413177,
+          "approx_video_time_seconds": 25.13122977346278,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E01/rank_03_token_066_25.13s.jpg"
+        },
+        {
+          "rank": 4,
+          "center_visual_token": 67,
+          "perturbed_token_range": [
+            66,
+            68
+          ],
+          "cosine_distance": 0.0038996338844299316,
+          "relative_l2": 0.08828657865524292,
+          "approx_video_time_seconds": 25.726051779935272,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E01/rank_04_token_067_25.73s.jpg"
+        },
+        {
+          "rank": 5,
+          "center_visual_token": 17,
+          "perturbed_token_range": [
+            16,
+            18
+          ],
+          "cosine_distance": 0.00382840633392334,
+          "relative_l2": 0.08748440444469452,
+          "approx_video_time_seconds": 6.394336569579288,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E01/rank_05_token_017_6.39s.jpg"
+        }
+      ]
+    },
+    {
+      "memory": "E02",
+      "original_query_index_before_temporal_sort": 3,
+      "top_k_concentration": 0.11097424665495925,
+      "top_regions": [
+        {
+          "rank": 1,
+          "center_visual_token": 16,
+          "perturbed_token_range": [
+            15,
+            17
+          ],
+          "cosine_distance": 0.004803836345672607,
+          "relative_l2": 0.09796922653913498,
+          "approx_video_time_seconds": 6.0969255663430415,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E02/rank_01_token_016_6.10s.jpg"
+        },
+        {
+          "rank": 2,
+          "center_visual_token": 66,
+          "perturbed_token_range": [
+            65,
+            67
+          ],
+          "cosine_distance": 0.004546701908111572,
+          "relative_l2": 0.09530402719974518,
+          "approx_video_time_seconds": 25.13122977346278,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E02/rank_02_token_066_25.13s.jpg"
+        },
+        {
+          "rank": 3,
+          "center_visual_token": 15,
+          "perturbed_token_range": [
+            14,
+            16
+          ],
+          "cosine_distance": 0.0043756961822509766,
+          "relative_l2": 0.09349434077739716,
+          "approx_video_time_seconds": 5.799514563106796,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E02/rank_03_token_015_5.80s.jpg"
+        },
+        {
+          "rank": 4,
+          "center_visual_token": 67,
+          "perturbed_token_range": [
+            66,
+            68
+          ],
+          "cosine_distance": 0.004366040229797363,
+          "relative_l2": 0.09339988231658936,
+          "approx_video_time_seconds": 25.726051779935272,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E02/rank_04_token_067_25.73s.jpg"
+        },
+        {
+          "rank": 5,
+          "center_visual_token": 65,
+          "perturbed_token_range": [
+            64,
+            66
+          ],
+          "cosine_distance": 0.0041231513023376465,
+          "relative_l2": 0.09075727313756943,
+          "approx_video_time_seconds": 24.833818770226536,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E02/rank_05_token_065_24.83s.jpg"
+        }
+      ]
+    },
+    {
+      "memory": "E03",
+      "original_query_index_before_temporal_sort": 2,
+      "top_k_concentration": 0.10752091705895694,
+      "top_regions": [
+        {
+          "rank": 1,
+          "center_visual_token": 16,
+          "perturbed_token_range": [
+            15,
+            17
+          ],
+          "cosine_distance": 0.0044692158699035645,
+          "relative_l2": 0.09450679272413254,
+          "approx_video_time_seconds": 6.0969255663430415,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E03/rank_01_token_016_6.10s.jpg"
+        },
+        {
+          "rank": 2,
+          "center_visual_token": 66,
+          "perturbed_token_range": [
+            65,
+            67
+          ],
+          "cosine_distance": 0.004124045372009277,
+          "relative_l2": 0.09076930582523346,
+          "approx_video_time_seconds": 25.13122977346278,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E03/rank_02_token_066_25.13s.jpg"
+        },
+        {
+          "rank": 3,
+          "center_visual_token": 15,
+          "perturbed_token_range": [
+            14,
+            16
+          ],
+          "cosine_distance": 0.003989100456237793,
+          "relative_l2": 0.08927856385707855,
+          "approx_video_time_seconds": 5.799514563106796,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E03/rank_03_token_015_5.80s.jpg"
+        },
+        {
+          "rank": 4,
+          "center_visual_token": 67,
+          "perturbed_token_range": [
+            66,
+            68
+          ],
+          "cosine_distance": 0.003916323184967041,
+          "relative_l2": 0.0884629562497139,
+          "approx_video_time_seconds": 25.726051779935272,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E03/rank_04_token_067_25.73s.jpg"
+        },
+        {
+          "rank": 5,
+          "center_visual_token": 65,
+          "perturbed_token_range": [
+            64,
+            66
+          ],
+          "cosine_distance": 0.0037888288497924805,
+          "relative_l2": 0.08700130134820938,
+          "approx_video_time_seconds": 24.833818770226536,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E03/rank_05_token_065_24.83s.jpg"
+        }
+      ]
+    },
+    {
+      "memory": "E04",
+      "original_query_index_before_temporal_sort": 6,
+      "top_k_concentration": 0.11082072994245132,
+      "top_regions": [
+        {
+          "rank": 1,
+          "center_visual_token": 16,
+          "perturbed_token_range": [
+            15,
+            17
+          ],
+          "cosine_distance": 0.0045320987701416016,
+          "relative_l2": 0.09516694396734238,
+          "approx_video_time_seconds": 6.0969255663430415,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E04/rank_01_token_016_6.10s.jpg"
+        },
+        {
+          "rank": 2,
+          "center_visual_token": 66,
+          "perturbed_token_range": [
+            65,
+            67
+          ],
+          "cosine_distance": 0.00426793098449707,
+          "relative_l2": 0.09234833717346191,
+          "approx_video_time_seconds": 25.13122977346278,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E04/rank_02_token_066_25.13s.jpg"
+        },
+        {
+          "rank": 3,
+          "center_visual_token": 15,
+          "perturbed_token_range": [
+            14,
+            16
+          ],
+          "cosine_distance": 0.0041471123695373535,
+          "relative_l2": 0.09102921187877655,
+          "approx_video_time_seconds": 5.799514563106796,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E04/rank_03_token_015_5.80s.jpg"
+        },
+        {
+          "rank": 4,
+          "center_visual_token": 67,
+          "perturbed_token_range": [
+            66,
+            68
+          ],
+          "cosine_distance": 0.004069685935974121,
+          "relative_l2": 0.09018465131521225,
+          "approx_video_time_seconds": 25.726051779935272,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E04/rank_04_token_067_25.73s.jpg"
+        },
+        {
+          "rank": 5,
+          "center_visual_token": 65,
+          "perturbed_token_range": [
+            64,
+            66
+          ],
+          "cosine_distance": 0.0038375258445739746,
+          "relative_l2": 0.08756810426712036,
+          "approx_video_time_seconds": 24.833818770226536,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E04/rank_05_token_065_24.83s.jpg"
+        }
+      ]
+    },
+    {
+      "memory": "E05",
+      "original_query_index_before_temporal_sort": 8,
+      "top_k_concentration": 0.11323369089758947,
+      "top_regions": [
+        {
+          "rank": 1,
+          "center_visual_token": 16,
+          "perturbed_token_range": [
+            15,
+            17
+          ],
+          "cosine_distance": 0.004512131214141846,
+          "relative_l2": 0.09496287256479263,
+          "approx_video_time_seconds": 6.0969255663430415,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E05/rank_01_token_016_6.10s.jpg"
+        },
+        {
+          "rank": 2,
+          "center_visual_token": 15,
+          "perturbed_token_range": [
+            14,
+            16
+          ],
+          "cosine_distance": 0.004066288471221924,
+          "relative_l2": 0.09014277160167694,
+          "approx_video_time_seconds": 5.799514563106796,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E05/rank_02_token_015_5.80s.jpg"
+        },
+        {
+          "rank": 3,
+          "center_visual_token": 66,
+          "perturbed_token_range": [
+            65,
+            67
+          ],
+          "cosine_distance": 0.003997921943664551,
+          "relative_l2": 0.08938021212816238,
+          "approx_video_time_seconds": 25.13122977346278,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E05/rank_03_token_066_25.13s.jpg"
+        },
+        {
+          "rank": 4,
+          "center_visual_token": 67,
+          "perturbed_token_range": [
+            66,
+            68
+          ],
+          "cosine_distance": 0.0037627220153808594,
+          "relative_l2": 0.0867214947938919,
+          "approx_video_time_seconds": 25.726051779935272,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E05/rank_04_token_067_25.73s.jpg"
+        },
+        {
+          "rank": 5,
+          "center_visual_token": 17,
+          "perturbed_token_range": [
+            16,
+            18
+          ],
+          "cosine_distance": 0.0037194490432739258,
+          "relative_l2": 0.08623441308736801,
+          "approx_video_time_seconds": 6.394336569579288,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E05/rank_05_token_017_6.39s.jpg"
+        }
+      ]
+    },
+    {
+      "memory": "E06",
+      "original_query_index_before_temporal_sort": 0,
+      "top_k_concentration": 0.10838195306762904,
+      "top_regions": [
+        {
+          "rank": 1,
+          "center_visual_token": 16,
+          "perturbed_token_range": [
+            15,
+            17
+          ],
+          "cosine_distance": 0.004831135272979736,
+          "relative_l2": 0.09826213121414185,
+          "approx_video_time_seconds": 6.0969255663430415,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E06/rank_01_token_016_6.10s.jpg"
+        },
+        {
+          "rank": 2,
+          "center_visual_token": 15,
+          "perturbed_token_range": [
+            14,
+            16
+          ],
+          "cosine_distance": 0.004311859607696533,
+          "relative_l2": 0.09282605350017548,
+          "approx_video_time_seconds": 5.799514563106796,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E06/rank_02_token_015_5.80s.jpg"
+        },
+        {
+          "rank": 3,
+          "center_visual_token": 17,
+          "perturbed_token_range": [
+            16,
+            18
+          ],
+          "cosine_distance": 0.0040130615234375,
+          "relative_l2": 0.08957211673259735,
+          "approx_video_time_seconds": 6.394336569579288,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E06/rank_03_token_017_6.39s.jpg"
+        },
+        {
+          "rank": 4,
+          "center_visual_token": 66,
+          "perturbed_token_range": [
+            65,
+            67
+          ],
+          "cosine_distance": 0.0039108991622924805,
+          "relative_l2": 0.08840466290712357,
+          "approx_video_time_seconds": 25.13122977346278,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E06/rank_04_token_066_25.13s.jpg"
+        },
+        {
+          "rank": 5,
+          "center_visual_token": 67,
+          "perturbed_token_range": [
+            66,
+            68
+          ],
+          "cosine_distance": 0.0037115812301635742,
+          "relative_l2": 0.08613011240959167,
+          "approx_video_time_seconds": 25.726051779935272,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E06/rank_05_token_067_25.73s.jpg"
+        }
+      ]
+    },
+    {
+      "memory": "E07",
+      "original_query_index_before_temporal_sort": 4,
+      "top_k_concentration": 0.1112394789414153,
+      "top_regions": [
+        {
+          "rank": 1,
+          "center_visual_token": 16,
+          "perturbed_token_range": [
+            15,
+            17
+          ],
+          "cosine_distance": 0.0048367977142333984,
+          "relative_l2": 0.0983186587691307,
+          "approx_video_time_seconds": 6.0969255663430415,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E07/rank_01_token_016_6.10s.jpg"
+        },
+        {
+          "rank": 2,
+          "center_visual_token": 15,
+          "perturbed_token_range": [
+            14,
+            16
+          ],
+          "cosine_distance": 0.004356563091278076,
+          "relative_l2": 0.0933031290769577,
+          "approx_video_time_seconds": 5.799514563106796,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E07/rank_02_token_015_5.80s.jpg"
+        },
+        {
+          "rank": 3,
+          "center_visual_token": 17,
+          "perturbed_token_range": [
+            16,
+            18
+          ],
+          "cosine_distance": 0.00402069091796875,
+          "relative_l2": 0.08965811878442764,
+          "approx_video_time_seconds": 6.394336569579288,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E07/rank_03_token_017_6.39s.jpg"
+        },
+        {
+          "rank": 4,
+          "center_visual_token": 66,
+          "perturbed_token_range": [
+            65,
+            67
+          ],
+          "cosine_distance": 0.0037761330604553223,
+          "relative_l2": 0.08686964213848114,
+          "approx_video_time_seconds": 25.13122977346278,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E07/rank_04_token_066_25.13s.jpg"
+        },
+        {
+          "rank": 5,
+          "center_visual_token": 30,
+          "perturbed_token_range": [
+            29,
+            31
+          ],
+          "cosine_distance": 0.003544151782989502,
+          "relative_l2": 0.08418414741754532,
+          "approx_video_time_seconds": 11.45032362459547,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E07/rank_05_token_030_11.45s.jpg"
+        }
+      ]
+    },
+    {
+      "memory": "E08",
+      "original_query_index_before_temporal_sort": 9,
+      "top_k_concentration": 0.10939728228905732,
+      "top_regions": [
+        {
+          "rank": 1,
+          "center_visual_token": 16,
+          "perturbed_token_range": [
+            15,
+            17
+          ],
+          "cosine_distance": 0.004678845405578613,
+          "relative_l2": 0.0966985896229744,
+          "approx_video_time_seconds": 6.0969255663430415,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E08/rank_01_token_016_6.10s.jpg"
+        },
+        {
+          "rank": 2,
+          "center_visual_token": 66,
+          "perturbed_token_range": [
+            65,
+            67
+          ],
+          "cosine_distance": 0.004436790943145752,
+          "relative_l2": 0.09415742754936218,
+          "approx_video_time_seconds": 25.13122977346278,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E08/rank_02_token_066_25.13s.jpg"
+        },
+        {
+          "rank": 3,
+          "center_visual_token": 67,
+          "perturbed_token_range": [
+            66,
+            68
+          ],
+          "cosine_distance": 0.004187285900115967,
+          "relative_l2": 0.09147828817367554,
+          "approx_video_time_seconds": 25.726051779935272,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E08/rank_03_token_067_25.73s.jpg"
+        },
+        {
+          "rank": 4,
+          "center_visual_token": 15,
+          "perturbed_token_range": [
+            14,
+            16
+          ],
+          "cosine_distance": 0.004100501537322998,
+          "relative_l2": 0.09051933884620667,
+          "approx_video_time_seconds": 5.799514563106796,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E08/rank_04_token_015_5.80s.jpg"
+        },
+        {
+          "rank": 5,
+          "center_visual_token": 65,
+          "perturbed_token_range": [
+            64,
+            66
+          ],
+          "cosine_distance": 0.00402754545211792,
+          "relative_l2": 0.0897083654999733,
+          "approx_video_time_seconds": 24.833818770226536,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E08/rank_05_token_065_24.83s.jpg"
+        }
+      ]
+    },
+    {
+      "memory": "E09",
+      "original_query_index_before_temporal_sort": 1,
+      "top_k_concentration": 0.10387917901253649,
+      "top_regions": [
+        {
+          "rank": 1,
+          "center_visual_token": 16,
+          "perturbed_token_range": [
+            15,
+            17
+          ],
+          "cosine_distance": 0.0052353739738464355,
+          "relative_l2": 0.10227254033088684,
+          "approx_video_time_seconds": 6.0969255663430415,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E09/rank_01_token_016_6.10s.jpg"
+        },
+        {
+          "rank": 2,
+          "center_visual_token": 15,
+          "perturbed_token_range": [
+            14,
+            16
+          ],
+          "cosine_distance": 0.00481104850769043,
+          "relative_l2": 0.09803307801485062,
+          "approx_video_time_seconds": 5.799514563106796,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E09/rank_02_token_015_5.80s.jpg"
+        },
+        {
+          "rank": 3,
+          "center_visual_token": 17,
+          "perturbed_token_range": [
+            16,
+            18
+          ],
+          "cosine_distance": 0.004199326038360596,
+          "relative_l2": 0.09161633998155594,
+          "approx_video_time_seconds": 6.394336569579288,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E09/rank_03_token_017_6.39s.jpg"
+        },
+        {
+          "rank": 4,
+          "center_visual_token": 66,
+          "perturbed_token_range": [
+            65,
+            67
+          ],
+          "cosine_distance": 0.004194796085357666,
+          "relative_l2": 0.09155264496803284,
+          "approx_video_time_seconds": 25.13122977346278,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E09/rank_04_token_066_25.13s.jpg"
+        },
+        {
+          "rank": 5,
+          "center_visual_token": 67,
+          "perturbed_token_range": [
+            66,
+            68
+          ],
+          "cosine_distance": 0.00399404764175415,
+          "relative_l2": 0.0893438383936882,
+          "approx_video_time_seconds": 25.726051779935272,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E09/rank_05_token_067_25.73s.jpg"
+        }
+      ]
+    },
+    {
+      "memory": "E10",
+      "original_query_index_before_temporal_sort": 5,
+      "top_k_concentration": 0.10184949905619282,
+      "top_regions": [
+        {
+          "rank": 1,
+          "center_visual_token": 16,
+          "perturbed_token_range": [
+            15,
+            17
+          ],
+          "cosine_distance": 0.004649817943572998,
+          "relative_l2": 0.09640636295080185,
+          "approx_video_time_seconds": 6.0969255663430415,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E10/rank_01_token_016_6.10s.jpg"
+        },
+        {
+          "rank": 2,
+          "center_visual_token": 66,
+          "perturbed_token_range": [
+            65,
+            67
+          ],
+          "cosine_distance": 0.004380464553833008,
+          "relative_l2": 0.0935550332069397,
+          "approx_video_time_seconds": 25.13122977346278,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E10/rank_02_token_066_25.13s.jpg"
+        },
+        {
+          "rank": 3,
+          "center_visual_token": 15,
+          "perturbed_token_range": [
+            14,
+            16
+          ],
+          "cosine_distance": 0.004216492176055908,
+          "relative_l2": 0.09179629385471344,
+          "approx_video_time_seconds": 5.799514563106796,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E10/rank_03_token_015_5.80s.jpg"
+        },
+        {
+          "rank": 4,
+          "center_visual_token": 67,
+          "perturbed_token_range": [
+            66,
+            68
+          ],
+          "cosine_distance": 0.00419771671295166,
+          "relative_l2": 0.09159155935049057,
+          "approx_video_time_seconds": 25.726051779935272,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E10/rank_04_token_067_25.73s.jpg"
+        },
+        {
+          "rank": 5,
+          "center_visual_token": 65,
+          "perturbed_token_range": [
+            64,
+            66
+          ],
+          "cosine_distance": 0.003961682319641113,
+          "relative_l2": 0.08896621316671371,
+          "approx_video_time_seconds": 24.833818770226536,
+          "frame_path": "results/memory_visual_sensitivity_final/UEP20/top_frames/E10/rank_05_token_065_24.83s.jpg"
+        }
+      ]
+    }
+  ]
+}

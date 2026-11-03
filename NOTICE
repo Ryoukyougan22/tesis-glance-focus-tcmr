@@ -1,0 +1,21 @@
+Glance-Focus: Ziyi Bai, Ruiping Wang and Xilin Chen.
+Glance and Focus: Memory Prompting for Multi-Event Video Question Answering,
+NeurIPS 2023. Original code: https://github.com/ByZ0e/Glance-Focus
+Upstream reference commit: 9a59bebaec4cafd74f618968eafc972a6b9d21ad.
+Original MIT terms are preserved in LICENSE.
+
+The temporal relation encoder, interventional/visual analyses, reproducibility
+artifacts and web integration are thesis extensions. Modified upstream training
+and loading files are identified by the source manifest and repository context.
+
+STAR Benchmark: https://github.com/csbobby/STAR_Benchmark
+Questions, alternatives and labels in the selected case catalog and scientific
+outputs originate from STAR. Original English annotations are retained; Spanish
+presentation translations are thesis modifications, not official STAR text.
+The upstream Apache-2.0 license is included in licenses/STAR-APACHE-2.0.txt.
+No upstream NOTICE was identified in the inspected STAR source distribution.
+
+The STAR repository license does not establish redistribution permission for
+Charades/Action Genome videos or frames, nor for pretrained weights/features.
+Those resources are not included. Their users must obtain them separately
+under the applicable terms. The MIT license does not relicense third-party data.
